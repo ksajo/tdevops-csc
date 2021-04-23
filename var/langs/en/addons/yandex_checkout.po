@@ -1,0 +1,193 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::yandex_checkout"
+msgid "YooMoney"
+msgstr "YooMoney"
+
+msgctxt "Addons::description::yandex_checkout"
+msgid "Allows you to accept payments via YooMoney"
+msgstr "Allows you to accept payments via YooMoney"
+
+msgctxt "Languages::yandex_checkout.url_for_payment_notifications"
+msgid "URL for payment notifications"
+msgstr "URL for payment notifications"
+
+msgctxt "Languages::yandex_checkout.server_https"
+msgid "<b>SSL certificate is necessary to receive payments. Self-signed SSL certificate is allowed (<a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Self-signed_certificate\">Self-signed certificate</a>)</b>"
+msgstr "<b>SSL certificate is necessary to receive payments. Self-signed SSL certificate is allowed (<a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Self-signed_certificate\">Self-signed certificate</a>)</b>"
+
+msgctxt "Languages::yandex_checkout.send_receipt_to_yandex"
+msgid "Send receipt data to YooMoney (Federal Law 54)"
+msgstr "Send receipt data to YooMoney (Federal Law 54)"
+
+msgctxt "Languages::yandex_checkout.available_only_for_rub"
+msgid "Available only when Russian Ruble is selected for the сurrency"
+msgstr "Available only when Russian Ruble is selected for the сurrency"
+
+msgctxt "Languages::yandex_checkout.shop_id"
+msgid "shopId"
+msgstr "shopId"
+
+msgctxt "Languages::yandex_checkout.shop_id_notice"
+msgid "Copy shopId from your YooMoney account"
+msgstr "Copy shopId from your YooMoney account"
+
+msgctxt "Languages::yandex_checkout.secret_key_api"
+msgid "Secret API key"
+msgstr "Secret API key"
+
+msgctxt "Languages::yandex_checkout.secret_key_api_notice"
+msgid "Copy secret API key from your YooMoney account"
+msgstr "Copy secret API key from your YooMoney account"
+
+msgctxt "Languages::yandex_checkout.confirmed_order_status"
+msgid "Order status for forming final receipt"
+msgstr "Order status for forming final receipt"
+
+msgctxt "Languages::yandex_checkout.yandex_checkout"
+msgid "YooMoney"
+msgstr "YooMoney"
+
+msgctxt "Languages::yandex_checkout.check_payment_status"
+msgid "Checking payment status, please wait"
+msgstr "Checking payment status, please wait"
+
+msgctxt "Languages::yandex_checkout.payment_processing"
+msgid "Payment processing"
+msgstr "Payment processing"
+
+msgctxt "Languages::yandex_checkout.payment_status_not_final"
+msgid "Sorry, we couldn't confirm the status of your payment with YooMoney. Please try again later, use another payment method, or contact us about this problem."
+msgstr "Sorry, we couldn't confirm the status of your payment with YooMoney. Please try again later, use another payment method, or contact us about this problem."
+
+msgctxt "Languages::yandex_checkout.notification_received"
+msgid "Notification received"
+msgstr "Notification received"
+
+msgctxt "Languages::yandex.checkout.confirmed_order_status.notice"
+msgid "This status means that the product has been delivered, or that the service has been rendered in full."
+msgstr "This status means that the product has been delivered, or that the service has been rendered in full."
+
+msgctxt "Languages::yandex_checkout.full_payment_receipt_id"
+msgid "Full payment receipt ID"
+msgstr "Full payment receipt ID"
+
+msgctxt "Languages::yandex_checkout.full_payment_receipt_error"
+msgid "Full payment receipt creation error message"
+msgstr "Full payment receipt creation error message"
+
+msgctxt "Languages::yandex_checkout.full_prepayment_receipt_id"
+msgid "Full prepayment receipt ID"
+msgstr "Full prepayment receipt ID"
+
+msgctxt "Languages::yandex_checkout.full_prepayment_receipt_error"
+msgid "Full prepayment receipt creation error message"
+msgstr "Full prepayment receipt creation error message"
+
+msgctxt "Languages::yandex_checkout.yandex_checkout_for_marketplaces_vendor_info"
+msgid "You need to create a YooMoney shop to automatically receive withdrawals from the store.<br>You should land a contract in YooMoney between your shop and the marketplace owner's shop."
+msgstr "You need to create a YooMoney shop to automatically receive withdrawals from the store.<br>You should land a contract in YooMoney between your shop and the marketplace owner's shop."
+
+msgctxt "Languages::yandex_checkout.withdrawal_amount"
+msgid "Withdrawal amount"
+msgstr "Withdrawal amount"
+
+msgctxt "Languages::yandex_checkout.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Withdrawal for the order #[order_id]"
+
+msgctxt "Languages::yandex_checkout.marketplace_fee"
+msgid "Marketplace fee"
+msgstr "Marketplace fee"
+
+msgctxt "Languages::yandex_checkout.marketplace_fee_notice"
+msgid "Make sure it matches the fee you specified in YooMoney. This fee will override any commissions from vendor plans. However, it still requires the Vendor Plans add-on to be installed and active."
+msgstr "Make sure it matches the fee you specified in YooMoney. This fee will override any commissions from vendor plans. However, it still requires the Vendor Plans add-on to be installed and active."
+
+msgctxt "Languages::yandex_checkout.marketplace_fee_disabled_notice"
+msgid "To take commission from your vendors, please install and activate the <a href=\"[href]\">Vendor Plans</a> add-on first."
+msgstr "To take commission from your vendors, please install and activate the <a href=\"[href]\">Vendor Plans</a> add-on first."
+
+msgctxt "Languages::yandex_checkout.held_order_status"
+msgid "Status for held orders (Orders waiting for capture)"
+msgstr "Status for held orders (Orders waiting for capture)"
+
+msgctxt "Languages::yandex_checkout.are_held_payments_enabled"
+msgid "Held payments enabled"
+msgstr "Held payments enabled"
+
+msgctxt "Languages::yandex_checkout.selected_payment_method"
+msgid "Select pay method"
+msgstr "Select pay method"
+
+msgctxt "Languages::yandex_checkout.all_available_methods"
+msgid "All available methods"
+msgstr "All available methods"
+
+msgctxt "Languages::yandex_checkout.alfabank"
+msgid "Alfa-Click"
+msgstr "Alfa-Click"
+
+msgctxt "Languages::yandex_checkout.bank_card"
+msgid "Bank card"
+msgstr "Bank card"
+
+msgctxt "Languages::yandex_checkout.cash"
+msgid "Cash"
+msgstr "Cash"
+
+msgctxt "Languages::yandex_checkout.installments"
+msgid "Installments"
+msgstr "Installments"
+
+msgctxt "Languages::yandex_checkout.qiwi"
+msgid "QIWI Wallet"
+msgstr "QIWI Wallet"
+
+msgctxt "Languages::yandex_checkout.sberbank"
+msgid "Sberbank Online"
+msgstr "Sberbank Online"
+
+msgctxt "Languages::yandex_checkout.tinkoff_bank"
+msgid "Tinkoff"
+msgstr "Tinkoff"
+
+msgctxt "Languages::yandex_checkout.webmoney"
+msgid "Webmoney"
+msgstr "Webmoney"
+
+msgctxt "Languages::yandex_checkout.yandex_money"
+msgid "YooMoney"
+msgstr "YooMoney"
+
+msgctxt "Languages::yandex_checkout.full_refund_order_status"
+msgid "Status for fully refunded order"
+msgstr "Status for fully refunded order"
+
+msgctxt "Languages::yandex_checkout.partial_refund_order_status"
+msgid "Status for partially refunded order"
+msgstr "Status for partially refunded order"
+
+msgctxt "Languages::yandex_checkout.commission_type"
+msgid "Commission type"
+msgstr "Commission type"
+
+msgctxt "Languages::yandex_checkout.fixed_commission_type"
+msgid "Fixed"
+msgstr "Fixed"
+
+msgctxt "Languages::yandex_checkout.flexible_commission_type"
+msgid "Flexible"
+msgstr "Flexible"
+
+msgctxt "Languages::yandex_checkout.commission_type_from_yandex_agreement"
+msgid "Select the type of marketplace commission stated in your agreement with YooMoney"
+msgstr "Select the type of marketplace commission stated in your agreement with YooMoney"
+
+msgctxt "Languages::yandex_checkout.rma.perform_refund"
+msgid "Give a refund via YooMoney"
+msgstr "Give a refund via YooMoney"

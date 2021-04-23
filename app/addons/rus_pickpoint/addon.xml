@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_pickpoint</id>
+    <version>1.0.0</version>
+    <priority>9600</priority>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="update">
+                        <type>header</type>
+                    </item>
+                    <item id="settings">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:rus_pickpoint_postamat` (
+            `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            `city_name` varchar(150) NOT NULL,
+            `country_name` varchar(150) NOT NULL,
+            `region_name` varchar(150) NOT NULL,
+            `number` varchar(20) NOT NULL,
+            `name` varchar(250) NOT NULL,
+            `work_time` varchar(100) NOT NULL,
+            `post_code` varchar(16) NOT NULL,
+            `address` varchar(255) NOT NULL,
+            PRIMARY KEY (`id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:rus_pickpoint_postamat
+        </item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_pickpoint_install</item>
+        <item for="uninstall">fn_rus_pickpoint_uninstall</item>
+    </functions>
+</addon>

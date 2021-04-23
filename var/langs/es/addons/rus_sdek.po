@@ -1,0 +1,385 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::rus_sdek"
+msgid "Russian localization — shipping service SDEK ( cdek.ru )"
+msgstr "Russian localization — shipping service SDEK ( cdek.ru )"
+
+msgctxt "Addons::description::rus_sdek"
+msgid "Shipping service SDEK"
+msgstr "Shipping service SDEK"
+
+msgctxt "Languages::shippings_sdek.header_shipping_office"
+msgid "Shipping service office:"
+msgstr "Shipping service office:"
+
+msgctxt "Languages::shippings_sdek.header_shipping_office_map"
+msgid "Shipping service office on map:"
+msgstr "Shipping service office on map:"
+
+msgctxt "Languages::shippings.sdek.city_error"
+msgid "Invalid city entered"
+msgstr "Invalid city entered"
+
+msgctxt "Languages::shipping.sdek.get_city_data"
+msgid "Get city ID"
+msgstr "Get city ID"
+
+msgctxt "Languages::shipping.sdek.get_city_data.tooltip"
+msgid "A request to get the city ID will be sent to SDEK"
+msgstr "A request to get the city ID will be sent to SDEK"
+
+msgctxt "Languages::shipping.sdek.city_id.tooltip"
+msgid "Technical info necessary for the shipping cost calculator. To get the ID, enter the city name in the City from field and click the Get city ID link. Save the received settings. Id city can be found in the cities of the register on the site SDEK."
+msgstr "Technical info necessary for the shipping cost calculator. To get the ID, enter the city name in the City from field and click the Get city ID link. Save the received settings. Id city can be found in the cities of the register on the site SDEK."
+
+msgctxt "Languages::sdek_tariff_sklad"
+msgid "Stock-Stock"
+msgstr "Stock-Stock"
+
+msgctxt "Languages::sdek_tariff_dver"
+msgid "Stock-Door"
+msgstr "Stock-Door"
+
+msgctxt "Languages::shippings.sdek.lang_error"
+msgid "Switch language to Russian"
+msgstr "Switch language to Russian"
+
+msgctxt "Languages::shippings_sdek.authlogin"
+msgid "Access login to calculations server"
+msgstr "Access login to calculations server"
+
+msgctxt "Languages::shippings_sdek.authpassword"
+msgid "Password login to calculations server"
+msgstr "Password login to calculations server"
+
+msgctxt "Languages::shippings.sdek.dateexecute"
+msgid "The number of days in which the order is planned to be shipped"
+msgstr "The number of days in which the order is planned to be shipped"
+
+msgctxt "Languages::shippings.sdek.sendercityid"
+msgid "Sender city name. Start entering the city name, then select the needed one from the options suggested"
+msgstr "Sender city name. Start entering the city name, then select the needed one from the options suggested"
+
+msgctxt "Languages::shippings.sdek.sendercitypostcode"
+msgid "Zip code of the sender city. (Not required if the sender city is selected)"
+msgstr "Zip code of the sender city. (Not required if the sender city is selected)"
+
+msgctxt "Languages::shippings.sdek.tariffid"
+msgid "Selecting available plans. The higher a plan is in the list, the higher its priority is"
+msgstr "Selecting available plans. The higher a plan is in the list, the higher its priority is"
+
+msgctxt "Languages::shipping.sdek.city_id"
+msgid "City ID"
+msgstr "City ID"
+
+msgctxt "Languages::shippings.sdek.activation_error"
+msgid "To activate the SDEK shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+msgstr "To activate the SDEK shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+
+msgctxt "Languages::shippings.sdek.country_error"
+msgid "The SDEK shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+msgstr "The SDEK shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+
+msgctxt "Languages::shippings.sdek.code_error"
+msgid "There is a mistake in the city zip code. Please check the correctness of the data entered"
+msgstr "There is a mistake in the city zip code. Please check the correctness of the data entered"
+
+msgctxt "Languages::shippings.sdek.sender_code_error"
+msgid "There is a mistake in the sender city. Please check the correctness of the data entered"
+msgstr "There is a mistake in the sender city. Please check the correctness of the data entered"
+
+msgctxt "Languages::shippings.sdek.account_password_error"
+msgid "Enter the account name and the password in the settings of the shipping method that uses SDEK"
+msgstr "Enter the account name and the password in the settings of the shipping method that uses SDEK"
+
+msgctxt "Languages::shippings.sdek.sdek_orders"
+msgid "Orders for delivery SDEK"
+msgstr "Orders for delivery SDEK"
+
+msgctxt "Languages::sdek.sdek_tariff"
+msgid "Tariff SDEK"
+msgstr "Tariff SDEK"
+
+msgctxt "Languages::sdek.update_status"
+msgid "Update status"
+msgstr "Update status"
+
+msgctxt "Languages::shippings.sdek.status_title"
+msgid "Order status SDEK"
+msgstr "Order status SDEK"
+
+msgctxt "Languages::sdek.lang_city"
+msgid "Package location"
+msgstr "Package location"
+
+msgctxt "Languages::sdek.receipt_order"
+msgid "Print ticket"
+msgstr "Print ticket"
+
+msgctxt "Languages::shippings.sdek.sdek_menu"
+msgid "SDEK"
+msgstr "SDEK"
+
+msgctxt "Languages::carrier_sdek"
+msgid "SDEK"
+msgstr "SDEK"
+
+msgctxt "Languages::sdek.new_schedule"
+msgid "New schedule"
+msgstr "New schedule"
+
+msgctxt "Languages::sdek.date_delivery"
+msgid "Date of delivery"
+msgstr "Date of delivery"
+
+msgctxt "Languages::sdek.time"
+msgid "Starting/closing time delivery recipient"
+msgstr "Starting/closing time delivery recipient"
+
+msgctxt "Languages::sdek.delivery_recipient_cost"
+msgid "Additional cost of delivery recipient"
+msgstr "Additional cost of delivery recipient"
+
+msgctxt "Languages::sdek.street"
+msgid "Street"
+msgstr "Street"
+
+msgctxt "Languages::sdek.house"
+msgid "House"
+msgstr "House"
+
+msgctxt "Languages::sdek.flat"
+msgid "Flat"
+msgstr "Flat"
+
+msgctxt "Languages::sdek.call_courier"
+msgid "Call courier"
+msgstr "Call courier"
+
+msgctxt "Languages::sdek.time_courier"
+msgid "Starting/closing time expectations courier"
+msgstr "Starting/closing time expectations courier"
+
+msgctxt "Languages::sdek.time_lunch"
+msgid "Starting/closing time lunch"
+msgstr "Starting/closing time lunch"
+
+msgctxt "Languages::sdek.cash_on_delivery"
+msgid "Cash on delivery"
+msgstr "Cash on delivery"
+
+msgctxt "Languages::sdek_tariff_dver_sklad"
+msgid "Door-Stock"
+msgstr "Door-Stock"
+
+msgctxt "Languages::sdek_tariff_dver_dver"
+msgid "Door-Door"
+msgstr "Door-Door"
+
+msgctxt "Languages::sdek.sdek_address_shipping"
+msgid "Address shipping"
+msgstr "Address shipping"
+
+msgctxt "Languages::shipping.sdek.use_imposed"
+msgid "Include impose pay"
+msgstr "Include impose pay"
+
+msgctxt "Languages::shipping.sdek.use_product"
+msgid "Include product price"
+msgstr "Include product price"
+
+msgctxt "Languages::shippings.sdek.barcode"
+msgid "Number packing"
+msgstr "Number packing"
+
+msgctxt "Languages::shippings.sdek.tariffid.tooltip"
+msgid "Restrictions on package delivery: Delivery across Russia, maximum weight of a package is 30kg; <br /> Restrictions on economic delivery: Delivery from Moscow to Ural or Crimea only, maximum weight of a package is 50kg; <br /> Restrictions on delivery to InPost terminals: Delivery across Russia. If the weight is 5kg, the locker size is 8*38*64cm. If the weight is 7kg, the locker size is 19*38*64cm. If the weight is 20kg, the locker size is 41*38*64cm. Only one shipment per order. The terminal can't be changed. If it's impossible to deliver the shipment to an InPost terminal, package delivery rules apply. A package can't be stored in the locker for longer than 5 days."
+msgstr "Restrictions on package delivery: Delivery across Russia, maximum weight of a package is 30kg; <br /> Restrictions on economic delivery: Delivery from Moscow to Ural or Crimea only, maximum weight of a package is 50kg; <br /> Restrictions on delivery to InPost terminals: Delivery across Russia. If the weight is 5kg, the locker size is 8*38*64cm. If the weight is 7kg, the locker size is 19*38*64cm. If the weight is 20kg, the locker size is 41*38*64cm. Only one shipment per order. The terminal can't be changed. If it's impossible to deliver the shipment to an InPost terminal, package delivery rules apply. A package can't be stored in the locker for longer than 5 days."
+
+msgctxt "Languages::shipping.sdek.error_calculate"
+msgid "Error calculate"
+msgstr "Error calculate"
+
+msgctxt "Languages::shippings.sdek.label_cities_update"
+msgid "Update cities"
+msgstr "Update cities"
+
+msgctxt "Languages::shippings.sdek.cities_update"
+msgid "Update"
+msgstr "Update"
+
+msgctxt "Languages::shippings.sdek.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Table cities was updated"
+
+msgctxt "Languages::shipping.sdek.cities_update.tooltip"
+msgid "Update the data of existing cities and add new ones from cities_sdek.csv. We advise doing that every time when you upgrade CS-Cart."
+msgstr "Update the data of existing cities and add new ones from cities_sdek.csv. We advise doing that every time when you upgrade CS-Cart."
+
+msgctxt "Languages::shippings.sdek.city_select_error"
+msgid "SDEK: We can not determine the desired city. Contact your administrator"
+msgstr "SDEK: We can not determine the desired city. Contact your administrator"
+
+msgctxt "Languages::shippings.sdek.admin_city_select_error"
+msgid "SDEK: Couldn't determine the desired city. Usually it is caused by multiple cities bearing the same name. Please change the name of one of those cities via the Cities add-on"
+msgstr "SDEK: Couldn't determine the desired city. Usually it is caused by multiple cities bearing the same name. Please change the name of one of those cities via the Cities add-on"
+
+msgctxt "Languages::shippings.sdek.admin_city_not_served"
+msgid "SDEK: This city is not supported or is entered incorrectly."
+msgstr "SDEK: This city is not supported or is entered incorrectly."
+
+msgctxt "Languages::rus_sdek.upgrade_notification_title"
+msgid "Addon SDEK changed"
+msgstr "Addon SDEK changed"
+
+msgctxt "Languages::rus_sdek.upgrade_notification_text"
+msgid "The SDEK Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+msgstr "The SDEK Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+
+msgctxt "Languages::addons.rus_sdek.shipping_status"
+msgid "Delivery status"
+msgstr "Delivery status"
+
+msgctxt "Languages::addons.rus_sdek.shipping_form"
+msgid "Create a shipment"
+msgstr "Create a shipment"
+
+msgctxt "Languages::addons.rus_sdek.add_shipment"
+msgid "Place a shipment"
+msgstr "Place a shipment"
+
+msgctxt "Languages::addons.rus_sdek.call_customer"
+msgid "Call an addressee"
+msgstr "Call an addressee"
+
+msgctxt "Languages::addons.rus_sdek.call_courier"
+msgid "Arrange for a courier"
+msgstr "Arrange for a courier"
+
+msgctxt "Languages::addons.rus_sdek.number_package"
+msgid "Package ID"
+msgstr "Package ID"
+
+msgctxt "Languages::addons.rus_sdek.use_product_price"
+msgid "Include the price of the product"
+msgstr "Include the price of the product"
+
+msgctxt "Languages::addons.rus_sdek.use_imposed"
+msgid "Include COD"
+msgstr "Include COD"
+
+msgctxt "Languages::addons.rus_sdek.cash_delivery"
+msgid "Cash on Delivery"
+msgstr "Cash on Delivery"
+
+msgctxt "Languages::addons.rus_sdek.recipient_cost"
+msgid "Additional delivery cost"
+msgstr "Additional delivery cost"
+
+msgctxt "Languages::addons.rus_sdek.schedule_data"
+msgid "Delivery date"
+msgstr "Delivery date"
+
+msgctxt "Languages::addons.rus_sdek.schedule_period"
+msgid "Delivery time"
+msgstr "Delivery time"
+
+msgctxt "Languages::addons.rus_sdek.date_courier"
+msgid "Delivery date"
+msgstr "Delivery date"
+
+msgctxt "Languages::addons.rus_sdek.time_courier"
+msgid "Courier waiting time"
+msgstr "Courier waiting time"
+
+msgctxt "Languages::addons.rus_sdek.time_lunch_courier"
+msgid "Lunch hour"
+msgstr "Lunch hour"
+
+msgctxt "Languages::addons.rus_sdek.time_lunch_period"
+msgid "Lunch hour from [lunch_timebag] to [lunch_timeend]"
+msgstr "Lunch hour from [lunch_timebag] to [lunch_timeend]"
+
+msgctxt "Languages::addons.rus_sdek.time_work_period"
+msgid "From [timebag] to [timeend]"
+msgstr "From [timebag] to [timeend]"
+
+msgctxt "Languages::addons.rus_sdek.receipt_order"
+msgid "Receipt"
+msgstr "Receipt"
+
+msgctxt "Languages::addons.rus_sdek.not_complete"
+msgid "Not created/Failed"
+msgstr "Not created/Failed"
+
+msgctxt "Languages::addons.rus_sdek.location"
+msgid "Delivery location"
+msgstr "Delivery location"
+
+msgctxt "Languages::sdek_delivery.orders"
+msgid "SDEK delivery orders"
+msgstr "SDEK delivery orders"
+
+msgctxt "Languages::sdek_status.sdek_global_update"
+msgid "Global update"
+msgstr "Global update"
+
+msgctxt "Languages::addons.rus_sdek.text_update_status"
+msgid "Orders statuses has been changed"
+msgstr "Orders statuses has been changed"
+
+msgctxt "Languages::sdek_status.sdek_update_selected"
+msgid "Update selected"
+msgstr "Update selected"
+
+msgctxt "Languages::addons.rus_sdek.sdek_delivery_order"
+msgid "Order ID"
+msgstr "Order ID"
+
+msgctxt "Languages::addons.rus_sdek.status"
+msgid "SDEK Status"
+msgstr "SDEK Status"
+
+msgctxt "Languages::addons.rus_sdek.show_all"
+msgid "Show all items"
+msgstr "Show all items"
+
+msgctxt "Languages::addons.rus_sdek.show_all_on_map"
+msgid "Show all items on map"
+msgstr "Show all items on map"
+
+msgctxt "Languages::addons.rus_sdek.search_string"
+msgid "Search"
+msgstr "Search"
+
+msgctxt "Languages::addons.rus_sdek.zipcode_sdek"
+msgid "SDEK Zipcode"
+msgstr "SDEK Zipcode"
+
+msgctxt "Languages::rus_sdek.error_get_order_status"
+msgid "Couldn't get order status from SDEK: [error]<br>Please try refreshing the status later."
+msgstr "Couldn't get order status from SDEK: [error]<br>Please try refreshing the status later."
+
+msgctxt "Languages::ttc_addons.rus_sdek.use_product_price"
+msgid "Tick this checkbox to include product price in the sum that the customer pays on delivery. If you tick this checkbox and \"Include COD\", then the sum that the customer pays on delivery will include both the product price and the price from the \"Cash on Delivery\" field."
+msgstr "Tick this checkbox to include product price in the sum that the customer pays on delivery. If you tick this checkbox and \"Include COD\", then the sum that the customer pays on delivery will include both the product price and the price from the \"Cash on Delivery\" field."
+
+msgctxt "Languages::ttc_addons.rus_sdek.use_imposed"
+msgid "Tick this checkbox, and the customer will have to pay the sum specified in \"Cash on Delivery\". Otherwise that sum will be ignored."
+msgstr "Tick this checkbox, and the customer will have to pay the sum specified in \"Cash on Delivery\". Otherwise that sum will be ignored."
+
+msgctxt "Languages::ttc_addons.rus_sdek.number_package"
+msgid "The identifier or barcode of the package. This parameter must be unique for each shipment within an order; it is used by SDEK specialists to manage cargo."
+msgstr "The identifier or barcode of the package. This parameter must be unique for each shipment within an order; it is used by SDEK specialists to manage cargo."
+
+msgctxt "Languages::rus_sdek.empty_receipt_print_response"
+msgid "An empty response has been returned by SDEK when requesting the shipment receipt."
+msgstr "An empty response has been returned by SDEK when requesting the shipment receipt."
+
+msgctxt "Languages::rus_sdek.order_not_synced"
+msgid "The shipment receipt hasn't been obtained: [error].<br/>Please try again in 10 minutes."
+msgstr "The shipment receipt hasn't been obtained: [error].<br/>Please try again in 10 minutes."

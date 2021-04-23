@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_pickpoint.po\n"
+"X-Crowdin-File-ID: 4234\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Addons::description::rus_pickpoint"
+msgid "Shiping service Pickpoint"
+msgstr "Способ доставки Pickpoint"
+
+msgctxt "SettingsOptions::rus_pickpoint::general"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::rus_pickpoint::update"
+msgid "Update terminals"
+msgstr "Обновление терминалов"
+
+msgctxt "Languages::addons.rus_pickpoint.error_pickpoint_id"
+msgid "Select terminal"
+msgstr "Выберите терминал выдачи заказов"
+
+msgctxt "Languages::addons.rus_pickpoint.pickpoint_id"
+msgid "Id terminal"
+msgstr "Код терминала выдачи"
+
+msgctxt "Languages::addons.rus_pickpoint.select_terminal"
+msgid "Select terminal"
+msgstr "Выберите терминал"
+
+msgctxt "Languages::carrier_pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Languages::addons.rus_pickpoint.pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Languages::addons.rus_pickpoint.label_postamat_update"
+msgid "For update point of delivery orders pickpoint click \"Update point of delivery orders\", it will take some time"
+msgstr "Для обновления списка терминалов, нажмите на кнопку \"Обновить ПВЗ\", обновление займет некоторое время"
+
+msgctxt "Languages::addons.rus_pickpoint.postamat_update"
+msgid "Update point of delivery orders"
+msgstr "Обновить ПВЗ"
+
+msgctxt "Languages::addons.rus_pickpoint.delivery_mode"
+msgid "Delivery mode"
+msgstr "Режим доставки"
+
+msgctxt "Languages::ttc_addons.rus_pickpoint.delivery_mode"
+msgid "Choose the mode depending on your PickPoint tariff. Please contact your PickPoint manager for more details."
+msgstr "Выберите режим доставки в зависимости от вашего тарифа PickPoint. Подробности уточняйте у вашего менеджера PickPoint."
+
+msgctxt "Languages::addons.rus_pickpoint.standard"
+msgid "Standard"
+msgstr "Стандарт"
+
+msgctxt "Languages::addons.rus_pickpoint.priority"
+msgid "Priority"
+msgstr "Приоритет"
+
+msgctxt "Languages::rus_pickpoint.day_single.schedule_closed"
+msgid "[first_day]: Closed"
+msgstr "[first_day]: Закрыто"
+
+msgctxt "Languages::rus_pickpoint.day_single.schedule_interval"
+msgid "[first_day]: [schedule]"
+msgstr "[first_day]: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.day_interval.schedule_closed"
+msgid "[first_day]&ndash;[last_day]: Closed"
+msgstr "[first_day]&ndash;[last_day]: Закрыто"
+
+msgctxt "Languages::rus_pickpoint.day_interval.schedule_interval"
+msgid "[first_day]&ndash;[last_day]: [schedule]"
+msgstr "[first_day]&ndash;[last_day]: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.day_every.schedule_closed"
+msgid "Daily: Closed"
+msgstr "Ежедневно: Закрыто"
+
+msgctxt "Languages::rus_pickpoint.day_every.schedule_interval"
+msgid "Daily: [schedule]"
+msgstr "Ежедневно: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.selected_pickpoint_not_working"
+msgid "The pickup point you selected is currently unavailable. We have selected the default pickup point instead. Please choose another pickup point."
+msgstr "Выбранный вами пункт самовывоза сейчас недоступен. Поэтому мы подставили пункт самовывоза, который предлагается по умолчанию. Выберите подходящий пункт самовывоза."
+
+msgctxt "Languages::addons.rus_pickpoint.package_settings"
+msgid "Package settings"
+msgstr "Настройки упаковки"
+
+msgctxt "Languages::addons.rus_pickpoint.server_secure"
+msgid "Used secure protocol"
+msgstr "Безопасное соединение"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type"
+msgid "Server type"
+msgstr "Тип сервера"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type.work"
+msgid "Work"
+msgstr "Рабочий"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type.test"
+msgid "Test"
+msgstr "Тестовый"
+
+msgctxt "Languages::addons.rus_pickpoint.ikn"
+msgid "IKN"
+msgstr "ИКН"
+
+msgctxt "Languages::addons.rus_pickpoint.login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "Languages::addons.rus_pickpoint.password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::addons.rus_pickpoint.account_settings"
+msgid "Account settings"
+msgstr "Настройки учётной записи"
+

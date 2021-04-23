@@ -1,0 +1,1 @@
+{include file="addons/rus_sdek/views/checkout/components/shippings/map_and_list_sdek.tpl"}

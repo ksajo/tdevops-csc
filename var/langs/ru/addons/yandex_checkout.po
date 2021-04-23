@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/yandex_checkout.po\n"
+"X-Crowdin-File-ID: 4250\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::yandex_checkout"
+msgid "YooMoney"
+msgstr "ЮKassa"
+
+msgctxt "Addons::description::yandex_checkout"
+msgid "Allows you to accept payments via YooMoney"
+msgstr "Позволяет принимать платежи через ЮKassa."
+
+msgctxt "Languages::yandex_checkout.url_for_payment_notifications"
+msgid "URL for payment notifications"
+msgstr "URL для уведомлений"
+
+msgctxt "Languages::yandex_checkout.server_https"
+msgid "<b>SSL certificate is necessary to receive payments. Self-signed SSL certificate is allowed (<a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Self-signed_certificate\">Self-signed certificate</a>)</b>"
+msgstr "<b>Важно! Для успешной работы на вашем сервере должен быть установлен SSL сертификат. Допускается использование самоподписанного сертификата.</b>"
+
+msgctxt "Languages::yandex_checkout.send_receipt_to_yandex"
+msgid "Send receipt data to YooMoney (Federal Law 54)"
+msgstr "Отправлять данные для чеков в ЮKassa (54-ФЗ)"
+
+msgctxt "Languages::yandex_checkout.available_only_for_rub"
+msgid "Available only when Russian Ruble is selected for the сurrency"
+msgstr "Доступно только в случае, когда в качестве валюты выбран российский рубль"
+
+msgctxt "Languages::yandex_checkout.shop_id"
+msgid "shopId"
+msgstr "shopId"
+
+msgctxt "Languages::yandex_checkout.shop_id_notice"
+msgid "Copy shopId from your YooMoney account"
+msgstr "Скопируйте shopId из личного кабинета ЮKassa"
+
+msgctxt "Languages::yandex_checkout.secret_key_api"
+msgid "Secret API key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::yandex_checkout.secret_key_api_notice"
+msgid "Copy secret API key from your YooMoney account"
+msgstr "Скопируйте секретный ключ из личного кабинета ЮKassa"
+
+msgctxt "Languages::yandex_checkout.confirmed_order_status"
+msgid "Order status for forming final receipt"
+msgstr "Статус заказа для формирования итогового чека"
+
+msgctxt "Languages::yandex_checkout.yandex_checkout"
+msgid "YooMoney"
+msgstr "ЮKassa"
+
+msgctxt "Languages::yandex_checkout.check_payment_status"
+msgid "Checking payment status, please wait"
+msgstr "Проверяем статус платежа. Пожалуйста, подождите."
+
+msgctxt "Languages::yandex_checkout.payment_processing"
+msgid "Payment processing"
+msgstr "Обработка платежа"
+
+msgctxt "Languages::yandex_checkout.payment_status_not_final"
+msgid "Sorry, we couldn't confirm the status of your payment with YooMoney. Please try again later, use another payment method, or contact us about this problem."
+msgstr "Извините, нам не удалось получить подтверждение оплаты от ЮKassa. Попробуйте позже, воспользуйтесь другим способом оплаты или свяжитесь с нами и сообщите о проблеме."
+
+msgctxt "Languages::yandex_checkout.notification_received"
+msgid "Notification received"
+msgstr "Уведомление получено"
+
+msgctxt "Languages::yandex.checkout.confirmed_order_status.notice"
+msgid "This status means that the product has been delivered, or that the service has been rendered in full."
+msgstr "Этот статус означает, что товар был доставлен, а услуга оказана полностью."
+
+msgctxt "Languages::yandex_checkout.full_payment_receipt_id"
+msgid "Full payment receipt ID"
+msgstr "ID итогового чека"
+
+msgctxt "Languages::yandex_checkout.full_payment_receipt_error"
+msgid "Full payment receipt creation error message"
+msgstr "Сообщение об ошибке при создании итогового чека"
+
+msgctxt "Languages::yandex_checkout.full_prepayment_receipt_id"
+msgid "Full prepayment receipt ID"
+msgstr "ID чека предоплаты"
+
+msgctxt "Languages::yandex_checkout.full_prepayment_receipt_error"
+msgid "Full prepayment receipt creation error message"
+msgstr "Сообщение об ошибке при создании чека предоплаты"
+
+msgctxt "Languages::yandex_checkout.yandex_checkout_for_marketplaces_vendor_info"
+msgid "You need to create a YooMoney shop to automatically receive withdrawals from the store.<br>You should land a contract in YooMoney between your shop and the marketplace owner's shop."
+msgstr "Чтобы автоматически получать средства от маркетплейса, создайте магазин в ЮKassa.<br>Заключите контракт в ЮKassa между вашим магазином и магазином владельца маркетплейса."
+
+msgctxt "Languages::yandex_checkout.withdrawal_amount"
+msgid "Withdrawal amount"
+msgstr "Сумма выводимых средств"
+
+msgctxt "Languages::yandex_checkout.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Выплата за заказ #[order_id]"
+
+msgctxt "Languages::yandex_checkout.marketplace_fee"
+msgid "Marketplace fee"
+msgstr "Комиссия маркетплейса"
+
+msgctxt "Languages::yandex_checkout.marketplace_fee_notice"
+msgid "Make sure it matches the fee you specified in YooMoney. This fee will override any commissions from vendor plans. However, it still requires the Vendor Plans add-on to be installed and active."
+msgstr "Убедитесь, что эта комиссия совпадает с той, что указана в вашем соглашении с ЮKassa. Эта комиссия перезапишет все комиссии из тарифных планов. Но модуль \"Тарифные планы для продавцов\" всё ещё должен быть установлен и включен."
+
+msgctxt "Languages::yandex_checkout.marketplace_fee_disabled_notice"
+msgid "To take commission from your vendors, please install and activate the <a href=\"[href]\">Vendor Plans</a> add-on first."
+msgstr "Чтобы взимать комиссию с продавцов, сначала установите и включите модуль  <a href=\"[href]\">\"Тарифные планы для продавцов\"</a>."
+
+msgctxt "Languages::yandex_checkout.held_order_status"
+msgid "Status for held orders (Orders waiting for capture)"
+msgstr "Статус заказов с холдированием (до передачи средств)"
+
+msgctxt "Languages::yandex_checkout.are_held_payments_enabled"
+msgid "Held payments enabled"
+msgstr "Включить холдирование"
+
+msgctxt "Languages::yandex_checkout.selected_payment_method"
+msgid "Select pay method"
+msgstr "Выберите способ оплаты"
+
+msgctxt "Languages::yandex_checkout.all_available_methods"
+msgid "All available methods"
+msgstr "Все доступные способы"
+
+msgctxt "Languages::yandex_checkout.alfabank"
+msgid "Alfa-Click"
+msgstr "Альфа-Клик"
+
+msgctxt "Languages::yandex_checkout.bank_card"
+msgid "Bank card"
+msgstr "Банковская карта"
+
+msgctxt "Languages::yandex_checkout.cash"
+msgid "Cash"
+msgstr "Наличные"
+
+msgctxt "Languages::yandex_checkout.installments"
+msgid "Installments"
+msgstr "Рассрочка"
+
+msgctxt "Languages::yandex_checkout.qiwi"
+msgid "QIWI Wallet"
+msgstr "QIWI Кошелек"
+
+msgctxt "Languages::yandex_checkout.sberbank"
+msgid "Sberbank Online"
+msgstr "Сбербанк Онлайн"
+
+msgctxt "Languages::yandex_checkout.tinkoff_bank"
+msgid "Tinkoff"
+msgstr "Тинькофф"
+
+msgctxt "Languages::yandex_checkout.webmoney"
+msgid "Webmoney"
+msgstr "WebMoney"
+
+msgctxt "Languages::yandex_checkout.yandex_money"
+msgid "YooMoney"
+msgstr "ЮKassa"
+
+msgctxt "Languages::yandex_checkout.full_refund_order_status"
+msgid "Status for fully refunded order"
+msgstr "Статус полностью возвращённого заказа"
+
+msgctxt "Languages::yandex_checkout.partial_refund_order_status"
+msgid "Status for partially refunded order"
+msgstr "Статус частично возвращённого заказа"
+
+msgctxt "Languages::yandex_checkout.commission_type"
+msgid "Commission type"
+msgstr "Тип комиссии"
+
+msgctxt "Languages::yandex_checkout.fixed_commission_type"
+msgid "Fixed"
+msgstr "Фиксированная"
+
+msgctxt "Languages::yandex_checkout.flexible_commission_type"
+msgid "Flexible"
+msgstr "Гибкая"
+
+msgctxt "Languages::yandex_checkout.commission_type_from_yandex_agreement"
+msgid "Select the type of marketplace commission stated in your agreement with YooMoney"
+msgstr "Указан в вашем соглашении с ЮKassa"
+
+msgctxt "Languages::yandex_checkout.rma.perform_refund"
+msgid "Give a refund via YooMoney"
+msgstr "Вернуть деньги через ЮKassa"
+

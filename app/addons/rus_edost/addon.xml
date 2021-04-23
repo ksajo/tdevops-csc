@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_edost</id>
+    <version>4.1.1</version>
+    <default_language>en</default_language>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>4600</priority>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:rus_edost_cities_link (
+            city_id int(11) unsigned NOT NULL DEFAULT '0',
+            edost_code varchar(32) NOT NULL DEFAULT '',
+            PRIMARY KEY (city_id),
+            KEY edost_code (edost_code)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rus_edost_cities_link`</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_edost_install</item>
+        <item for="uninstall">fn_rus_edost_uninstall</item>
+    </functions>
+</addon>

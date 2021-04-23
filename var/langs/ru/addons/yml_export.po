@@ -1,0 +1,1102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/yml_export.po\n"
+"X-Crowdin-File-ID: 4254\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::yml_export"
+msgid "Export to Yandex.Market"
+msgstr "Экспорт в Яндекс.Маркет"
+
+msgctxt "Addons::description::yml_export"
+msgid "Allows you to generate YML files for exporting your products to Yandex.Market."
+msgstr "Позволяет создавать YML-файлы для экспорта товаров в Яндекс.Маркет."
+
+msgctxt "Languages::yml_export"
+msgid "Yandex.Market"
+msgstr "Экспорт в Яндекс.Маркет"
+
+msgctxt "Languages::yml2_market_category_list_title"
+msgid "Categories list of Yandex.Market"
+msgstr "Список категорий Яндекс.Маркета"
+
+msgctxt "Languages::yml2_market_category_list_text"
+msgid "<p>For a product offer, it is recommended to specify the category in which it should be placed on Yandex.Market. The category is conveyed using the <market_category> element in the product offer description. In this element, it is allowed to specify names of categories only from the product categories tree of Yandex.Market.</p><p>More information and the categories list in xls format you can find on the Yandex website <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Porduct offer category</a></p><br/><p>Select a category from the list</p><br/>"
+msgstr "<p>Для товарного предложения рекомендуется указывать категорию, в которой оно должно быть размещено на Яндекс.Маркете. Категория передается с помощью элемента <market_category> в описании товарного предложения. В этом элементе допустимо указывать названия категорий только из дерева категорий Яндекс.Маркета.</p><p>Больше информации и список категорий в фомате xls вы найдете на сайте Яндекса <a href=\"http://help.yandex.ru/partnermarket/guides/clothes.xml#h6\">Категория товарного предложения</a></p><br/><p>Выберите категорию из списка</p><br/>"
+
+msgctxt "Languages::yml2_market_category_link"
+msgid "Categories list and tooltip"
+msgstr "Список категорий и подсказка"
+
+msgctxt "Languages::yml2_export_export_true"
+msgid "<br/><b>Exported in Yandex.Market: [n] product</b><br/>|<br/><b>Exported in Yandex.Market: [n] products</b><br/>"
+msgstr "<br/><b>В Яндекс.Маркет экспортирован [n] товар</b><br/>|<br/><b>В Яндекс.Маркет экспортировано [n] товара|<br/><b>В Яндекс.Маркет экспортировано [n] товаров</b><br/>"
+
+msgctxt "Languages::yml2_export_error_cron"
+msgid "Export in Yandex.Market resulted in an error"
+msgstr "Экспорт в YML-файл завершился ошибкой"
+
+msgctxt "Languages::yml2_export_unsuccessfull_products_zero_price"
+msgid "The following products were not exported because of zero price:"
+msgstr "Экспорт следующих товаров не удался из-за нулевой цены:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_disabled_products"
+msgid "The following products were not exported because they are disabled:"
+msgstr "Экспорт следующих товаров не удался, потому что они неактивны:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_out_of_stock"
+msgid "The following products were not exported because the products are out of stock:"
+msgstr "Экспорт следующих товаров не удался из-за отсутствия товара на складе:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_empty_brand"
+msgid "The following products were not exported because the \"Brand\" field is empty:"
+msgstr "Экспорт следующих товаров не удался из-за пустого поля бренд:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_empty_model"
+msgid "The following products were not exported because the \"Model\" field is empty:"
+msgstr "Экспорт следующих товаров не удался из-за пустого поля Модель:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_disable_cat_list"
+msgid "The following products were not exported because of the excluded category:"
+msgstr "Экспорт следующих товаров не удался, потому что категория, к которой они принадлежат, исключена из экспорта:"
+
+msgctxt "Languages::yml2_export_unsuccessfull_disable_cat_list_d"
+msgid "The following products were not exported because of the disabled category:"
+msgstr "Экспорт следующих товаров не удался, потому что категория, к которой они принадлежат, неактивна:"
+
+msgctxt "Languages::yml2_vendor_not_specified"
+msgid "Vendor not specified"
+msgstr "Производитель не указан"
+
+msgctxt "Languages::yml2_rur_absent"
+msgid "To install the add-on, it is required to add a currency with the code RUR."
+msgstr "Для установки модуля необходимо добавить валюту с кодом RUR."
+
+msgctxt "Languages::yml2_market_category"
+msgid "Value of \"market_category\" field"
+msgstr "Значение поля «market_category»"
+
+msgctxt "Languages::yml2_market_category_option"
+msgid "Select a category from the list"
+msgstr "Выберите категорию из списка"
+
+msgctxt "Languages::yml_type_prefix"
+msgid "Yandex.Market Product group/category (typePrefix)"
+msgstr "YM Группа товаров/категория (typePrefix)"
+
+msgctxt "Languages::yml2_type_prefix"
+msgid "Yandex.Market Product group/category (typePrefix)"
+msgstr "Группа товаров/категория (typePrefix)"
+
+msgctxt "Languages::yml_brand"
+msgid "Yandex.Market Brand"
+msgstr "YM Бренд"
+
+msgctxt "Languages::yml2_brand"
+msgid "Yandex.Market Brand"
+msgstr "Бренд"
+
+msgctxt "Languages::yml_model"
+msgid "Yandex.Market Model"
+msgstr "YM Модель"
+
+msgctxt "Languages::yml2_model"
+msgid "Yandex.Market Model"
+msgstr "Модель"
+
+msgctxt "Languages::yml_country"
+msgid "Yandex.Market Country of origin"
+msgstr "YM Страна-производитель"
+
+msgctxt "Languages::yml2_country"
+msgid "Yandex.Market Country of origin"
+msgstr "Страна-производитель"
+
+msgctxt "Languages::yml2_export_fields"
+msgid "Export fields"
+msgstr "Экспортируемые поля"
+
+msgctxt "Languages::yml2_adult"
+msgid "Yandex.Market Adult offer"
+msgstr "Товары для взрослых"
+
+msgctxt "Languages::yml_adult"
+msgid "Yandex.Market Adult offer"
+msgstr "YM товары для взрослых (поле <adult>)"
+
+msgctxt "Languages::yml_delivery"
+msgid "Yandex.Market Allow delivery"
+msgstr "YM Возможность доставки товара"
+
+msgctxt "Languages::yml2_delivery"
+msgid "Yandex.Market Allow delivery"
+msgstr "Возможность доставки товара"
+
+msgctxt "Languages::yml_store"
+msgid "Yandex.Market Allow retail store purchase"
+msgstr "YM Возможность купить товар в розничном магазине"
+
+msgctxt "Languages::yml2_store"
+msgid "Yandex.Market Allow retail store purchase"
+msgstr "Возможность купить товар в розничном магазине"
+
+msgctxt "Languages::yml_pickup"
+msgid "Yandex.Market Allow booking and self delivery"
+msgstr "YM Возможность зарезервировать товар и забрать его самостоятельно"
+
+msgctxt "Languages::yml2_pickup"
+msgid "Yandex.Market Allow booking and self delivery"
+msgstr "Возможность зарезервировать товар и забрать его самостоятельно"
+
+msgctxt "Languages::yml2_true"
+msgid "Yes"
+msgstr "Да"
+
+msgctxt "Languages::yml2_false"
+msgid "No"
+msgstr "Нет"
+
+msgctxt "Languages::yml2_none"
+msgid "None"
+msgstr "Не выбрано"
+
+msgctxt "Languages::yml_sales_notes"
+msgid "Yandex.Market Sales notes"
+msgstr "YM поле \"sales_notes\""
+
+msgctxt "Languages::yml2_sales_notes"
+msgid "Yandex.Market Sales notes"
+msgstr "Поле \"sales_notes\""
+
+msgctxt "Languages::yml2_export_in_stock"
+msgid "In stock products only"
+msgstr "Только товары в наличии"
+
+msgctxt "Languages::yml2_export_in_stock_description"
+msgid "Product quantity must be greater than 0"
+msgstr "Количество товара должно быть больше 0"
+
+msgctxt "Languages::yml2_origin_not_specified"
+msgid "Not specified"
+msgstr "Не указано"
+
+msgctxt "Languages::yml2_products_filename"
+msgid "ym_products"
+msgstr "ym_products"
+
+msgctxt "Languages::yml2_select_shop"
+msgid "Select store"
+msgstr "Выберите магазин"
+
+msgctxt "Languages::yml2_bid"
+msgid "Yandex.Market Basic bid"
+msgstr "Основная ставка"
+
+msgctxt "Languages::yml2_cbid"
+msgid "Yandex.Market Card bid"
+msgstr "Ставка для карточек"
+
+msgctxt "Languages::yml2_purchase_price"
+msgid "Purchase price"
+msgstr "Покупная цена"
+
+msgctxt "Languages::yml2_market"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::yml2_disable_cat"
+msgid "Exclude the category products from export in Yandex.Market"
+msgstr "Исключить товары категории из экспорта в Яндекс.Маркет"
+
+msgctxt "Languages::tt_addons_yml_export_hooks_products_detailed_content_post_yml2_model"
+msgid "Leave empty to use configured value"
+msgstr "Оставьте пустым для использования настроенные значения"
+
+msgctxt "Languages::tt_addons_yml_export_hooks_products_detailed_content_post_yml2_type_prefix"
+msgid "Leave empty to use configured value"
+msgstr "Оставьте пустым для использования настроенные значения"
+
+msgctxt "Languages::yml_offer_type"
+msgid "Yandex.Market Product offer description type"
+msgstr "Тип товарного предложения"
+
+msgctxt "Languages::tt_addons_yml_export_hooks_products_tabs_content_post_yml2_offer_type"
+msgid "More information about export types you can find on the Yandex.Market website <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Examples and descriprions of elements</a>"
+msgstr "Больше информации о типах товарных предложений вы найдете на сайте Яндекс.Маркета: <a href=\"http://help.yandex.ru/partnermarket/offers.xml\">Примеры и описания элементов</a>"
+
+msgctxt "Languages::yml2_offer_type_common"
+msgid "Common"
+msgstr "Общие"
+
+msgctxt "Languages::yml2_offer_type_simple"
+msgid "Simplified"
+msgstr "Упрощенный тип описания"
+
+msgctxt "Languages::yml2_offer_type_vendor_model"
+msgid "Vendor model"
+msgstr "Произвольный тип описания (vendor.model)"
+
+msgctxt "Languages::yml2_offer_type_apparel"
+msgid "Apparel (vendor.model)"
+msgstr "Одежда (произвольный)"
+
+msgctxt "Languages::yml2_offer_type_book"
+msgid "Book"
+msgstr "Книга"
+
+msgctxt "Languages::yml2_offer_type_apparel_simple"
+msgid "Apparel (simple)"
+msgstr "Одежда (упрощенный)"
+
+msgctxt "Languages::yml2_offer_type_video"
+msgid "Video"
+msgstr "Видео"
+
+msgctxt "Languages::yml2_offer_type_audio"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "Languages::yml_manufacturer_warranty"
+msgid "Yandex.Market Manufacturer warranty"
+msgstr "Гарантия производителя"
+
+msgctxt "Languages::yml2_manufacturer_warranty"
+msgid "Yandex.Market Manufacturer warranty"
+msgstr "Гарантия производителя"
+
+msgctxt "Languages::yml2_file_not_exist"
+msgid "File does not exist. Set up file generation using this link [url]"
+msgstr "Файл не существует. Настройте генерацию по ссылке [url]"
+
+msgctxt "Languages::yml2_type_options"
+msgid "Yandex.Market option"
+msgstr "Опция на Яндекс.Маркете"
+
+msgctxt "Languages::yml2_option_color"
+msgid "Color"
+msgstr "Цвет"
+
+msgctxt "Languages::yml2_option_size"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "Languages::yml2_option_height"
+msgid "Height"
+msgstr "Высота"
+
+msgctxt "Languages::yml2_option_chest"
+msgid "Chest"
+msgstr "Обхват груди"
+
+msgctxt "Languages::yml2_option_underbust_circumference"
+msgid "Underbust circumference"
+msgstr "Обхват под грудью"
+
+msgctxt "Languages::yml2_option_neck_circle"
+msgid "Neck circle"
+msgstr "Обхват шеи"
+
+msgctxt "Languages::yml2_option_waist_line"
+msgid "Waist line"
+msgstr "Обхват талии"
+
+msgctxt "Languages::yml2_option_cup"
+msgid "Cup"
+msgstr "Чашка"
+
+msgctxt "Languages::yml2_option_pants_size"
+msgid "Pants size"
+msgstr "Размер трусов"
+
+msgctxt "Languages::yml2_option_type_customer"
+msgid "Customer"
+msgstr "Другой:"
+
+msgctxt "Languages::yml2_offer_feature_common_barcode"
+msgid "Barcode"
+msgstr "Штрих-код"
+
+msgctxt "Languages::yml2_offer_feature_audio_artist"
+msgid "Artist"
+msgstr "Исполнитель"
+
+msgctxt "Languages::yml2_offer_feature_audio_year"
+msgid "Year"
+msgstr "Год"
+
+msgctxt "Languages::yml2_offer_feature_audio_media"
+msgid "Media"
+msgstr "Носитель"
+
+msgctxt "Languages::yml2_offer_feature_common_age"
+msgid "Age"
+msgstr "Возраст"
+
+msgctxt "Languages::yml2_offer_feature_common_vendor"
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgctxt "Languages::yml2_offer_feature_common_description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::yml2_offer_feature_common_vendorcode"
+msgid "Vendor code"
+msgstr "Код поставщика"
+
+msgctxt "Languages::yml2_offer_feature_common_model"
+msgid "Model"
+msgstr "Модель"
+
+msgctxt "Languages::yml2_offer_feature_common_typeprefix"
+msgid "typePrefix"
+msgstr "typePrefix"
+
+msgctxt "Languages::yml2_expiry"
+msgid "Yandex.Market Lifetime"
+msgstr "Срока годности / срока службы"
+
+msgctxt "Languages::tt_addons_yml_export_hooks_products_tabs_content_post_yml2_expiry"
+msgid "The format of the \"expiry\" parameter must comply with ISO 8601, for example, P1Y2M10DT2H30M. Explanation — 1 year, 2 months, 10 days, 2 hours and 30 minutes."
+msgstr "Формат поля \"expiry\" должен соответствовать ISO 8601, например, P1Y2M10DT2H30M - 1 год, 2 месяца, 10 дней, 2 часа и 30 минут."
+
+msgctxt "Languages::yml2_offer_feature_book_author"
+msgid "Author"
+msgstr "Автор"
+
+msgctxt "Languages::yml2_offer_feature_book_publisher"
+msgid "Publisher"
+msgstr "Издатель"
+
+msgctxt "Languages::yml2_offer_feature_book_series"
+msgid "Series"
+msgstr "Серия"
+
+msgctxt "Languages::yml2_offer_feature_book_year"
+msgid "Year"
+msgstr "Год"
+
+msgctxt "Languages::yml2_offer_feature_book_isbn"
+msgid "ISBN"
+msgstr "ISBN"
+
+msgctxt "Languages::yml2_offer_feature_book_volume"
+msgid "Volumes"
+msgstr "Количество томов"
+
+msgctxt "Languages::yml2_offer_feature_book_part"
+msgid "Volume number"
+msgstr "Номер тома"
+
+msgctxt "Languages::yml2_offer_feature_book_language"
+msgid "Language"
+msgstr "Язык"
+
+msgctxt "Languages::yml2_offer_feature_book_binding"
+msgid "Binding"
+msgstr "Переплет"
+
+msgctxt "Languages::yml2_offer_feature_book_page_extent"
+msgid "Number of pages"
+msgstr "Количество страниц"
+
+msgctxt "Languages::yml2_offer_feature_book_table_of_contents"
+msgid "Contents"
+msgstr "Оглавление"
+
+msgctxt "Languages::yml2_offer_feature_video_year"
+msgid "Year"
+msgstr "Год"
+
+msgctxt "Languages::yml2_offer_feature_video_media"
+msgid "Media"
+msgstr "Носитель"
+
+msgctxt "Languages::yml2_offer_feature_video_country"
+msgid "Country"
+msgstr "Страна"
+
+msgctxt "Languages::yml2_offer_feature_video_starring"
+msgid "Starring"
+msgstr "Актеры"
+
+msgctxt "Languages::yml2_offer_feature_video_director"
+msgid "Director"
+msgstr "Режиссер"
+
+msgctxt "Languages::yml2_offer_feature_video_originalname"
+msgid "Original name"
+msgstr "Оригинальное название"
+
+msgctxt "Languages::yml2_offer_feature_starring"
+msgid "Starring"
+msgstr "Актеры"
+
+msgctxt "Languages::yml2_offer_feature_director"
+msgid "Director"
+msgstr "Режиссер"
+
+msgctxt "Languages::yml2_offer_feature_originalname"
+msgid "Original name"
+msgstr "Оригинальное название"
+
+msgctxt "Languages::yml2_option_type_ru"
+msgid "Russian designation"
+msgstr "Российское обозначение"
+
+msgctxt "Languages::yml2_option_type_int"
+msgid "International designation"
+msgstr "Международное обозначение"
+
+msgctxt "Languages::yml2_option_type_height"
+msgid "Height (cm)"
+msgstr "Высота (см)"
+
+msgctxt "Languages::yml2_option_type_months"
+msgid "Age (months)"
+msgstr "Возраст (месяцы)"
+
+msgctxt "Languages::yml2_option_type_years"
+msgid "Age (years)"
+msgstr "Возраст (лет)"
+
+msgctxt "Languages::yml2_option_type_inch"
+msgid "Inches"
+msgstr "Дюймы"
+
+msgctxt "Languages::yml2_option_type_round"
+msgid "Circumference (cm)"
+msgstr "Окружность (см)"
+
+msgctxt "Languages::yml2_log_category_not_visible"
+msgid "Category not visible"
+msgstr "Категория скрыта"
+
+msgctxt "Languages::yml2_log_product_amount_is_empty"
+msgid "Amount of product is empty"
+msgstr "Пустое количество продуктов"
+
+msgctxt "Languages::yml2_log_product_price_is_empty"
+msgid "Price of product is empty"
+msgstr "Не указана цена товара"
+
+msgctxt "Languages::yml2_log_product_category_is_empty"
+msgid "Category of product is empty"
+msgstr "Не указана категория товара"
+
+msgctxt "Languages::yml2_log_product_amount_combination_is_empty"
+msgid "Option combination ([combinations]) is out of stock"
+msgstr "Комбинации опций ([combinations]) нет на складе"
+
+msgctxt "Languages::yml2_log_product_combinations_are_empty"
+msgid "Combinations of the product are empty"
+msgstr "Не созданы комбинации товаров"
+
+msgctxt "Languages::yml2_log_category_excluded"
+msgid "Category of product was excluded"
+msgstr "Категория была исключена"
+
+msgctxt "Languages::yml2_log_brand_is_empty"
+msgid "Brand is empty"
+msgstr "Поле Бренд пустое"
+
+msgctxt "Languages::yml2_log"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::yml2_log_export"
+msgid "Generate yml files"
+msgstr "Создавать файлы yml"
+
+msgctxt "Languages::yml2_log_product_price_above_max"
+msgid "Price is higher than the maximum price specified in the export settings"
+msgstr "Цена выше, чем максимальная цена, указанная в параметрах экспорта"
+
+msgctxt "Languages::yml2_log_product_price_below_min"
+msgid "Price is lower than the minimum price specified in the export settings"
+msgstr "Цена ниже, чем минимальная цена, указанная в параметрах экспорта"
+
+msgctxt "Languages::log_type_yml_export"
+msgid "Yandex.Market"
+msgstr "Яндекс.Маркет"
+
+msgctxt "Languages::log_action_export"
+msgid "Generate yml file"
+msgstr "Создавать файлы yml"
+
+msgctxt "Languages::text_log_action_export"
+msgid "[cron]The file for Yandex.Market has been created. Products export [export] and products skip [skip]. See the results in Private files → yml_export → logs of the File editor"
+msgstr "[cron] Файл был создан. Экспортировано товаров [export] и пропущено товаров [skip]. Лог экспорта модно увидеть на странице Редактирования файлов в Служебные файлы → yml → logs"
+
+msgctxt "Languages::yml2_type_option_param"
+msgid "Yandex.Market value"
+msgstr "Значение на Яндекс.Маркете"
+
+msgctxt "Languages::yml2_product_field_product_code"
+msgid "Product code"
+msgstr "Код товара"
+
+msgctxt "Languages::yml2_product_field_full_description"
+msgid "Full description"
+msgstr "Подробное описание"
+
+msgctxt "Languages::yml2_product_field_short_description"
+msgid "Short description"
+msgstr "Краткое описание"
+
+msgctxt "Languages::yml2_product_field_yml2_brand"
+msgid "Brand"
+msgstr "Бренд"
+
+msgctxt "Languages::yml2_product_field_yml2_model"
+msgid "Model"
+msgstr "Модель"
+
+msgctxt "Languages::yml2_product_field_yml2_type_prefix"
+msgid "Type prefix"
+msgstr "Type prefix"
+
+msgctxt "Languages::yml2_product_field_yml2_description"
+msgid "Yandex.Market description"
+msgstr "Описание на Яндекс.Маркете"
+
+msgctxt "Languages::yml2_product_field_category"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::yml2_product_field_product"
+msgid "Product name"
+msgstr "Название товара"
+
+msgctxt "Languages::yml_export.tab_general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "Languages::yml_export.tab_export_data"
+msgid "Export data"
+msgstr "Экспорт данных"
+
+msgctxt "Languages::yml_export.tab_export_fields"
+msgid "Export fields"
+msgstr "Экспортируемые поля"
+
+msgctxt "Languages::yml_export.tab_images"
+msgid "Images"
+msgstr "Изображения"
+
+msgctxt "Languages::yml_export.tab_delivery_options"
+msgid "Delivery options"
+msgstr "Варианты доставки"
+
+msgctxt "Languages::yml_export.tab_categories"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::yml_export.param_access_key"
+msgid "Access key"
+msgstr "Ключ доступа"
+
+msgctxt "Languages::yml_export.param_name_price_list"
+msgid "Name of price list"
+msgstr "Имя прайс-листа"
+
+msgctxt "Languages::yml_export.param_shop_name"
+msgid "Store name"
+msgstr "Название магазина"
+
+msgctxt "Languages::yml_export.param_export_encoding"
+msgid "Encoding of the exported file"
+msgstr "Кодировка экспортируемого файла"
+
+msgctxt "Languages::yml_export.utf8"
+msgid "UTF-8"
+msgstr "UTF-8"
+
+msgctxt "Languages::yml_export.windows1251"
+msgid "Windows-1251"
+msgstr "Windows-1251"
+
+msgctxt "Languages::yml_export.param_includes_required_fields"
+msgid "Check if mandatory fields are filled"
+msgstr "Проверять, заполнены ли обязательные поля"
+
+msgctxt "Languages::yml_export.param_utm_link"
+msgid "UTM link"
+msgstr "Ссылка UTM"
+
+msgctxt "Languages::yml_export.param_export_stock"
+msgid "Export in-stock products only"
+msgstr "Экспортировать только товары, которые есть в наличии"
+
+msgctxt "Languages::yml_export.param_export_null_price"
+msgid "Export products with null price"
+msgstr "Экспортировать товары с 0 ценой"
+
+msgctxt "Languages::yml_export.param_disable_cat_d"
+msgid "Exclude disabled categories"
+msgstr "Исключить неактивные категории"
+
+msgctxt "Languages::yml_export.param_export_shared_products"
+msgid "Export shared products"
+msgstr "Экспорт общих продуктов"
+
+msgctxt "Languages::yml_export.param_type_prefix"
+msgid "Use in the \"typePrefix\" field"
+msgstr "Использовать поле «typePrefix»"
+
+msgctxt "Languages::yml_export.param_export_market_category"
+msgid "Market category"
+msgstr "Market category"
+
+msgctxt "Languages::yml_export.param_market_category_object"
+msgid "Use the value for the \"market_category\" field from"
+msgstr "Использовать значение поля «market_category»"
+
+msgctxt "Languages::yml_export.product"
+msgid "Product"
+msgstr "Товар"
+
+msgctxt "Languages::yml_export.category"
+msgid "Category"
+msgstr "Категория"
+
+msgctxt "Languages::yml_export.param_image_type"
+msgid "Image type"
+msgstr "Тип изображения"
+
+msgctxt "Languages::yml_export.thumbnail"
+msgid "Thumbnail"
+msgstr "Иконка"
+
+msgctxt "Languages::yml_export.detailed"
+msgid "Detailed"
+msgstr "Детальное изображение"
+
+msgctxt "Languages::yml_export.param_thumbnail_width"
+msgid "Thumbnail width"
+msgstr "Ширина иконки"
+
+msgctxt "Languages::yml_export.param_thumbnail_height"
+msgid "Thumbnail height"
+msgstr "Высота иконки"
+
+msgctxt "Languages::yml_export.price_list"
+msgid "Price list"
+msgstr "Прайс-лист"
+
+msgctxt "Languages::yml_export.price_lists"
+msgid "Price lists"
+msgstr "Прайс-листы"
+
+msgctxt "Languages::yml_export.offers_params"
+msgid "Offers params"
+msgstr "Параметры товарных предложений"
+
+msgctxt "Languages::yml_export.param_enable_authorization"
+msgid "Authorization"
+msgstr "Авторизация"
+
+msgctxt "Languages::yml_export.add_price"
+msgid "Add price lis"
+msgstr "Добавить прайс-лист"
+
+msgctxt "Languages::yml_export.param_weight"
+msgid "Weight"
+msgstr "Вес"
+
+msgctxt "Languages::yml_export.param_dimensions"
+msgid "Dimensions"
+msgstr "Габаритные размеры"
+
+msgctxt "Languages::yml_export.param_store"
+msgid "Allow retail store purchase"
+msgstr "Возможность купить товар в розничном магазине"
+
+msgctxt "Languages::yml_export.param_pickup"
+msgid "Allow booking and self delivery"
+msgstr "Возможность зарезервировать товар и забрать его самостоятельно"
+
+msgctxt "Languages::yml_export.param_delivery"
+msgid "Allow delivery"
+msgstr "Разрешить доставку"
+
+msgctxt "Languages::yml_export.param_export_hidden_categories"
+msgid "Export hidden categories"
+msgstr "Экспорт скрытых категорий"
+
+msgctxt "Languages::yml_export.param_exclude_subcategories"
+msgid "Exclude subcategories"
+msgstr "Исключить подкатегории"
+
+msgctxt "Languages::yml_export.param_exclude_categories"
+msgid "Exclude categories"
+msgstr "Исключить категории"
+
+msgctxt "Languages::yml_export.param_detailed_generation"
+msgid "Show log after generation"
+msgstr "Показать журнал после экспорта"
+
+msgctxt "Languages::yml_export.param_minimal_discount"
+msgid "Minimum percentage of discounts"
+msgstr "Минимальный процент скидки"
+
+msgctxt "Languages::yml_export.param_export_min_product_price"
+msgid "Minimum product price"
+msgstr "Минимальная цена"
+
+msgctxt "Languages::yml_export.param_export_max_product_price"
+msgid "Maximum product price"
+msgstr "Максимальная цена"
+
+msgctxt "Languages::yml_export.cash_on_delivery"
+msgid "Cash on delivery order"
+msgstr "Наличный расчет при получении заказа"
+
+msgctxt "Languages::yml_export.card_on_delivery"
+msgid "Credit card on delivery order"
+msgstr "Оплата банковской картой при получении заказа"
+
+msgctxt "Languages::yml_export.delivery_options"
+msgid "Delivery options"
+msgstr "Варианты доставки"
+
+msgctxt "Languages::yml_export.delivery_cost"
+msgid "cost"
+msgstr "стоимость"
+
+msgctxt "Languages::yml_export.delivery_days"
+msgid "days"
+msgstr "дней"
+
+msgctxt "Languages::yml_export.order_before"
+msgid "order before"
+msgstr "время оформления заказа"
+
+msgctxt "Languages::yml_export.parent_market_category"
+msgid "Allow use parent market category"
+msgstr "Разрешить использование родительской market category"
+
+msgctxt "Languages::yml_export.generation_link"
+msgid "Generation Yandex.Market"
+msgstr "Ссылка генерации прайс-листа"
+
+msgctxt "Languages::yml_export.get_link"
+msgid "Link of view price"
+msgstr "Ссылка открытия прайс-листа"
+
+msgctxt "Languages::yml_export.go_to_link"
+msgid "Go to"
+msgstr "Открыть"
+
+msgctxt "Languages::yml_export.create"
+msgid "Create"
+msgstr "Создание"
+
+msgctxt "Languages::product_yml2_options"
+msgid "Yandex.Market product options"
+msgstr "Опции товаров на Яндекс.Маркете"
+
+msgctxt "Languages::yml_export.exim_notice"
+msgid "<b>Yandex.Market option (Yandex.Market option param):</b> Цвет, Размер (RU, INT, Height, Months, Years, INCH, Round), Рост (RU, INT), Обхват груди (RU, INT), Обхват шеи (RU, INT), Обхват под грудью (RU, INT), Обхват талии (RU, INT), Чашка (RU, INT), Размер трусов (RU, INT)"
+msgstr "<b>Опция на Яндекс.Маркете (Вариант опции на Яндекс.Маркете):</b> Цвет, Размер (RU, INT, Height, Months, Years, INCH, Round), Рост (RU, INT), Обхват груди (RU, INT), Обхват шеи (RU, INT), Обхват под грудью (RU, INT), Обхват талии (RU, INT), Чашка (RU, INT), Размер трусов (RU, INT)"
+
+msgctxt "Languages::yml_export.yml2_exclude_from_price"
+msgid "Exclude from Yandex.Market price"
+msgstr "Исключить из прайс-листа"
+
+msgctxt "Languages::yml_export.generation_status"
+msgid "Generation status"
+msgstr "Статус генерации"
+
+msgctxt "Languages::yml_export.yml2_option_variant"
+msgid "Yandex.Market variant name"
+msgstr "Название на Яндекс.Маркете"
+
+msgctxt "Languages::yml_export.parent_category"
+msgid "Parent ([default])"
+msgstr "Родительский ([default])"
+
+msgctxt "Languages::yml_export.category_value"
+msgid "Category value ([default])"
+msgstr "Значение категории ([default])"
+
+msgctxt "Languages::yml_export.use_category_value"
+msgid "Use the category value"
+msgstr "Использовать значение категории"
+
+msgctxt "Languages::yml_export.use_parent_category_value"
+msgid "Use the parent category value"
+msgstr "Использовать значения родительской категории"
+
+msgctxt "Languages::yml_export.abort_generate"
+msgid "Abort generation"
+msgstr "Прервать генерацию"
+
+msgctxt "Languages::yml_export.stop_generate"
+msgid "Generation was stopped"
+msgstr "Генерация была остановлена"
+
+msgctxt "Languages::yml_export.generation_was_started"
+msgid "Generation was started"
+msgstr "Создание прайс-листа запущено"
+
+msgctxt "Languages::yml_export.param_exclude_categories_not_logging"
+msgid "Disable logging exclude categories"
+msgstr "Отключить лог для исключенных категорий"
+
+msgctxt "Languages::yml_export.import"
+msgid "Import"
+msgstr "Импорт"
+
+msgctxt "Languages::yml_export.data_import_from_addon"
+msgid "Data import from the Yandex.Market add-on"
+msgstr "Импорт данных из модуля Яндекс.Маркет"
+
+msgctxt "Languages::yml_export.import_products"
+msgid "Import product data"
+msgstr "Импорт данных о продукте"
+
+msgctxt "Languages::yml_export.import_categories"
+msgid "Import category data"
+msgstr "Импорт данных по категории"
+
+msgctxt "Languages::yml_export.import_settings"
+msgid "Import the add-on settings to a new price-list"
+msgstr "Импорт параметров модуля в новый прайс лист"
+
+msgctxt "Languages::yml_export.product_features"
+msgid "Product features"
+msgstr "Характеристика товара"
+
+msgctxt "Languages::yml_export.product_fields"
+msgid "Product fields"
+msgstr "Поля товара"
+
+msgctxt "Languages::yml_export.yandex_market_not_installed"
+msgid "To import data, you need the Yandex.Market add-on installed"
+msgstr "Для импорта данных необходим установленный модуль Яндекс.Маркет"
+
+msgctxt "Languages::yml_export.yml2_exclude_export"
+msgid "Exclude export product"
+msgstr "Исключить экспорт"
+
+msgctxt "Languages::yml2_exclude_price_ids"
+msgid "Exclude export product"
+msgstr "Исключить экспорт"
+
+msgctxt "Languages::yml_export.yml2_variants_unit"
+msgid "Yandex.Market unit"
+msgstr "Единица измерения (YML)"
+
+msgctxt "Languages::yml_export.products_processed"
+msgid "Products processed: [items]"
+msgstr "Обработано продуктов: [items]"
+
+msgctxt "Languages::yml_export.param_enable_cpa"
+msgid "Enable \"Market Ordering\""
+msgstr "Включить \"Заказ на Маркете\""
+
+msgctxt "Languages::yml_export.tooltip_enable_cpa"
+msgid "Choose whether or not the products from the YML file can participate in \"Market Ordering\". The participation is determined individually for each product, but those settings only take effect if you enable \"Market Ordering\" for the entire YML file."
+msgstr "Допустить товары из YML-файла к участию в программе \"Заказ на Маркете\". Участие устанавливается индивидуально для каждого отдельного товара, однако данный функционал будет работать только при доступе программы к целому YML-файлу."
+
+msgctxt "Languages::yml_export.yml2_cpa"
+msgid "Enable \"Market Ordering\""
+msgstr "Включить \"Заказ на Маркете\""
+
+msgctxt "Languages::ttc_yml_export.yml2_cpa"
+msgid "Choose whether or not this product participates in \"Market Ordering\". Please note that \"Market Ordering\" should also be enabled for the entire YML file in the Yandex.Market add-on settings."
+msgstr "Выберите, должен ли товар участвовать в программе \"Заказ на Маркете\". Чтобы настройка работала, \"Заказ на Маркете\" также должен быть включен в настройках прайс-листа."
+
+msgctxt "Languages::yml_export.min_value"
+msgid "The value of \"[setting]\" must be greater than or equal to [min_value]"
+msgstr "Значение \"[setting]\" должно превышать или равняться [min_value]"
+
+msgctxt "Languages::yml_export.max_value"
+msgid "The value of \"[setting]\" must be less than or equal to [max_value]"
+msgstr "Значение \"[setting]\" должно быть меньше или равняться [max_value]"
+
+msgctxt "Languages::yml_export.watermarks_enabled"
+msgid "<p> You have the Watermarks add-on enabled. According to <a href=\"https://yandex.ru/support/partnermarket/picture.xml\">the requirements of Yandex.Market</a>, images with watermarks are not accepted.</p><p> The Watermarks add-on settings have recommendations on modifying .htaccess to protect the original images without watermarks. <b>If you made those changes, please revert them</b>, or else you'll violate the requirements of Yandex.Market.</p>"
+msgstr "<p>У вас включен модуль \"Водяные знаки\". Согласно требованиям <a href=\"https://yandex.ru/support/partnermarket/picture.xml\">\"Яндекс.Маркет\"</a> водяные знаки должны занимать не более 10% изображения.</p><p>В настройках модуля \"Водяные знаки\" содержатся рекоммендации по изменению .htaccess для защиты оригинальных изображений без использования водяных знаков. <b>Если вы вносили изменения, пожалуйста, отмените их</b>, в противном случае вы нарушите требования Яндекс.Маркета.</p>"
+
+msgctxt "Languages::yml_export.addon_watermarks_enabled"
+msgid "<p>You have the Watermarks add-on enabled. According to the requirements of Yandex.Market, watermarks shouldn't occupy more than 10% of an image.</p>"
+msgstr "<p>У вас включен модуль \"Водяные знаки\". Согласно требованиям <a href=\"https://yandex.ru/support/partnermarket/picture.xml\">\"Яндекс.Маркет\"</a> водяные знаки должны занимать не более 10% изображения.</p>"
+
+msgctxt "Languages::yml_description"
+msgid "Yandex.Market Description"
+msgstr "Описание на Яндекс.Маркете"
+
+msgctxt "Languages::ttc_yml_export.yml2_description"
+msgid "Can't be longer than 3,000 characters, punctuation marks included"
+msgstr "Не может содержать более 3000 символов, включая знаки пунктуации"
+
+msgctxt "Languages::privileges.manage_yml"
+msgid "Can edit"
+msgstr "Редактирование"
+
+msgctxt "Languages::privileges.view_yml"
+msgid "Can view"
+msgstr "Просмотр"
+
+msgctxt "Languages::privilege_groups.yml_export"
+msgid "Yandex.Market"
+msgstr "Экспорт в Яндекс.Маркет"
+
+msgctxt "Languages::yml_export.fee"
+msgid "Fee rate"
+msgstr "Размер комиссии"
+
+msgctxt "Languages::yml_export.param_export_default_fee"
+msgid "Fee rate"
+msgstr "Размер комиссии"
+
+msgctxt "Languages::ttc_yml_export.fee"
+msgid "Minimal fee rate for a product offer. The value must be a positive integer where two latter characters are hundreth and tenth of percent. To learn more, please follow <a href=\"https://yandex.ru/support/partnermarket/elements/fee.xml\">this link</a>"
+msgstr "Минимальный размер комиссии, взимаемой за одно товарное предложение. Значение должно быть целым положительным числом, при этом две последние цифры — это сотая и десятая часть процентов. Более подробная информация доступна <a href=\"https://yandex.ru/support/partnermarket/elements/fee.xml\">по этой ссылке</a>"
+
+msgctxt "Languages::yml_export.param_not_downloadable"
+msgid "Do not add element \"downloadable\" for digital products"
+msgstr "Не добавлять элемент \"скачиваемые\" для цифровых товаров"
+
+msgctxt "Languages::yml_export.text_available_in_customer"
+msgid "Use this link to generate the price list: <a href=\"[yml2_generate_url]\" target=\"_blank\">[yml2_generate_url]</a><br/>Use this link to get the price list: <a href=\"[yml2_get_url]\">[yml2_get_url]</a>"
+msgstr "Используйте эту ссылку для генерации прайс-листа: <a href=\"[yml2_generate_url]\" target=\"_blank\">[yml2_generate_url]</a><br/>Используйте эту ссылку, чтобы получить прайс-лист:<a href=\"[yml2_get_url]\">[yml2_get_url]</a>"
+
+msgctxt "Languages::yml_export.text_cron_command"
+msgid "Cron command: [yml2_console_generate]"
+msgstr "Cron-команда: [yml2_console_generate]"
+
+msgctxt "Languages::yml_export.note_import"
+msgid "Please note that some product properties and price list settings of the Yandex.Market add-on are out of date and no longer used. <br />These settings and properties won't be imported to the YML Export add-on."
+msgstr "Пожалуйста, обратите внимание, что некоторые свойства товаров и настройки прайс-листов, встречающиеся в модуле \"Яндекс.Маркет\", устарели и больше не используются. <br />Устаревшие настройки и свойства не будут импортированы в модуль \"YML-экспорт\"."
+
+msgctxt "Languages::yml_export.import_success"
+msgid "The data from the Yandex.Market add-on was imported successfully."
+msgstr "Данные из модуля \"Яндекс.Маркет\" были успешно импортированы."
+
+msgctxt "Languages::yml_export.import_failed"
+msgid "The data from the Yandex.Market add-on wasn't imported because no data was selected"
+msgstr "Не удалось импортировать данные из модуля \"Яндекс.Маркет\", так как данные не были выбраны."
+
+msgctxt "Languages::yml_country_of_origin"
+msgid "Yandex.Market Country of origin"
+msgstr "Страна-производитель"
+
+msgctxt "Languages::yml_allow_retail_store_purchase"
+msgid "Yandex.Market Allow retail store purchase"
+msgstr "Возможность купить товар в розничном магазине"
+
+msgctxt "Languages::yml_allow_booking_and_self_delivery"
+msgid "Yandex.Market Allow booking and self delivery"
+msgstr "Возможность зарезервировать товар и забрать его самостоятельно"
+
+msgctxt "Languages::yml_adult"
+msgid "Yandex.Market Adult offer"
+msgstr "YM товары для взрослых (поле <adult>)"
+
+msgctxt "Languages::yml_allow_delivery"
+msgid "Yandex.Market Allow delivery"
+msgstr "Возможность доставки товара"
+
+msgctxt "Languages::yml_allow_delivery_options"
+msgid "Yandex.Market Allow delivery options"
+msgstr "Опции доставки товара"
+
+msgctxt "Languages::yml_basic_bid"
+msgid "Yandex.Market Basic bid"
+msgstr "Основная ставка"
+
+msgctxt "Languages::yml_card_bid"
+msgid "Yandex.Market Card bid"
+msgstr "Ставка для карточек"
+
+msgctxt "Languages::yml_fee"
+msgid "Yandex.Market Fee rate"
+msgstr "Размер комиссии"
+
+msgctxt "Languages::yml_typeprefix"
+msgid "Yandex.Market typePrefix"
+msgstr "typePrefix"
+
+msgctxt "Languages::yml_offer_type"
+msgid "Yandex.Market Product offer description type"
+msgstr "Тип товарного предложения"
+
+msgctxt "Languages::yml2_offer_type"
+msgid "Yandex.Market Product offer description type"
+msgstr "Тип товарного предложения"
+
+msgctxt "Languages::yml_lifetime"
+msgid "Yandex.Market Lifetime"
+msgstr "Срока годности / срока службы"
+
+msgctxt "Languages::yml_market_ordering"
+msgid "Yandex.Market ordering"
+msgstr "Заказы с Маркета"
+
+msgctxt "Languages::yml_description"
+msgid "Yandex.Market description"
+msgstr "Описание на Яндекс.Маркете"
+
+msgctxt "Languages::yml_export.yml2_description"
+msgid "Yandex.Market description"
+msgstr "Описание на Яндекс.Маркете"
+
+msgctxt "Languages::yml_exclude_from_prices"
+msgid "Exclude from Yandex.Market price"
+msgstr "Исключить из прайс-листа"
+
+msgctxt "Languages::option_id"
+msgid "Option ID"
+msgstr "ID варианта"
+
+msgctxt "Languages::yml_option"
+msgid "Yandex.Market option"
+msgstr "Опция на Яндекс.Маркете"
+
+msgctxt "Languages::yml_option_param"
+msgid "Yandex.Market option param"
+msgstr "Вариант опции на Яндекс.Маркете"
+
+msgctxt "Languages::product_status"
+msgid "Product status"
+msgstr "Статус товара"
+
+msgctxt "Languages::tt_yml_export.param_exclude_categories"
+msgid "Products in the selected categories or their subcategories will not be exported."
+msgstr "Товары в выбранных категориях или их подкатегориях не будут экспортированы."
+
+msgctxt "Languages::yml_market_category"
+msgid "Yandex.Market category"
+msgstr "Категория Яндекс.Маркета"
+
+msgctxt "Languages::yml2_export_market_category"
+msgid "Yandex.Market category"
+msgstr "Категория Яндекс.Маркета"
+
+msgctxt "Languages::tt_yml2_export_market_category"
+msgid "The product will appear in this category on Yandex.Market"
+msgstr "Товар будет отображаться в данной категории Яндекс.Маркета"
+
+msgctxt "Languages::yml_export.upgrade_notification_title"
+msgid "Export to Yandex.Market and product categories"
+msgstr "Экспорт в Яндекс.Маркет и категории товаров"
+
+msgctxt "Languages::yml_export.upgrade_notification_message"
+msgid "You can specify the category on Yandex.Market to which a product must be exported. It is done in a special property on the <b>Yandex.Market</b> tab of the product or category editing page. Previously:<ul><li>The special property was called <b>Value of \"market_category\" field</b>.</li><li>The price list settings under <b>Add-ons → Yandex.Market → Price list</b> allowed to choose whether or not to send info to Yandex about what categories products should belong to. Depending on it, [product] generated a YML file for Yandex either with, or without the &lt;market_category&gt; tags in it.</li></ul><br/>Later Yandex made changes to how information about categories is passed to Yandex.Market. Yandex no longer takes the &lt;market_category&gt; tags into account, so [product] doesn't add them to YML files. That's why:<ul><li>We have renamed the special property to <b>Yandex.Market category</b>.</li><li>Now the information about the category that the product should belong to on Yandex.Market is always exported, if the product has a value for this special property.</li><li>For technical reasons, the generated YML file includes all the categories that exist on Yandex.Market. However, only those categories that have products in them will actually be used.</li></ul>"
+msgstr "Вы можете указать категорию на Яндекс.Маркете, в которую будет экспортирован товар. Это можно сделать в специальном поле на вкладке <b>Экспорт в Яндекс.Маркет</b> на странице редактирования товара или категории. До изменений:<ul><li>Данное поле называлось <b>Значение поля &lt;market_category&gt;</b>.</li><li>В настройках прайс-листа (<b>Модули → YML экспорт → Прайс-лист</b>) можно было выбрать, отсылать ли информацию Яндексу о категориях, к которым должны принадлежать товары. В зависимости от этого, [product] генерировал YML-файл для Яндекса либо с, либо без тегов &lt;market_category&gt; в нём.</li></ul><br/>Позже Яндекс изменил порядок передачи информации о категориях на Яндекс.Маркет. Яндекс больше не учитывает наличие тегов <market_category>, поэтому [product] не добавляет их в YML-файлы. Поэтому:<ul><li>Мы переименовали специальное поле в <b>Категория Яндекс.Маркета</b>.</li><li>Теперь информация о категориях Яндекс.Маркета, к которым должны принадлежать товары, экспортируется в любом случае, если в данном поле указано какое-либо значение.</li><li>По техническим причинам сгенерированный YML-файл включает все категории, которые есть на Яндекс.Маркете. Однако, будут использоваться только те категории, в которых есть товары.</li></ul>"
+
+msgctxt "Languages::yml_export.categories_information"
+msgid "For technical reasons, the generated YML file includes all the categories that exist on Yandex.Market. However, only those categories that have products in them will actually be used."
+msgstr "По техническим причинам, сгенерированный YML-файл включает все категории, которые есть на Яндекс.Маркете. Однако будут использоваться только те категории, в которых есть товары."
+

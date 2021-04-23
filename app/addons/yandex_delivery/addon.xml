@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>yandex_delivery</id>
+    <version>2.0.1</version>
+    <priority>4294967292</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="autocomplete">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="autopostcode">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_keys">
+                        <type>textarea</type>
+                        <default_value/>
+                    </item>
+                    <item id="client_ids">
+                        <type>textarea</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:yd_orders;</item>
+        <item>
+            CREATE TABLE `?:yd_orders` (
+                `shipment_id` mediumint(8) unsigned NOT NULL,
+                `yandex_id` mediumint(8) unsigned NOT NULL default 0,
+                `yandex_full_num` varchar(16) NOT NULL default '',
+                `status` smallint(5) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`shipment_id`),
+                INDEX (yandex_id),
+                INDEX (yandex_full_num)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item>DROP TABLE IF EXISTS ?:yd_order_statuses;</item>
+        <item>
+            CREATE TABLE `?:yd_order_statuses` (
+            `yandex_id` mediumint(8) unsigned NOT NULL DEFAULT 0,
+            `order_id` mediumint(8) unsigned NOT NULL default '0',
+            `timestamp` int(11) unsigned NOT NULL default '0',
+            `status` smallint(5) unsigned NOT NULL default '0',
+            PRIMARY KEY  (`yandex_id`, `timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item>DROP TABLE IF EXISTS ?:yd_statuses;</item>
+        <item>
+            CREATE TABLE `?:yd_statuses` (
+            `yd_status_id` mediumint(8) unsigned NOT NULL,
+            `yd_status_code` varchar(32) NOT NULL DEFAULT '',
+            PRIMARY KEY  (`yd_status_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item>DROP TABLE IF EXISTS ?:yd_status_descriptions;</item>
+        <item>
+            CREATE TABLE `?:yd_status_descriptions` (
+            `yd_status_id` mediumint(8) unsigned NOT NULL,
+            `yd_status_name` varchar(32) NOT NULL DEFAULT '',
+            `yd_status_info` varchar(32) NOT NULL DEFAULT '',
+            `lang_code` char(2) NOT NULL default '',
+            PRIMARY KEY  (`yd_status_id`, `lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item>DROP TABLE IF EXISTS ?:yd_geo;</item>
+        <item>
+            CREATE TABLE `?:yd_geo` (
+            `yd_state` varchar(8) NOT NULL DEFAULT '',
+            `yd_city` varchar(32) NOT NULL DEFAULT '',
+            `yd_geo_id` mediumint(8) unsigned NOT NULL,
+            PRIMARY KEY  (`yd_state`, `yd_city`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item type="file">database/data.sql</item>
+    </queries>
+
+    <functions>
+        <item for="install">fn_yandex_delivery_install</item>
+        <item for="uninstall">fn_yandex_delivery_uninstall</item>
+    </functions>
+
+</addon>

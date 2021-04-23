@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_taxes</id>
+    <version>1.0.0</version>
+    <priority>1000</priority>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+
+    <queries>
+        <item for="install">ALTER TABLE ?:taxes ADD COLUMN tax_type VARCHAR(6) NOT NULL DEFAULT ''</item>
+        <item for="uninstall">ALTER TABLE ?:taxes DROP COLUMN tax_type</item>
+        <item for="demo">UPDATE ?:products SET tax_ids = (SELECT tax_id FROM ?:taxes WHERE status = 'A' LIMIT 1)</item>
+    </queries>
+
+    <functions>
+        <item for="install">fn_rus_taxes_install</item>
+    </functions>
+</addon>

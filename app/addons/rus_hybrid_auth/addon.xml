@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_hybrid_auth</id>
+    <version>1.0</version>
+    <priority>4300</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <compatibility>
+        <dependencies>hybrid_auth</dependencies>
+    </compatibility>
+
+</addon>

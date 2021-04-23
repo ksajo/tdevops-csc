@@ -1,0 +1,1 @@
+<th width="10%">{__("rus_exim_1c.product_feature_variant_external_id")}</th>

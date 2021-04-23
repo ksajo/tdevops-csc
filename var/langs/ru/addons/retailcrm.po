@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/retailcrm.po\n"
+"X-Crowdin-File-ID: 4210\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::retailcrm"
+msgid "RetailCRM [Beta]"
+msgstr "retailCRM [Beta]"
+
+msgctxt "Addons::description::retailcrm"
+msgid "Adds two-way data exchange with retailCRM"
+msgstr "Добавляет двухсторонний обмен данными с retailCRM"
+
+msgctxt "SettingsSections::retailcrm::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsSections::retailcrm::mapping"
+msgid "Mapping"
+msgstr "Соответствия"
+
+msgctxt "SettingsOptions::retailcrm::retailcrm_host"
+msgid "RetailCRM server address"
+msgstr "Адрес сервера RetailCRM"
+
+msgctxt "SettingsTooltips::retailcrm::retailcrm_host"
+msgid "The format is as follows: <i>https://your-account-name.retailcrm.ru</i>"
+msgstr "В формате: <i>https://your-account-name.retailcrm.ru</i>"
+
+msgctxt "SettingsOptions::retailcrm::retailcrm_api_key"
+msgid "RetailCRM API key"
+msgstr "Ключ доступа к API"
+
+msgctxt "SettingsTooltips::retailcrm::retailcrm_api_key"
+msgid "Can be found in retailCRM admin panel; see the <b>Integration → API access keys</b> section"
+msgstr "Находится в панели администратора retailCRM в разделе <b>Интеграция → Ключи доступа к API</b>"
+
+msgctxt "Languages::retailcrm.error.host_is_required"
+msgid "The RetailCRM server address is required"
+msgstr "Необходимо ввести адрес сервера retailCRM"
+
+msgctxt "Languages::retailcrm.error.api_key_is_required"
+msgid "The RetailCRM API key is required"
+msgstr "Необходимо ввести ключ доступа к API retailCRM"
+
+msgctxt "Languages::retailcrm.error.could_not_connect"
+msgid "Could not connect to retailCRM server. Reason: \"[reason]\""
+msgstr "Не удалось подключиться к серверу retailCRM. Причина: \"[reason]\""
+
+msgctxt "Languages::retailcrm.error.could_not_connect_by_http_code"
+msgid "Could not connect to retailCRM server. Reason: \"Response http code [code]\""
+msgstr "Не удалось подключиться к серверу retailCRM. Причина: \"Response http code [code]\""
+
+msgctxt "Languages::retailcrm.settings.mapping_order_statuses"
+msgid "Order status mapping"
+msgstr "Статусы заказов"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_statuses"
+msgid "Order statuses in retailCRM"
+msgstr "Статусы заказов в retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_order_statuses"
+msgid "Order statuses in the store"
+msgstr "Статусы заказов в магазине"
+
+msgctxt "Languages::retailcrm.settings.mapping_sites"
+msgid "Site mapping"
+msgstr "Магазины"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_sites"
+msgid "Sites in retailCRM"
+msgstr "Магазины в retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_sites"
+msgid "Storefronts"
+msgstr "Витрины"
+
+msgctxt "Languages::retailcrm.settings.mapping_payment_types"
+msgid "Payment method mapping"
+msgstr "Способы оплаты"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_payment_types"
+msgid "Payment methods in retailCRM"
+msgstr "Типы оплат в retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_payment_types"
+msgid "Payment methods in the store"
+msgstr "Способы оплаты в магазине"
+
+msgctxt "Languages::retailcrm.settings.mapping_shipping_types"
+msgid "Shipping method mapping"
+msgstr "Способы доставки"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_shipping_types"
+msgid "Shipping methods in retailCRM"
+msgstr "Типы доставок в retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_shipping_types"
+msgid "Shipping methods in the store"
+msgstr "Способы доставки в магазине"
+
+msgctxt "Languages::retailcrm.settings.non_connection"
+msgid "Connection to retailCRM is not established. Please check retailCRM server address and API key, then click \"Connect\"."
+msgstr "Соединение с retailCRM не установлено. Пожалуйста, проверьте адрес сервера retailCRM, ключ доступа к API, а затем нажмите кнопку \"Подключиться\"."
+
+msgctxt "Languages::retailcrm.settings.connect"
+msgid "Connect"
+msgstr "Подключиться"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_method"
+msgid "Method of placing an order"
+msgstr "Способ оформления заказа"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_type"
+msgid "Order type"
+msgstr "Тип заказа"
+
+msgctxt "Languages::retailcrm.settings.other"
+msgid "Other settings"
+msgstr "Другие настройки"
+
+msgctxt "Languages::yml_export.param_used_for_retailcrm"
+msgid "Use for retailCRM"
+msgstr "Прайс-лист для retailCRM"
+
+msgctxt "Languages::retailcrm.settings.instructions.title"
+msgid "Instruction"
+msgstr "Инструкция"
+
+msgctxt "Languages::retailcrm.settings.instructions.step_credentials"
+msgid "Specify the retailCRM server address and API key."
+msgstr "Введите адрес сервера retailCRM и ключ доступа к API."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_tab_mapping"
+msgid "Go to the \"Mapping\" tab."
+msgstr "Перейдите на вкладку \"Соответствия\"."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_connection"
+msgid "Click the \"Connect\" button to connect your store to retailCRM."
+msgstr "Нажмите кнопку \"Подключиться\", чтобы подключить магазин к retailCRM."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_mapping_settings"
+msgid "Map the objects of your store to the elements of retailCRM."
+msgstr "Задайте соответствия между объектами в вашем магазине и в retailCRM."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_price_list"
+msgid "To export the product catalog, create and configure the price list under <a target=\"_blank\" href=\"[href_price_list]\">Add-ons → YML export → Price list</a>. In the price list settings, tick this checkbox: \"Use for retailCRM\""
+msgstr "Чтобы экспортировать каталог товаров, создайте и настройте прайс-лист на странице <a target=\"_blank\" href=\"[href_price_list]\">Модули → YML экспорт → Прайс-лист</a>. В настройках прайс-листа поставьте галочку \"Прайс-лист для retailCRM\""
+
+msgctxt "Languages::retailcrm.settings.instructions.step_cron_command"
+msgid "To synchronize orders, add the following CRON job:<br>[cron_command]"
+msgstr "Чтобы синхронизировать заказы, добавьте в CRON следующую задачу:<br>[cron_command]"
+
+msgctxt "Languages::retailcrm.error.map_sites_invalid"
+msgid "A site in retailCRM can only be assigned to one CS-Cart storefront at a time. That's why some of the associations between retailCRM sites and CS-Cart storefronts weren't saved. Please check the settings of the RetailCRM add-on and make sure that the associations are correct."
+msgstr "Сайт в retailCRM может быть одновременно привязан только к одной витрине CS-Cart. По этой причине не удалось сохранить некоторые соединения между retailCRM и витринами CS-Cart. Пожалуйста, проверьте настройки модуля retailCRM и убедитесь в том, что соединения настроены правильно."
+

@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+
+msgctxt "Addons::name::rus_pecom"
+msgid "PEC (PECOM)"
+msgstr "PEC (PECOM)"
+
+msgctxt "Addons::description::rus_pecom"
+msgid "Shipping calculator"
+msgstr "Shipping calculator"
+
+msgctxt "Languages::carrier_pecom"
+msgid "PEC (PECOM) carrier"
+msgstr "PEC (PECOM)"
+
+msgctxt "Languages::rus_pecom.order_info"
+msgid "Information from PEC"
+msgstr "Information from PEC"
+
+msgctxt "Languages::rus_pecom.not_city_code"
+msgid "City code not found"
+msgstr "City code not found"
+
+msgctxt "Languages::rus_pecom.tarif"
+msgid "Rate"
+msgstr "Rate"
+
+msgctxt "Languages::rus_pecom.auto"
+msgid "Shipment by car"
+msgstr "Shipment by car"
+
+msgctxt "Languages::rus_pecom.avia"
+msgid "Shipment by air"
+msgstr "Shipment by air"
+
+msgctxt "Languages::rus_pecom.take"
+msgid "Include pickup cost"
+msgstr "Include pickup cost"
+
+msgctxt "Languages::rus_pecom.deliver"
+msgid "Include delivery cost"
+msgstr "Include delivery cost"
+
+msgctxt "Languages::rus_pecom.insurance"
+msgid "Insurance"
+msgstr "Insurance"
+
+msgctxt "Languages::rus_pecom.pal"
+msgid "Palletizing required"
+msgstr "Palletizing required"
+
+msgctxt "Languages::rus_pecom.take.tent"
+msgid "Truck tarp removal upon pickup (excluding cities of Russia's Golden Ring)"
+msgstr "Truck tarp removal upon pickup (excluding cities of Russia's Golden Ring)"
+
+msgctxt "Languages::rus_pecom.take.gidro"
+msgid "Usage of tail lift or other special machinery upon pickup"
+msgstr "Usage of tail lift or other special machinery upon pickup"
+
+msgctxt "Languages::rus_pecom.take.speed"
+msgid "Urgent pickup (Moscow only)"
+msgstr "Urgent pickup (Moscow only)"
+
+msgctxt "Languages::rus_pecom.take.moscow"
+msgid "Pickup within Moscow"
+msgstr "Pickup within Moscow"
+
+msgctxt "Languages::rus_pecom.deliver.tent"
+msgid "Truck tarp removal upon delivery (excluding cities of Russia's Golden Ring)"
+msgstr "Truck tarp removal upon delivery (excluding cities of Russia's Golden Ring)"
+
+msgctxt "Languages::rus_pecom.deliver.gidro"
+msgid "Usage of tail lift or other special vehicles upon delivery"
+msgstr "Usage of tail lift or other special vehicles upon delivery"
+
+msgctxt "Languages::rus_pecom.deliver.speed"
+msgid "Urgent delivery (Moscow only)"
+msgstr "Urgent delivery (Moscow only)"
+
+msgctxt "Languages::rus_pecom.deliver.moscow"
+msgid "Delivery within Moscow"
+msgstr "Delivery within Moscow"
+
+msgctxt "Languages::rus_pecom.moscow.deliver"
+msgid "Delivery within Moscow"
+msgstr "Delivery within Moscow"
+
+msgctxt "Languages::rus_pecom.moscow.0"
+msgid "No entry"
+msgstr "No entry"
+
+msgctxt "Languages::rus_pecom.moscow.1"
+msgid "Moscow Ring Railway"
+msgstr "Moscow Ring Railway"
+
+msgctxt "Languages::rus_pecom.moscow.2"
+msgid "Third Ring Road"
+msgstr "Third Ring Road"
+
+msgctxt "Languages::rus_pecom.moscow.3"
+msgid "Garden Ring Road"
+msgstr "Garden Ring Road"
+
+msgctxt "Languages::rus_pecom.ttl_gidro"
+msgid "Freight weight must not exceed 3000 kg, maximum dimension is 3 meters"
+msgstr "Freight weight must not exceed 3000 kg, maximum dimension is 3 meters"
+
+msgctxt "Languages::rus_pecom.ttl_tent"
+msgid "Tarp that covers the truck can be removed to get easier access to freight area. The truck may be equipped with straps, tail lift, rigid boards (sides), etc. Tarp removal eases freight loading and usually side or upper parts of tarp are removed. If the whole tarp is removed, the freight can be loaded both from above and from sides."
+msgstr "Tarp that covers the truck can be removed to get easier access to freight area. The truck may be equipped with straps, tail lift, rigid boards (sides), etc. Tarp removal eases freight loading and usually side or upper parts of tarp are removed. If the whole tarp is removed, the freight can be loaded both from above and from sides."
+
+msgctxt "Languages::rus_pecom.package_hard"
+msgid "Rigid packaging required"
+msgstr "Rigid packaging required"
+
+msgctxt "Languages::rus_pecom.not_rate_delivery"
+msgid "Failed to calculate shipping"
+msgstr "Failed to calculate shipping"
+

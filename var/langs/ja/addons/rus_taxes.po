@@ -1,0 +1,101 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+
+msgctxt "Addons::name::rus_taxes"
+msgid "Russian localization — Taxes"
+msgstr "Russian localization — Taxes"
+
+msgctxt "Addons::description::rus_taxes"
+msgid "Allows you to select a corresponding Russian tax for each tax you create; this information is used by shipping and payment services to comply with the Russian Federal Law 54"
+msgstr "Allows you to select a corresponding Russian tax for each tax you create; this information is used by shipping and payment services to comply with the Russian Federal Law 54"
+
+msgctxt "Languages::rus_taxes.tax.none"
+msgid "No VAT"
+msgstr "No VAT"
+
+msgctxt "Languages::rus_taxes.tax.vat0"
+msgid "VAT 0%"
+msgstr "VAT 0%"
+
+msgctxt "Languages::rus_taxes.tax.vat10"
+msgid "VAT 10%"
+msgstr "VAT 10%"
+
+msgctxt "Languages::rus_taxes.tax.vat18"
+msgid "VAT 18%"
+msgstr "VAT 18%"
+
+msgctxt "Languages::rus_taxes.tax.vat20"
+msgid "VAT 20%"
+msgstr "VAT 20%"
+
+msgctxt "Languages::rus_taxes.tax.vat110"
+msgid "VAT 10/110"
+msgstr "VAT 10/110"
+
+msgctxt "Languages::rus_taxes.tax.vat118"
+msgid "VAT 18/118"
+msgstr "VAT 18/118"
+
+msgctxt "Languages::rus_taxes.tax.vat120"
+msgid "VAT 20/120"
+msgstr "VAT 20/120"
+
+msgctxt "Languages::rus_taxes.tax_type"
+msgid "VAT rate"
+msgstr "VAT rate"
+
+msgctxt "Languages::rus_taxes.tax_type.tooltip"
+msgid "This data will be used by Yandex.Checkout, Yandex.Delivery, ATOL, SDEK, PayMaster, PayAnyWay, etc."
+msgstr "This data will be used by Yandex.Checkout, Yandex.Delivery, ATOL, SDEK, PayMaster, PayAnyWay, etc."
+
+msgctxt "Languages::rus_taxes.upgrade_message"
+msgid "<p>To help you comply with the Russian Federal Law 54, we added the ability to send the data for printing of a sales receipt to:</p><ul><li>Yandex.Delivery</li><li>SDEK</li><li>PayMaster</li><li>PayAnyWay</li></ul><p>For that purpose we have added a new add-on called \"Russian localization — Taxes\". It is installed and enabled by default, and it adds a new settings to taxes (VAT rate). Please check the settings of your taxes after the upgrade.</p>"
+msgstr "<p>To help you comply with the Russian Federal Law 54, we added the ability to send the data for printing of a sales receipt to:</p><ul><li>Yandex.Delivery</li><li>SDEK</li><li>PayMaster</li><li>PayAnyWay</li></ul><p>For that purpose we have added a new add-on called \"Russian localization — Taxes\". It is installed and enabled by default, and it adds a new settings to taxes (VAT rate). Please check the settings of your taxes after the upgrade.</p>"
+
+msgctxt "Languages::rus_taxes.upgrade_message_title"
+msgid "Changes related to the Russian Federal Law 54; please check your taxes"
+msgstr "Changes related to the Russian Federal Law 54; please check your taxes"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.title"
+msgid "Tax rates changes"
+msgstr "Tax rates changes"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.warning"
+msgid "<p>Starting with January 1, 2019, <a href=\"[law_url]\" target=\"_blank\">the VAT rates in Russia have been increased from 18% to 20%</a>. Your store still has taxes that use the old rate of 18%.</p><p>To make [product] pass the correct tax rates to third-party services and online cash registers, please update the rates in the settings of every tax. If you press the button below, all the rates of 18% will be automatically changed to 20%.</p><p class=\"center\"><a class=\"btn btn-primary btn-large\" href=\"[convert_url]\">Update tax rates</a></p>"
+msgstr "<p>Starting with January 1, 2019, <a href=\"[law_url]\" target=\"_blank\">the VAT rates in Russia have been increased from 18% to 20%</a>. Your store still has taxes that use the old rate of 18%.</p><p>To make [product] pass the correct tax rates to third-party services and online cash registers, please update the rates in the settings of every tax. If you press the button below, all the rates of 18% will be automatically changed to 20%.</p><p class=\"center\"><a class=\"btn btn-primary btn-large\" href=\"[convert_url]\">Update tax rates</a></p>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.results"
+msgid "<p>We have updated the rates for the following taxes: <ul>[taxes_list]</ul>[failing_services]</p>"
+msgstr "<p>We have updated the rates for the following taxes: <ul>[taxes_list]</ul>[failing_services]</p>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.tax_changed"
+msgid "<li><a href=\"[tax_url]\" target=\"_blank\">[tax]</a>: the VAT rate has been changed from [old_tax_type] to [new_tax_type]</li>"
+msgstr "<li><a href=\"[tax_url]\" target=\"_blank\">[tax]</a>: the VAT rate has been changed from [old_tax_type] to [new_tax_type]</li>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.failing_services"
+msgid "<p><strong>Note:</strong></p><p>Some shipping services and payment processors haven't informed us how we should pass the new VAT 20% to them. That's why we don't know if the code changes are required, and we can't guarantee that the VAT will be passed correctly to these services. If you don't want to take any risks, we recommend temporarily disabling the shipping and payment methods listed below.</p>[shipping_methods][payment_methods]"
+msgstr "<p><strong>Note:</strong></p><p>Some shipping services and payment processors haven't informed us how we should pass the new VAT 20% to them. That's why we don't know if the code changes are required, and we can't guarantee that the VAT will be passed correctly to these services. If you don't want to take any risks, we recommend temporarily disabling the shipping and payment methods listed below.</p>[shipping_methods][payment_methods]"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.failing_services.shippings"
+msgid "<p>Shipping methods:</p><ul>[shippings_list]</ul>"
+msgstr "<p>Shipping methods:</p><ul>[shippings_list]</ul>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.failing_services.payments"
+msgid "<p>Payment methods:</p><ul>[payments_list]</ul>"
+msgstr "<p>Payment methods:</p><ul>[payments_list]</ul>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.failing_services.shipping"
+msgid "<li><a href=\"[item_url]\" target=\"_blank\">[item_text]</a></li>"
+msgstr "<li><a href=\"[item_url]\" target=\"_blank\">[item_text]</a></li>"
+
+msgctxt "Languages::rus_taxes.tax_rates_changes.failing_services.payment"
+msgid "<li>[item_text]</li>"
+msgstr "<li>[item_text]</li>"
+
+msgctxt "Languages::rus_taxes.upgrade_message.tax_conversion"
+msgid "<p>— Starting with January 1, 2019, [product] will offer you to automatically change all tax rates from 18% to 20%. You'll only need to confirm it (that requires signing in to the admin panel). You can also update the rates manually — learn more <a href=\"https://forum.cs-cart.ru/t/cs-cart-i-izmeneniya-v-zakonodatelstve-1-yanvarya-2019-g/6816\">at our Russian forum</a>.</p>"
+msgstr "<p>— Starting with January 1, 2019, [product] will offer you to automatically change all tax rates from 18% to 20%. You'll only need to confirm it (that requires signing in to the admin panel). You can also update the rates manually — learn more <a href=\"https://forum.cs-cart.ru/t/cs-cart-i-izmeneniya-v-zakonodatelstve-1-yanvarya-2019-g/6816\">at our Russian forum</a>.</p>"

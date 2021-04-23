@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_dellin.po\n"
+"X-Crowdin-File-ID: 4216\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_dellin"
+msgid "Delovye Linii - Shipping Service ( dellin.ru )"
+msgstr "\"Деловые Линии\" — транспортная компания (dellin.ru)"
+
+msgctxt "Addons::description::rus_dellin"
+msgid "Ship your products with Delovye Linii ( dellin.ru )"
+msgstr "Доставка товаров с помощью сервиса \"Деловые Линии\" (dellin.ru)"
+
+msgctxt "Languages::shipping.rus_dellin.appkey"
+msgid "Application key"
+msgstr "Ключ приложения"
+
+msgctxt "Languages::shipping.rus_dellin.height"
+msgid "Height"
+msgstr "Высота"
+
+msgctxt "Languages::shipping.rus_dellin.length"
+msgid "Length"
+msgstr "Длина"
+
+msgctxt "Languages::shipping.rus_dellin.width"
+msgid "Width"
+msgstr "Ширина"
+
+msgctxt "Languages::carrier_dellin"
+msgid "Delovye Linii ( dellin.ru )"
+msgstr "Деловые Линии (dellin.ru)"
+
+msgctxt "Languages::shipping.rus_dellin.derival_door"
+msgid "Pick up at address"
+msgstr "Доставка от адреса"
+
+msgctxt "Languages::shipping.rus_dellin.arrival_door"
+msgid "Deliver to address"
+msgstr "Доставка до адреса"
+
+msgctxt "Languages::shipping.rus_dellin.package"
+msgid "Packaging"
+msgstr "Упаковка"
+
+msgctxt "Languages::shipping.rus_dellin.tough_packing"
+msgid "Wooden frame box"
+msgstr "Жесткая упаковка"
+
+msgctxt "Languages::shipping.rus_dellin.tough_box"
+msgid "Rigid box"
+msgstr "Жесткая коробка"
+
+msgctxt "Languages::shipping.rus_dellin.cardboard"
+msgid "Cardboard box"
+msgstr "Картонная коробка"
+
+msgctxt "Languages::shipping.rus_dellin.additional_package"
+msgid "Additional packaging"
+msgstr "Дополнительная упаковка"
+
+msgctxt "Languages::shipping.rus_dellin.pellicle"
+msgid "Bubble wrap"
+msgstr "Воздушно-пузырьковая пленка"
+
+msgctxt "Languages::shipping.rus_dellin.bag"
+msgid "Bag"
+msgstr "Мешок"
+
+msgctxt "Languages::shipping.rus_dellin.pallet"
+msgid "Pallet collar"
+msgstr "Паллетный борт"
+
+msgctxt "Languages::shipping.rus_dellin.derival_services"
+msgid "Services at pick-up"
+msgstr "Услуги от адреса"
+
+msgctxt "Languages::shipping.rus_dellin.arrival_services"
+msgid "Services at delivery"
+msgstr "Услуги до адреса"
+
+msgctxt "Languages::shipping.rus_dellin.lateral_loading"
+msgid "Side loading"
+msgstr "Боковая погрузка"
+
+msgctxt "Languages::shipping.rus_dellin.top_loading"
+msgid "Top loading"
+msgstr "Верхняя погрузка"
+
+msgctxt "Languages::shipping.rus_dellin.loadinglift"
+msgid "Loading lift"
+msgstr "Гидроборт"
+
+msgctxt "Languages::shipping.rus_dellin.manipulator"
+msgid "Manipulator"
+msgstr "Манипулятор"
+
+msgctxt "Languages::shipping.rus_dellin.open_car"
+msgid "Open car"
+msgstr "Открытая машина"
+
+msgctxt "Languages::shipping.rus_dellin.movable"
+msgid "Removing canopy"
+msgstr "Растентовка"
+
+msgctxt "Languages::shipping.rus_dellin.avia_delivery"
+msgid "Delivery by air"
+msgstr "Авиаперевозка"
+
+msgctxt "Languages::shipping.rus_dellin.small_delivery"
+msgid "Small-size delivery"
+msgstr "Малогабаритная доставка"
+
+msgctxt "Languages::shipping.rus_dellin.small_delivery.tooltip"
+msgid "Small-size shipments can be picked up and delivered to a specific address"
+msgstr "Малогабаритная доставка возможна от адреса до адреса"
+
+msgctxt "Languages::shipping.rus_dellin.express_delivery"
+msgid "Express delivery"
+msgstr "Экспресс-доставка"
+
+msgctxt "Languages::shipping.rus_dellin.express_delivery.tooltip"
+msgid "Express delivery is available from terminal to terminal"
+msgstr "Экспресс-доставка возможна от терминала до терминала"
+
+msgctxt "Languages::shipping.rus_dellin.header_shipping_terminal"
+msgid "Delivery terminal"
+msgstr "Терминал доставки"
+
+msgctxt "Languages::shipping.rus_dellin.login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "Languages::shipping.rus_dellin.login.tooltip"
+msgid "Account login at dellin.ru"
+msgstr "Логин от личного кабинета"
+
+msgctxt "Languages::shipping.rus_dellin.password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::shipping.rus_dellin.password.tooltip"
+msgid "Account password at dellin.ru"
+msgstr "Пароль от личного кабинета"
+
+msgctxt "Languages::shipping.rus_dellin.individual_calculator"
+msgid "Use individual calculator"
+msgstr "Индивидуальный калькулятор"
+
+msgctxt "Languages::shipping.rus_dellin.individual_calculator.tooltip"
+msgid "Use login and password from dellin.ru to calculate individual discounts"
+msgstr "Учет индивидуальных скидок в калькуляторе, с использованием логина и пароля личного кабинета"
+
+msgctxt "Languages::shipping.rus_dellin.file_not_upload"
+msgid "Couldn't receive correct data from dellin.ru. Please make sure the application key in the shipping method settings is correct."
+msgstr "Не удалось получить данные с dellin.ru. Проверьте, правильно ли введен ключ приложения в настройках способа доставки."
+

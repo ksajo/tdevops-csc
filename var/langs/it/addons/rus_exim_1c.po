@@ -1,0 +1,829 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+
+msgctxt "Addons::name::rus_exim_1c"
+msgid "CommerceML synchronizes your web store with 1C, MoySklad, Class365"
+msgstr "CommerceML synchronizes your web store with 1C, MoySklad, Class365"
+
+msgctxt "Addons::description::rus_exim_1c"
+msgid "It lets you import products to a store and export orders from a store in the CommerceML format."
+msgstr "It lets you import products to a store and export orders from a store in the CommerceML format."
+
+msgctxt "Languages::exim_1c"
+msgid "Data exchange in the CommerceML format"
+msgstr "Data exchange in the CommerceML format"
+
+msgctxt "Languages::privileges.exim_1c"
+msgid "Can edit"
+msgstr "Can edit"
+
+msgctxt "Languages::privilege_groups.exim_1c"
+msgid "CommerceML settings"
+msgstr "CommerceML settings"
+
+msgctxt "Languages::commerceml"
+msgid "CommerceML settings"
+msgstr "CommerceML settings"
+
+msgctxt "Languages::commerceml"
+msgid "CommerceML settings"
+msgstr "CommerceML settings"
+
+msgctxt "Languages::products_to_1c"
+msgid "Products in the CommerceML format"
+msgstr "Products in the CommerceML format"
+
+msgctxt "Languages::1c_orders_from"
+msgid "Orders in the CommerceML format"
+msgstr "Orders in the CommerceML format"
+
+msgctxt "Languages::1c_products_filename"
+msgid "1c_products"
+msgstr "1c_products"
+
+msgctxt "Languages::1c_orders_filename"
+msgid "1c_orders"
+msgstr "1c_orders"
+
+msgctxt "Languages::1c_classifier"
+msgid "Classifier (Product catalog)"
+msgstr "Classifier (Product catalog)"
+
+msgctxt "Languages::1c_catalog"
+msgid "Product catalog"
+msgstr "Product catalog"
+
+msgctxt "Languages::1c_export_selected"
+msgid "Export in the CommerceML format"
+msgstr "Export in the CommerceML format"
+
+msgctxt "Languages::1c_additional_options"
+msgid "Additional options"
+msgstr "Additional options"
+
+msgctxt "Languages::1c_export_currency"
+msgid "RUB"
+msgstr "RUB"
+
+msgctxt "Languages::error_exim_1c_incorrect_file"
+msgid "No order data in the uploaded file"
+msgstr "No order data in the uploaded file"
+
+msgctxt "Languages::1c_select_files"
+msgid "Please select or upload import file(s). The file(s) should contain order data in the CommerceML format"
+msgstr "Please select or upload import file(s). The file(s) should contain order data in the CommerceML format"
+
+msgctxt "Languages::cant_create_file"
+msgid "File could not be created"
+msgstr "File could not be created"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Base price"
+
+msgctxt "Languages::1c_prices"
+msgid "Import prices"
+msgstr "Import prices"
+
+msgctxt "Languages::base_price_empty"
+msgid "Please enter base price"
+msgstr "Please enter base price"
+
+msgctxt "Languages::correct_1c_price"
+msgid "Price is accepted"
+msgstr "Price is accepted"
+
+msgctxt "Languages::incorrect_1c_price"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::offers_not_found"
+msgid "offers.xml not found"
+msgstr "offers.xml not found"
+
+msgctxt "Languages::prices"
+msgid "Prices"
+msgstr "Prices"
+
+msgctxt "Languages::tax_1c"
+msgid "Tax for import"
+msgstr "Tax for import"
+
+msgctxt "Languages::tax_cscart"
+msgid "The tax in store"
+msgstr "The tax in store"
+
+msgctxt "Languages::usergroup_in_cscart"
+msgid "Usergroup in store"
+msgstr "Usergroup in store"
+
+msgctxt "Languages::price_in_1c"
+msgid "The price in store"
+msgstr "The price in store"
+
+msgctxt "Languages::exim_1c_information"
+msgid "In order to synchronize 1C with the store set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>website address (URL generation depends on whether secure connection is enabled in the admin panel): <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend to add a new administrator with the \"Import in the CommerceML format\" privilege."
+msgstr "In order to synchronize 1C with the store set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>website address (URL generation depends on whether secure connection is enabled in the admin panel): <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend to add a new administrator with the \"Import in the CommerceML format\" privilege."
+
+msgctxt "SettingsSections::rus_exim_1c::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_info"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_schema_version"
+msgid "Select schema version"
+msgstr "Select schema version"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_schema_version::2.05"
+msgid "2.05"
+msgstr "2.05"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_schema_version::2.07"
+msgid "2.07"
+msgstr "2.07"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_schema_version"
+msgid "If product features are exported into the \"Offers\" file only, use scheme 2.05. If product features are exported into the \"Import\" and \"Offers\" files, scheme 2.07 should be used"
+msgstr "If product features are exported into the \"Offers\" file only, use scheme 2.05. If product features are exported into the \"Import\" and \"Offers\" files, scheme 2.07 should be used"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_allow_import_categories"
+msgid "Allow to import categories"
+msgstr "Allow to import categories"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_allow_import_categories"
+msgid "If the \"Allow to import categories\" setting is enabled, the system will create categories according to imported groups of the nomenclature"
+msgstr "If the \"Allow to import categories\" setting is enabled, the system will create categories according to imported groups of the nomenclature"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_default_category"
+msgid "Common category for imported products"
+msgstr "Common category for imported products"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_default_category"
+msgid "If setting \"Allow import categories\" turn on and for import groups does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+msgstr "If setting \"Allow import categories\" turn on and for import groups does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_lang"
+msgid "Select default language"
+msgstr "Select default language"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_category_link_type"
+msgid "Select categories link type"
+msgstr "Select categories link type"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_category_link_type::main"
+msgid "Main"
+msgstr "Main"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_category_link_type::additional"
+msgid "Additional"
+msgstr "Additional"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_add_out_of_stock"
+msgid "Hide out-of-stock products"
+msgstr "Hide out-of-stock products"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_add_tax"
+msgid "Add tax to products"
+msgstr "Add tax to products"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_add_tax"
+msgid "The setting is used for scheme 2.05. If the setting is enabled, it is necessary to specify correspondence between taxes in the store and imported taxes in the \"Prices and taxes\" menu (\"Addons\" - \"CommerceML settings\" - \"Prices and taxes\")"
+msgstr "The setting is used for scheme 2.05. If the setting is enabled, it is necessary to specify correspondence between taxes in the store and imported taxes in the \"Prices and taxes\" menu (\"Addons\" - \"CommerceML settings\" - \"Prices and taxes\")"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_all_images_is_additional"
+msgid "Import images as additional ones"
+msgstr "Import images as additional ones"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_all_images_is_additional"
+msgid "Images exported from 1C will be added to products as additional ones"
+msgstr "Images exported from 1C will be added to products as additional ones"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_product_name"
+msgid "Use in the product name"
+msgstr "Use in the product name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_name::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_name::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_product_code"
+msgid "Use in the product article"
+msgstr "Use in the product article"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::art"
+msgid "Article"
+msgstr "Article"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::code"
+msgid "Code product"
+msgstr "Code product"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_product_code::bar"
+msgid "Bar code"
+msgstr "Bar code"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_full_description"
+msgid "Full description source"
+msgstr "Full description source"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::html_description"
+msgid "File description"
+msgstr "File description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_full_description::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_short_description"
+msgid "Short description source"
+msgstr "Short description source"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::html_description"
+msgid "File description"
+msgstr "File description"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_short_description::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_page_title"
+msgid "Use in the page name (SEO)"
+msgstr "Use in the page name (SEO)"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::not_import"
+msgid "Do not import"
+msgstr "Do not import"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_page_title::full_name"
+msgid "Full name"
+msgstr "Full name"
+
+msgctxt "SettingsSections::rus_exim_1c::import_restraction_features"
+msgid "Features"
+msgstr "Features"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_allow_import_features"
+msgid "Allow import features"
+msgstr "Allow import features"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_allow_import_features"
+msgid "The features will be exported with the select box type (i.e., Text, Number, Brand/Manufacturer)"
+msgstr "The features will be exported with the select box type (i.e., Text, Number, Brand/Manufacturer)"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_property_product"
+msgid "The name of the \"Promo text\" feature"
+msgstr "The name of the \"Promo text\" feature"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_property_product"
+msgid "The feature which value will be used as promo text. Max. number of characters is 255"
+msgstr "The feature which value will be used as promo text. Max. number of characters is 255"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_property_for_manufacturer"
+msgid "Property name for brand"
+msgstr "Property name for brand"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_property_for_manufacturer"
+msgid "Enter the feature value of the imported nomenclature which is used as the \"Brand\" field. It is used when the \"Nomenclature feature\" is chosen in the field of \"Source of the Brand field\""
+msgstr "Enter the feature value of the imported nomenclature which is used as the \"Brand\" field. It is used when the \"Nomenclature feature\" is chosen in the field of \"Source of the Brand field\""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_features"
+msgid "Settings for import features"
+msgstr "Settings for import features"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_deny_or_allow"
+msgid "The setting restricting/allowing feature export"
+msgstr "The setting restricting/allowing feature export"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::not_used"
+msgid "Not used function deny or allow property"
+msgstr "Not used function deny or allow property"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::import_only"
+msgid "Import only"
+msgstr "Import only"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_deny_or_allow::do_not_import"
+msgid "Do not upload"
+msgstr "Do not upload"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_features_list"
+msgid "The feature list to restrict/allow import"
+msgstr "The feature list to restrict/allow import"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_features_list"
+msgid "Each feature should be put into a new line"
+msgstr "Each feature should be put into a new line"
+
+msgctxt "SettingsSections::rus_exim_1c::features_options"
+msgid "Product offers"
+msgstr "Product offers"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_type_option"
+msgid "Option type"
+msgstr "Option type"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_type_option::S"
+msgid "Selectbox"
+msgstr "Selectbox"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_type_option::R"
+msgid "Radiogroup"
+msgstr "Radiogroup"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_mode_offers"
+msgid "Import product offers as"
+msgstr "Import product offers as"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_mode_offers"
+msgid "This setting determines how products and the combinations of their options will be created in CS-Cart. It also determines how the price of an option combination will be updated.<br /><ul><li>Variations (Recommended)</li><li>Combination of one option (Price as modifier)</li><li>Combination of multiple options (Price isn't imported)</li><li>Combination of options without modifiers (Same price)</li><li>Combination of global options (Price isn't imported)</li><li>Combination of one option (Same price)</li></ul>"
+msgstr "This setting determines how products and the combinations of their options will be created in CS-Cart. It also determines how the price of an option combination will be updated.<br /><ul><li>Variations (Recommended)</li><li>Combination of one option (Price as modifier)</li><li>Combination of multiple options (Price isn't imported)</li><li>Combination of options without modifiers (Same price)</li><li>Combination of global options (Price isn't imported)</li><li>Combination of one option (Same price)</li></ul>"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::standart"
+msgid "Standard way"
+msgstr "Standard way"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::global_option"
+msgid "By object properties"
+msgstr "By object properties"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_mode_offers::individual_option"
+msgid "As separate option variants"
+msgstr "As separate option variants"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_option_name"
+msgid "Option name"
+msgstr "Option name"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_option_name"
+msgid "The name of a product option for imported features. It is used for choosing the \"Combination of one option (Price as modifier)\" or \"Combination of one option (Same price)\" value in the \"Option import\" field"
+msgstr "The name of a product option for imported features. It is used for choosing the \"Combination of one option (Price as modifier)\" or \"Combination of one option (Same price)\" value in the \"Option import\" field"
+
+msgctxt "SettingsSections::rus_exim_1c::prices"
+msgid "Prices"
+msgstr "Prices"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_only_import_offers"
+msgid "Import quantity and prices only (the Offers file)"
+msgstr "Import quantity and prices only (the Offers file)"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_only_import_offers"
+msgid "It imports data from the Offers file only (prices and quantity)"
+msgstr "It imports data from the Offers file only (prices and quantity)"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_create_prices"
+msgid "Import several prices"
+msgstr "Import several prices"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_create_prices"
+msgid "If the setting in the \"Prices and Taxes\" menu is enabled, one should enter the names of imported prices which correspond with the prices in the webstore (\"Addons\" - \"CommerceML settings\" - \"Price and tax\")"
+msgstr "If the setting in the \"Prices and Taxes\" menu is enabled, one should enter the names of imported prices which correspond with the prices in the webstore (\"Addons\" - \"CommerceML settings\" - \"Price and tax\")"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_check_prices"
+msgid "Run the price debug mode"
+msgstr "Run the price debug mode"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_check_prices"
+msgid "If the setting is enabled, the prices in the webstore and the ones from the \"Offers.xml\" file will be checked for correspondence when exported. The result will be displayed on the \"Prices and Taxes\" page(\"Addons\" - \"CommerceML settings\" - \"Price and tax\")"
+msgstr "If the setting is enabled, the prices in the webstore and the ones from the \"Offers.xml\" file will be checked for correspondence when exported. The result will be displayed on the \"Prices and Taxes\" page(\"Addons\" - \"CommerceML settings\" - \"Price and tax\")"
+
+msgctxt "SettingsSections::rus_exim_1c::shipping_features"
+msgid "Shipping"
+msgstr "Shipping"
+
+msgctxt "Languages::exim_1c_information_shipping_features"
+msgid "Setting of shipping options of a product in the webstore based on the features of the exported nomenclature. <br /> Several features can be used for each product setting. In this case each product will have the value of the last found feature. <br /> Each feature should be added as a separate line into the field. <br /> The kind of the exported feature value should correspond with the kind of a product setting in the webstore"
+msgstr "Setting of shipping options of a product in the webstore based on the features of the exported nomenclature. <br /> Several features can be used for each product setting. In this case each product will have the value of the last found feature. <br /> Each feature should be added as a separate line into the field. <br /> The kind of the exported feature value should correspond with the kind of a product setting in the webstore"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_info_features"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_weight_property"
+msgid "Weight property"
+msgstr "Weight property"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_display_weight"
+msgid "Display weight as a feature"
+msgstr "Display weight as a feature"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_free_shipping"
+msgid "The name of the free shipping feature"
+msgstr "The name of the free shipping feature"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_free_shipping"
+msgid "The feature value used for free shipping should be set for \"true\" or \"false\""
+msgstr "The feature value used for free shipping should be set for \"true\" or \"false\""
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_display_free_shipping"
+msgid "Display free shipping as a feature"
+msgstr "Display free shipping as a feature"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_shipping_cost"
+msgid "Shipping cost"
+msgstr "Shipping cost"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_number_of_items"
+msgid "Items in a box"
+msgstr "Items in a box"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_length"
+msgid "Box length"
+msgstr "Box length"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_width"
+msgid "Box width"
+msgstr "Box width"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_box_height"
+msgid "Box height"
+msgstr "Box height"
+
+msgctxt "SettingsSections::rus_exim_1c::true_orders"
+msgid "Orders"
+msgstr "Orders"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_order_shipping"
+msgid "Display shipping fees for orders as a separate line in 1C"
+msgstr "Display shipping fees for orders as a separate line in 1C"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_order_shipping"
+msgid "Shipping fee for an order from the store will be added to 1C as a separate line"
+msgstr "Shipping fee for an order from the store will be added to 1C as a separate line"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_from_order_id"
+msgid "Start export from Order #"
+msgstr "Start export from Order #"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_from_order_id"
+msgid "If there is no value in the \"Start export from Order #\" setting, all orders will be exported regardless of the numbers"
+msgstr "If there is no value in the \"Start export from Order #\" setting, all orders will be exported regardless of the numbers"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_order_statuses"
+msgid "Order statuses"
+msgstr "Order statuses"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_order_statuses"
+msgid "It exports orders with chosen statuses. If no statuses are chosen, orders will be exported without them"
+msgstr "It exports orders with chosen statuses. If no statuses are chosen, orders will be exported without them"
+
+msgctxt "Languages::1c.external_id"
+msgid "External id"
+msgstr "External id"
+
+msgctxt "Languages::1c.data_1c"
+msgid "CommerceML import data"
+msgstr "CommerceML import data"
+
+msgctxt "SettingsOptions::rus_exim_1c::information"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::rus_exim_1c::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_exim_1c::information_shipping"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::rus_exim_1c::settings_shipping"
+msgid "Settings shipping features"
+msgstr "Settings shipping features"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_statuses"
+msgid "Import order statuses"
+msgstr "Import order statuses"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_statuses"
+msgid "Import order statuses in CommerceML format"
+msgstr "Import order statuses in CommerceML format"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_export_statuses"
+msgid "Export order statuses"
+msgstr "Export order statuses"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_export_statuses"
+msgid "Export order statuses in CommerceML format"
+msgstr "Export order statuses in CommerceML format"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_type"
+msgid "Type linking data products"
+msgstr "Type linking data products"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_type"
+msgid "Field is used for linking a products 1C with product store"
+msgstr "Field is used for linking a products 1C with product store"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_type::default"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_type::article"
+msgid "Article"
+msgstr "Article"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_type::barcode"
+msgid "Barcode"
+msgstr "Barcode"
+
+msgctxt "Languages::1c.update_1c"
+msgid "Update data product"
+msgstr "Update data product"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_products"
+msgid "Import product"
+msgstr "Import product"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_products"
+msgid "Import product from file import.xml"
+msgstr "Import product from file import.xml"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_products::all_products"
+msgid "All products"
+msgstr "All products"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_products::new_products"
+msgid "Only new products"
+msgstr "Only new products"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_products::new_update_products"
+msgid "New products and all prices"
+msgstr "New products and all prices"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_products::update_products"
+msgid "Only update products"
+msgstr "Only update products"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_products::not_import"
+msgid "Not import"
+msgstr "Not import"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_used_brand"
+msgid "Field used for brand"
+msgstr "Field used for brand"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_used_brand::not_used"
+msgid "Not used"
+msgstr "Not used"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_used_brand::field_brand"
+msgid "Field brand"
+msgstr "Field brand"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_used_brand::feature_product"
+msgid "Feature product"
+msgstr "Feature product"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_import_type_categories"
+msgid "Type linking data categories"
+msgstr "Type linking data categories"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_import_type_categories"
+msgid "Field is used for linking a categories 1C with product store"
+msgstr "Field is used for linking a categories 1C with product store"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_type_categories::default"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "SettingsVariants::rus_exim_1c::exim_1c_import_type_categories::name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "Languages::1c.category_external_id"
+msgid "Category external id 1C"
+msgstr "Category external id 1C"
+
+msgctxt "Languages::rus_exim_commerceml.export_field_commerceml"
+msgid "Field export in the orders file"
+msgstr "Field export in the orders file"
+
+msgctxt "Languages::rus_exim_commerceml.tooltip.export_field_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "Field export in the orders file in CommerceML format"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_product_options"
+msgid "Export product options"
+msgstr "Export product options"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_product_options"
+msgid "Export order with product options"
+msgstr "Export order with product options"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_option_price"
+msgid "Total price the product"
+msgstr "Total price the product"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_option_price"
+msgid "For products with the options will load price last the option product. Use the setting, if the price is the same for all options"
+msgstr "For products with the options will load price last the option product. Use the setting, if the price is the same for all options"
+
+msgctxt "Languages::addons.commerceml.name_currency"
+msgid "Name currency"
+msgstr "Name currency"
+
+msgctxt "Languages::addons.commerceml.commerceml_currency"
+msgid "Name commerceml currency"
+msgstr "Name commerceml currency"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_all_product_order"
+msgid "Export all product store to order"
+msgstr "Export all product store to order"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_all_product_order"
+msgid "Export in order all products with active status and include setting Update product. Orders store do not export when included setting"
+msgstr "Export in order all products with active status and include setting Update product. Orders store do not export when included setting"
+
+msgctxt "Languages::commerceml_settings"
+msgid "Commerceml store settings"
+msgstr "Commerceml store settings"
+
+msgctxt "Languages::commerceml_currencies"
+msgid "Comparison currencies"
+msgstr "Comparison currencies"
+
+msgctxt "Languages::addons.rus_exim_1c.setting_currencies"
+msgid "Comparison the used currencies"
+msgstr "Comparison the used currencies"
+
+msgctxt "Languages::commerceml_taxes"
+msgid "Сomparison of taxes"
+msgstr "Сomparison of taxes"
+
+msgctxt "Languages::addons.rus_exim_1c.settings_taxes"
+msgid "Comparison of taxes"
+msgstr "Comparison of taxes"
+
+msgctxt "Languages::commerceml_prices"
+msgid "Сomparison of prices"
+msgstr "Сomparison of prices"
+
+msgctxt "Languages::addons.rus_exim_1c.settings_price"
+msgid "Price settings"
+msgstr "Price settings"
+
+msgctxt "Languages::addons.rus_exim_1c.setings_same_price"
+msgid "Additional price settings"
+msgstr "Additional price settings"
+
+msgctxt "SettingsOptions::rus_exim_1c::exim_1c_count_import_data"
+msgid "Import products in batches of"
+msgstr "Import products in batches of"
+
+msgctxt "SettingsTooltips::rus_exim_1c::exim_1c_count_import_data"
+msgid "The maximum number of products imported in a batch. If there're more products, they'll be imported in separate batches during the same import procedure."
+msgstr "The maximum number of products imported in a batch. If there're more products, they'll be imported in separate batches during the same import procedure."
+
+msgctxt "Languages::addons.rus_exim_1c.message_price"
+msgid "For adding price include setting addons \"Import several prices\""
+msgstr "For adding price include setting addons \"Import several prices\""
+
+msgctxt "Languages::addons.rus_exim_1c.info_store"
+msgid "<br />When use a few store, for the exchange uses username and password administrator store with which communicates."
+msgstr "<br />When use a few store, for the exchange uses username and password administrator store with which communicates."
+
+msgctxt "Languages::addons.rus_exim_1c.exim_1c_select_default_category"
+msgid "Common category for imported products"
+msgstr "Common category for imported products"
+
+msgctxt "Languages::addons.rus_exim_1c.exim_1c_select_default_category_tooltip"
+msgid "If setting \"Allow import categories\" turn on and for import groups does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+msgstr "If setting \"Allow import categories\" turn on and for import groups does not find corresponding categories in store, then products added in select category. For corresponding products changed require category in store"
+
+msgctxt "Languages::addons.rus_exim_1c.message_currencies"
+msgid "Add currencies for import product"
+msgstr "Add currencies for import product"
+
+msgctxt "Languages::addons.rus_exim_1c.new_currency"
+msgid "New currency"
+msgstr "New currency"
+
+msgctxt "Languages::addons.rus_exim_1c.add_currency"
+msgid "Add currency"
+msgstr "Add currency"
+
+msgctxt "Languages::addons.commerceml.cart_currencies"
+msgid "Name cart currency"
+msgstr "Name cart currency"
+
+msgctxt "Languages::addons.commerceml.commerceml_currencies"
+msgid "Name currency in import file"
+msgstr "Name currency in import file"
+
+msgctxt "Languages::addons.commerceml.default_category"
+msgid "Default category"
+msgstr "Default category"
+
+msgctxt "Languages::addons.commerceml.default_category_tooltip"
+msgid "It is used if an imported product does not have a specified category."
+msgstr "It is used if an imported product does not have a specified category."
+
+msgctxt "Languages::addons.rus_exim_1c.information"
+msgid "In order to synchronize 1C with the store set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend to add a new administrator with the \"Import in the CommerceML format\" privilege."
+msgstr "In order to synchronize 1C with the store set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend to add a new administrator with the \"Import in the CommerceML format\" privilege."
+
+msgctxt "Languages::addons.rus_exim_1c.editing_currency"
+msgid "Editing currency: [currency_name]"
+msgstr "Editing currency: [currency_name]"
+
+msgctxt "Languages::addons.rus_exim_1c.options_information_intro"
+msgid "<p>The equivalent of product offers in [product] is called <a href=\"[docs_url]user_guide/manage_products/products/product_variations.html\" target=\"_blank\">product variations</a>. If the <a href=\"[addon_url]\" target=\"_blank\">Product Variations</a> add-on is installed and active, you won't need to do anything else to import offers.</b>"
+msgstr "<p>The equivalent of product offers in [product] is called <a href=\"[docs_url]user_guide/manage_products/products/product_variations.html\" target=\"_blank\">product variations</a>. If the <a href=\"[addon_url]\" target=\"_blank\">Product Variations</a> add-on is installed and active, you won't need to do anything else to import offers.</b>"
+
+msgctxt "Languages::addons.rus_exim_1c.options_information_legacy"
+msgid "<p>Here are the possible values for setting \"Import product offers as\":</p><ul><li><b>Variations (Recommended)</b>–the best way for importing products from ERP systems. You'll need the <b>Product Variations</b> add-on for that. If you previously used option combinations, then <a href=\"[convert_variations_url]\" target=\"_blank\">convert them to variations</a> and set \"Import product offers as: Variations\".</li><li><b>Combination of one option (Price as modifier)</b>–the created combination will include only one option (even if there are multiple options); the name of the option is taken from the setting below. Product price will be 0, and modifiers will act as a price.</li><li><b>Combination of multiple options (Price isn't imported)</b>–product options are imported, and combinations are created from them. The prices of a product and its combinations aren't updated.</li><li><b>Combination of options without modifiers (Same price)</b>–product options are imported, and combinations are created from them. The modifiers of option variants are empty, and product price is taken from the last imported combination.</li><li><b>Combination of global options (Price isn't imported)</b>–lobal options are imported, and combinations are created from them. The prices of a product and its combinations aren't updated.</li><li><b>Combination of one option (Same price)</b>–the created combination will include only one option (even if there are multiple options); the name of the option is taken from the setting below. Product price is taken from the last imported combination.</li></ul>"
+msgstr "<p>Here are the possible values for setting \"Import product offers as\":</p><ul><li><b>Variations (Recommended)</b>–the best way for importing products from ERP systems. You'll need the <b>Product Variations</b> add-on for that. If you previously used option combinations, then <a href=\"[convert_variations_url]\" target=\"_blank\">convert them to variations</a> and set \"Import product offers as: Variations\".</li><li><b>Combination of one option (Price as modifier)</b>–the created combination will include only one option (even if there are multiple options); the name of the option is taken from the setting below. Product price will be 0, and modifiers will act as a price.</li><li><b>Combination of multiple options (Price isn't imported)</b>–product options are imported, and combinations are created from them. The prices of a product and its combinations aren't updated.</li><li><b>Combination of options without modifiers (Same price)</b>–product options are imported, and combinations are created from them. The modifiers of option variants are empty, and product price is taken from the last imported combination.</li><li><b>Combination of global options (Price isn't imported)</b>–lobal options are imported, and combinations are created from them. The prices of a product and its combinations aren't updated.</li><li><b>Combination of one option (Same price)</b>–the created combination will include only one option (even if there are multiple options); the name of the option is taken from the setting below. Product price is taken from the last imported combination.</li></ul>"
+
+msgctxt "Languages::addons.rus_exim_1c.variations"
+msgid "Variations (Recommended)"
+msgstr "Variations (Recommended)"
+
+msgctxt "Languages::addons.rus_exim_1c.standart"
+msgid "Combination of one option (Price as modifier)"
+msgstr "Combination of one option (Price as modifier)"
+
+msgctxt "Languages::addons.rus_exim_1c.individual_option"
+msgid "Combination of multiple options (Price isn't imported)"
+msgstr "Combination of multiple options (Price isn't imported)"
+
+msgctxt "Languages::addons.rus_exim_1c.same_option"
+msgid "Combination of options without modifiers (Same price)"
+msgstr "Combination of options without modifiers (Same price)"
+
+msgctxt "Languages::addons.rus_exim_1c.global_option"
+msgid "Combination of global options (Price isn't imported)"
+msgstr "Combination of global options (Price isn't imported)"
+
+msgctxt "Languages::addons.rus_exim_1c.option_name"
+msgid "Option name"
+msgstr "Option name"
+
+msgctxt "Languages::external_id"
+msgid "External id"
+msgstr "External id"
+
+msgctxt "Languages::update_1c"
+msgid "Update 1c"
+msgstr "Update 1c"
+
+msgctxt "Languages::addons.rus_exim_1c.standart_general_price"
+msgid "Combination of one option (Same price)"
+msgstr "Combination of one option (Same price)"
+
+msgctxt "Languages::rus_exim_1c.store_locator_external_id"
+msgid "Warehouse external id 1C"
+msgstr "Warehouse external id 1C"
+
+msgctxt "Languages::rus_exim_1c.store_locator_external_id_tooltip"
+msgid "If you enter multiple external IDs, quantities from all of them will be summed at this store or warehouse."
+msgstr "If you enter multiple external IDs, quantities from all of them will be summed at this store or warehouse."
+
+msgctxt "Languages::rus_exim_1c.product_feature_variant_external_id"
+msgid "External 1C ID"
+msgstr "External 1C ID"
+
+msgctxt "Languages::rus_exim_1c.product_feature_external_id"
+msgid "Feature external 1C ID"
+msgstr "Feature external 1C ID"
+
+msgctxt "Languages::rus_exim_1c.store_locator_external_id_already_used"
+msgid "External ID is already used by another store or warehouse. One external ID can give its quantity only to one store/warehouse. To ensure correct quantity after import, please remove the following external IDs either from here, or from the specified stores/warehouses:</br> [warehouses_list]"
+msgstr "External ID is already used by another store or warehouse. One external ID can give its quantity only to one store/warehouse. To ensure correct quantity after import, please remove the following external IDs either from here, or from the specified stores/warehouses:</br> [warehouses_list]"
+
+msgctxt "Languages::rus_exim_1c.store_locator_already_used_external_id_link"
+msgid "<b>[external_id]</b> -> <a href=\"[warehouse_link]\">[warehouse_name]</a></br>"
+msgstr "<b>[external_id]</b> -> <a href=\"[warehouse_link]\">[warehouse_name]</a></br>"
+
+msgctxt "Languages::rus_exim_1c.confirmation_deleting"
+msgid "Uninstalling this add-on will delete the links between entities in your CRM and CS-Cart. If you're planning to use the new CommerceML add-on, please install and activate the new add-on first. While the new add-on is active, you can keep the old add-on disabled without uninstalling it. This will help if you decide to use the old add-on again in the future.\n\rAre you sure you want to uninstall this add-on?"
+msgstr "Uninstalling this add-on will delete the links between entities in your CRM and CS-Cart. If you're planning to use the new CommerceML add-on, please install and activate the new add-on first. While the new add-on is active, you can keep the old add-on disabled without uninstalling it. This will help if you decide to use the old add-on again in the future.\n\rAre you sure you want to uninstall this add-on?"

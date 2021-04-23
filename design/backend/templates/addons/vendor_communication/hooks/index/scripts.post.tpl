@@ -1,0 +1,1 @@
+{script src="js/addons/vendor_communication/vendor_communication.js"}

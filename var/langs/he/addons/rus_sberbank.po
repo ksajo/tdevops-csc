@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+
+msgctxt "Addons::name::rus_sberbank"
+msgid "Russian localization — Sberbank"
+msgstr "Russian localization — Sberbank"
+
+msgctxt "Addons::description::rus_sberbank"
+msgid "Payment acceptance via Sberbank Online"
+msgstr "Payment acceptance via Sberbank Online"
+
+msgctxt "Languages::addons.rus_sberbank.login"
+msgid "Login API"
+msgstr "Login API"
+
+msgctxt "Languages::addons.rus_sberbank.password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::addons.rus_sberbank.logging"
+msgid "Write log"
+msgstr "Write log"
+
+msgctxt "Languages::addons.rus_sberbank.wrong_amount"
+msgid "The order total doesn't match the sum that was paid. Please contact the store administration about this your order."
+msgstr "The order total doesn't match the sum that was paid. Please contact the store administration about this your order."

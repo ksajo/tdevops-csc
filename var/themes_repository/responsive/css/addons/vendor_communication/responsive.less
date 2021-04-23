@@ -1,0 +1,108 @@
+/* ==========================================================================
+Vendor communication Responsive
+========================================================================== */
+
+/* Responsive: Tablet and phone
+========================================================================== */
+
+@media (max-width: 979px) {
+    // Chat
+    .ty-vendor-communication-post__wrapper {
+        min-width: 690px;
+        margin-bottom: 140px;
+    }
+
+    // Tickets
+    .ty-vendor-communication-search__company {
+        min-width: auto;
+    }
+}
+
+/* Responsive: Landscape phone to desktop/tablet
+========================================================================== */
+
+@media (max-width: 767px) {
+    // Chat
+    .ty-vendor-communication-post {
+
+        &__wrapper {
+            min-width: 260px;
+        }
+        &__img {
+            width: 28px;
+
+            .ty-icon-user {
+                width: 28px;
+                height: 28px;
+                font-size: 15px;
+            }
+        }
+        &__info {
+            padding-left: 10px;
+        }
+        &__author {
+            display: block;
+        }
+    }
+    .ty-vendor-communication-view-thread .object-container {
+        max-height: 490px;
+    }
+
+    // New message
+    .ty-vendor-communication-new-message {
+        padding: 10px 20px;
+
+        &__message, &__buttons {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 10px;            
+            width: ~"calc(100% - 40px)";
+        }
+        &__message textarea{
+            height: 65px;
+        }
+    }
+
+    // Tickets
+    .ty-vendor-communication-search__message div {
+        width: 100%;
+        padding-bottom: 6px;
+    }
+
+    // Contact vendor button
+    .ty-product-block .ty-vendor-communication__post-write {
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 6px;
+        display: block;
+    }
+
+    // New message dialog
+    .ty-vendor-communication-product-info {
+
+        &-container,
+        .vendor-communication-popup-error-box {
+            max-width: 100%;
+        }
+        &-header {
+            padding: 0;
+            display: block;
+            max-width: 100%;
+        }
+        &-image {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+/* Responsive: Landscape phone to desktop/tablet: Landscape orientation
+========================================================================== */
+
+@media (max-width: 767px) and (orientation:landscape) {
+    .ty-vendor-communication-view-thread .object-container {
+        max-height: 240px;
+    }
+}
+
+/* /Vendor communication responsive */

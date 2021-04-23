@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>rus_payments</id>
+    <version>2.1.0</version>
+    <priority>4500</priority>
+	<position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+	<status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+
+    <default_language>ru</default_language>
+
+    <functions>
+        <item for="install">fn_rus_payments_install</item>
+        <item for="uninstall">fn_rus_payments_uninstall</item>
+    </functions>
+
+</addon>

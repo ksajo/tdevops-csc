@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_pecom</id>
+    <version>1.0.0</version>
+    <priority>4500</priority>
+    <position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <status>active</status>
+    <default_language>ru</default_language>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:rus_pecom_cities_link` (
+            `city_id` int(8) unsigned NOT NULL DEFAULT '0',
+            `pecom_id` varchar(32) NOT NULL DEFAULT '',
+            PRIMARY KEY (`city_id`),
+            KEY `pecom_id` (`pecom_id`)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_pecom_cities_link</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_pecom_install</item>
+        <item for="uninstall">fn_rus_pecom_uninstall</item>
+    </functions>
+</addon>

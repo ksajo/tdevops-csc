@@ -1,0 +1,133 @@
+.litecheckout {
+
+    .ty-sdek-list-office {
+        max-height: 455px; //145*3 + 10*2
+    }
+
+    .ty-sdek-office-search {
+        width: 100%;
+
+        .ty-search-office {
+            width: 100%;
+
+            height: 44px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            border: solid 1px 1px solid rgba(180,180,180,0.472);
+
+            &:hover {
+                border-color: #465f73;
+            }
+            &:focus {
+                border: solid 1px #4fbe31;
+                outline: 0;
+                box-shadow: 0 0 0 4px rgba(79,190,49,0.2), 0 0 0 1px #4fbe31;
+            }
+        }
+    }
+
+    .ty-sdek-checkout-select-office {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-left: -6.5px;
+        margin-right: -6.5px;
+        width: ~"calc(100% + 13px)";
+    }
+
+    .ty-sdek-office {
+        width: 33.3%;
+        flex-basis: 33.3%;
+        padding: 0 6.5px;
+
+        min-height: 145px;
+
+        display: none;
+
+        &__apply {
+            display: flex;
+        }
+        .ty-sdek-store__label {
+            display: flex;
+            width: 100%;
+
+            border: solid 1px #acbdcd;
+            border-radius: 5px;
+
+            .ty-one-office__name {
+                padding: 0 20px;
+
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            &:hover {
+                border-color: #465f73;
+            }
+        }
+
+        &__selected {
+            background-color: transparent;
+
+            order: 0 !important;
+
+            .ty-sdek-store__label {
+                border: solid 1px #4fbe31;
+                box-shadow: 0 0 0 4px rgba(79,190,49,0.2), 0 0 0 1px #4fbe31;
+            }
+        }
+
+        // remove 'ok' icon
+        .ty-icon-ok {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        // fix styled microformat
+        .cm-sdek-view-location {
+            padding: 0px;
+        }
+
+        // styles for outpost information block
+        .ty-one-office {
+            &__name {
+                font-size: 16px;
+                color: #4fbe31;
+                font-weight: 400;
+            }
+
+            &__address {
+                font-size: 16px;
+                color: #343434;
+            }
+
+            &__phone {
+                display: none;
+            }
+            
+            &__worktime, &__note {
+                font-size: 12px;
+                color: #6c6c6c;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .litecheckout {
+        .ty-sdek-office {
+            flex-basis: 100%;
+            max-width: unset;
+
+
+            &--clearfix {
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

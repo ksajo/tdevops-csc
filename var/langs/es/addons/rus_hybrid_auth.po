@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::rus_hybrid_auth"
+msgid "Social Login: Russian Social Networks"
+msgstr "Social Login: Russian Social Networks"
+
+msgctxt "Addons::description::rus_hybrid_auth"
+msgid "Adds the support of Russian social networks to the Social Login add-on"
+msgstr "Adds the support of Russian social networks to the Social Login add-on"
+
+msgctxt "Languages::rus_hybrid_auth.instruction_vkontakte"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://vk.com/apps?act=manage' target='_blank'>Vk Developers</a>."
+msgstr "Use the application ID and Secret key that you've received after creating an application on <a href='https://vk.com/apps?act=manage' target='_blank'>Vk Developers</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_yandex"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://tech.yandex.ru/oauth/' target='_blank'>Yandex OAuth server</a>."
+msgstr "Use the application ID and Secret key that you've received after creating an application on <a href='https://tech.yandex.ru/oauth/' target='_blank'>Yandex OAuth server</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_mailru"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='http://api.mail.ru/sites/' target='_blank'>Mail.Ru Sites</a>."
+msgstr "Use the application ID and Secret key that you've received after creating an application on <a href='http://api.mail.ru/sites/' target='_blank'>Mail.Ru Sites</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_odnoklassniki"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='http://www.odnoklassniki.ru/devaccess' target='_blank'>Sites</a>."
+msgstr "Use the application ID and Secret key that you've received after creating an application on <a href='http://www.odnoklassniki.ru/devaccess' target='_blank'>Sites</a>."

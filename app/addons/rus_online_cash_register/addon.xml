@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_online_cash_register</id>
+    <version>1.0</version>
+    <priority>1000</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    
+    <compatibility>
+        <core_version>
+            <min>4.3.9</min>
+        </core_version>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="currency">
+                        <type>selectbox</type>
+                        <default_value>RUB</default_value>
+                    </item>
+                    <item id="statuses_prepaid">
+                        <type>multiple select</type>
+                    </item>
+                    <item id="statuses_paid">
+                        <type>multiple select</type>
+                    </item>
+                    <item id="statuses_refund">
+                        <type>multiple select</type>
+                    </item>
+                    <item id="sno">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="extra">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+            <section id="atol">
+                <items>
+                    <item id="api_version">
+                      <type>selectbox</type>
+                      <default_value>4</default_value>
+                      <variants>
+                        <item id="3"></item>
+                        <item id="4"></item>
+                      </variants>
+                    </item>
+                    <item id="mode">
+                      <type>selectbox</type>
+                      <variants>
+                        <item id="live"></item>
+                        <item id="test"></item>
+                      </variants>
+                    </item>
+                    <item id="atol_inn">
+                        <type>text</type>
+                    </item>
+                    <item id="atol_group_code">
+                        <type>text</type>
+                    </item>
+                    <item id="atol_payment_address">
+                        <type>text</type>
+                    </item>
+                    <item id="atol_login">
+                        <type>text</type>
+                    </item>
+                    <item id="atol_password">
+                        <type>text</type>
+                    </item>
+                    <item id="atol_test">
+                        <type>template</type>
+                        <default_value>atol.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS `?:rus_online_cash_register_request_logs`;</item>
+        <item>DROP TABLE IF EXISTS `?:rus_online_cash_register_receipts`;</item>
+        <item>DROP TABLE IF EXISTS `?:rus_online_cash_register_order_data`;</item>
+        <item>
+            CREATE TABLE `?:rus_online_cash_register_request_logs` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `url` varchar(255) NOT NULL DEFAULT '',
+            `status` tinyint(1) unsigned NOT NULL,
+            `request` text,
+            `response` text,
+            `message` varchar(255) NULL,
+            `timestamp` int(11) NOT NULL,
+            PRIMARY KEY (`id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE `?:rus_online_cash_register_receipts` (
+            `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+            `object_type` varchar(16) NOT NULL DEFAULT '',
+            `object_id` int(11) NOT NULL,
+            `type` tinyint(1) unsigned NOT NULL,
+            `status` tinyint(1) unsigned NOT NULL,
+            `status_message` varchar(255) DEFAULT NULL,
+            `email` varchar(32) DEFAULT NULL,
+            `phone` varchar(32) DEFAULT NULL,
+            `sno` varchar(32) DEFAULT NULL,
+            `timestamp` int(11) DEFAULT NULL,
+            `items` text,
+            `payments` text,
+            `uuid` varchar(128) NULL,
+            `fiscal_receipt_number` varchar(32) DEFAULT NULL,
+            `shift_number` varchar(32) DEFAULT NULL,
+            `receipt_timestamp` int(11) DEFAULT NULL,
+            `receipt_total` decimal(12,2) DEFAULT NULL,
+            `fn_number` varchar(32) DEFAULT NULL,
+            `ecr_registration_number` varchar(32) DEFAULT NULL,
+            `fiscal_document_number` varchar(32) DEFAULT NULL,
+            `fiscal_document_attribute` varchar(32) DEFAULT NULL,
+            `created_timestamp` int(11) DEFAULT NULL,
+            `updated_timestamp` int(11) DEFAULT NULL,
+            `currency` varchar(16) DEFAULT '',
+            PRIMARY KEY (`id`),
+            UNIQUE KEY (`uuid`),
+            KEY `object_idx` (`object_type`,`object_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item>
+            CREATE TABLE `?:rus_online_cash_register_order_data` (
+            `order_id` int(11) unsigned NOT NULL,
+            `status` tinyint(1) unsigned NOT NULL,
+            `timestamp` int(11) unsigned DEFAULT NULL,
+            PRIMARY KEY (`order_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rus_online_cash_register_request_logs`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rus_online_cash_register_receipts`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:rus_online_cash_register_order_data`;</item>
+    </queries>
+</addon>

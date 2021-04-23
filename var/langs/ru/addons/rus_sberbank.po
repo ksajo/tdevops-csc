@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_sberbank.po\n"
+"X-Crowdin-File-ID: 4240\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_sberbank"
+msgid "Russian localization — Sberbank"
+msgstr "Сбербанк Онлайн"
+
+msgctxt "Addons::description::rus_sberbank"
+msgid "Payment acceptance via Sberbank Online"
+msgstr "Прием платежей через Сбербанк Онлайн"
+
+msgctxt "Languages::addons.rus_sberbank.login"
+msgid "Login API"
+msgstr "API логин"
+
+msgctxt "Languages::addons.rus_sberbank.password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::addons.rus_sberbank.logging"
+msgid "Write log"
+msgstr "Писать логи"
+
+msgctxt "Languages::addons.rus_sberbank.wrong_amount"
+msgid "The order total doesn't match the sum that was paid. Please contact the store administration about this your order."
+msgstr "Сумма заказа не совпадает с оплаченной суммой. Пожалуйста, свяжитесь с администратором магазина по поводу данного заказа."
+

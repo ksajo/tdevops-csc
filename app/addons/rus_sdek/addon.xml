@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_sdek</id>
+    <version>2.1.0</version>
+    <priority>4700</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>rus_taxes,rus_cities</dependencies>
+        <core_version>
+            <min>4.3.9</min>
+        </core_version>
+    </compatibility>
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_cities_link</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_products</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_register</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_status</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_history_status</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_call_recipient</item>
+        <item for="install">DROP TABLE IF EXISTS ?:rus_sdek_call_courier</item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_cities_link (
+            city_id int(11) unsigned NOT NULL DEFAULT '0',
+            sdek_city_code varchar(32) NOT NULL DEFAULT '',
+            zipcode TEXT NOT NULL DEFAULT '',
+            PRIMARY KEY (sdek_city_code),
+            KEY city_id (city_id)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_products (
+            id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            register_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            ware_key mediumint(8) unsigned NOT NULL DEFAULT '0',
+            product varchar(255) NOT NULL DEFAULT '',
+            price decimal(12,2)	NOT NULL DEFAULT '0',
+            amount mediumint(8) NOT NULL,
+            total decimal(12,2)	NOT NULL DEFAULT '0',
+            weight decimal(12,2) NOT NULL DEFAULT '0',
+            PRIMARY KEY (id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_register (
+            register_id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            data text NOT NULL,
+            data_xml text NOT NULL,
+            timestamp int(11) unsigned NOT NULL DEFAULT '0',
+            status char(1) NOT NULL DEFAULT '',
+            tariff int(11) NOT NULL,
+            dispatch_number int(11) NOT NULL,
+            address_pvz varchar(8) NOT NULL DEFAULT '',
+            address varchar(256) NOT NULL DEFAULT '',
+            file_sdek varchar(256) NOT NULL,
+            notes varchar(256) NOT NULL DEFAULT ' ',
+            barcode varchar(32) NOT NULL DEFAULT '',
+            use_product char(1) NOT NULL DEFAULT 'Y',
+            use_imposed char(1) NOT NULL DEFAULT 'N',
+            cash_delivery decimal(12,2) NOT NULL DEFAULT '0.00',
+            PRIMARY KEY (register_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_status (
+            id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            status_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            timestamp int(11) unsigned NOT NULL DEFAULT '0',
+            status varchar(256) NOT NULL,
+            city_code int(11) NOT NULL,
+            PRIMARY KEY (id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_history_status (
+            id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            status_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            timestamp int(11) unsigned NOT NULL DEFAULT '0',
+            status varchar(256) NOT NULL,
+            city_code int(11) NOT NULL,
+            PRIMARY KEY (id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_call_courier (
+            call_courier_id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            timestamp int(11) unsigned NOT NULL DEFAULT '0',
+            call_courier_date varchar(10) NOT NULL DEFAULT '',
+            timebag varchar(8) NOT NULL DEFAULT '',
+            timeend varchar(8) NOT NULL DEFAULT '',
+            lunch_timebag varchar(8) NOT NULL DEFAULT '',
+            lunch_timeend varchar(8) NOT NULL DEFAULT '',
+            weight decimal(12,2) NOT NULL DEFAULT '0',
+            comment_courier varchar(256) NOT NULL DEFAULT '',
+            PRIMARY KEY (call_courier_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:rus_sdek_call_recipient (
+            call_id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+            order_id mediumint(8) NOT NULL,
+            shipment_id mediumint(8) NOT NULL,
+            timestamp int(11) unsigned NOT NULL DEFAULT '0',
+            shipment_date varchar(10) NOT NULL DEFAULT '',
+            timebag varchar(8) NOT NULL DEFAULT '',
+            timeend varchar(8) NOT NULL DEFAULT '',
+            recipient_name varchar(256) NOT NULL DEFAULT '',
+            phone varchar(32) NOT NULL DEFAULT '',
+            recipient_cost decimal(12,2) NOT NULL DEFAULT '0',
+            address varchar(256) NOT NULL DEFAULT '',
+            pvz_code varchar(8) NOT NULL DEFAULT '',
+            call_comment varchar(256) NOT NULL DEFAULT '',
+            PRIMARY KEY (call_id)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_cities_link</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_products</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_register</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_status</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_history_status</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_call_recipient</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_sdek_call_courier</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_sdek_install</item>
+        <item for="uninstall">fn_rus_sdek_uninstall</item>
+    </functions>
+</addon>

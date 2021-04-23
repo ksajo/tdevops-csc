@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/yandex_delivery_v3.po\n"
+"X-Crowdin-File-ID: 4202\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::yandex_delivery_v3"
+msgid "Yandex.Delivery"
+msgstr "Яндекс.Доставка"
+
+msgctxt "Addons::description::yandex_delivery_v3"
+msgid "Integrates your store with the Yandex.Delivery service."
+msgstr "Интеграция магазина с Яндекс.Доставкой."
+
+msgctxt "SettingsSections::yandex_delivery_v3::general"
+msgid "General"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::yandex_delivery_v3::oauth_key"
+msgid "Oauth key"
+msgstr "Токен авторизации (Oauth)"
+
+msgctxt "SettingsTooltips::yandex_delivery_v3::oauth_key"
+msgid "Learn how to get it in <a href='https://yandex.com/dev/delivery-3/doc/dg/concepts/access.html/#access__token' target='_blank'>Yandex documentation</a>"
+msgstr "Получение описано <a href='https://yandex.ru/dev/delivery-3/doc/dg/concepts/access.html/#access__token' target='_blank'>в документации Яндекса</a>"
+
+msgctxt "SettingsOptions::yandex_delivery_v3::cabinet_id"
+msgid "Account ID"
+msgstr "ID учётной записи"
+
+msgctxt "SettingsTooltips::yandex_delivery_v3::cabinet_id"
+msgid "It's called \"ID Store\" in your Yandex account"
+msgstr "В учётной записи Яндекса это называется \"ID магазина\""
+
+msgctxt "SettingsOptions::yandex_delivery_v3::sender_ids"
+msgid "Store identifiers from Yandex"
+msgstr "Идентификаторы магазинов из Яндекса"
+
+msgctxt "SettingsTooltips::yandex_delivery_v3::sender_ids"
+msgid "The IDs (and optionally, names) of the stores you created in your Yandex.Delivery account. Write every ID or ID+Name pair in a new line. Examples (without quotes): '123456789-Store at 13th St.' or just '123456789'."
+msgstr "ID (и если нужно, названия) магазинов, которые вы создали в личном кабинете Яндекс.Доставки. Пишите каждый ID или пару ID+название в новой строке. Примеры (без кавычек): '123456789-Магазин на Ленина' или просто '123456789'."
+
+msgctxt "SettingsOptions::yandex_delivery_v3::warehouse_ids"
+msgid "Warehouse identifiers from Yandex"
+msgstr "Идентификаторы складов из Яндекса"
+
+msgctxt "SettingsTooltips::yandex_delivery_v3::warehouse_ids"
+msgid "The IDs (and optionally, names) of the warehouses you created in your Yandex.Delivery account. Write every ID or ID+Name pair in a new line. Examples (without quotes): '123456789-Warehouse at 27th St.' or just '123456789'"
+msgstr "ID (и если нужно, названия) складов, которые вы создали в личном кабинете Яндекс.Доставки. Пишите каждый ID или пару ID+название в новой строке. Примеры (без кавычек): '123456789-Склад на Ленина' или просто '123456789'."
+
+msgctxt "SettingsOptions::yandex_delivery_v3::autoconfirm"
+msgid "Confirm orders in Yandex.Delivery automatically"
+msgstr "Подтверждайте заказы в Яндекс.Доставке автоматически"
+
+msgctxt "SettingsTooltips::yandex_delivery_v3::autoconfirm"
+msgid "Without this setting orders will be sent to Yandex.Delivery as drafts."
+msgstr "Без этой настройки заказы будут отправляться в Яндекс.Доставку как черновики."
+
+msgctxt "Languages::carrier_yandex_delivery"
+msgid "Yandex.Delivery"
+msgstr "Яндекс.Доставка"
+
+msgctxt "Languages::yandex_delivery_v3.inner_order"
+msgid "Order number in Yandex"
+msgstr "Номер заказа в Яндексе"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_information"
+msgid "Shipment information"
+msgstr "Информация об отгрузке"
+
+msgctxt "Languages::yandex_delivery_v3.customer_information"
+msgid "Customer information"
+msgstr "Информация о покупателе"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_type"
+msgid "Shipment type"
+msgstr "Тип отгрузки"
+
+msgctxt "Languages::yandex_delivery_v3.yandex_warehouse"
+msgid "Warehouse in Yandex.Delivery"
+msgstr "Склад в Яндекс.Доставке"
+
+msgctxt "Languages::yandex_delivery_v3.yandex_store"
+msgid "Store in Yandex.Delivery"
+msgstr "Магазин в Яндекс.Доставке"
+
+msgctxt "Languages::yandex_delivery_v3.type_delivery"
+msgid "Type of delivery"
+msgstr "Тип доставки"
+
+msgctxt "Languages::yandex_delivery_v3.courier"
+msgid "Courier"
+msgstr "Курьер"
+
+msgctxt "Languages::yandex_delivery_v3.pickup"
+msgid "Pickup"
+msgstr "Самовывоз"
+
+msgctxt "Languages::yandex_delivery_v3.other_info"
+msgid "Other info"
+msgstr "Другая информация"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_import"
+msgid "By yourself"
+msgstr "Самостоятельно"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_withdraw"
+msgid "By courier of delivery service"
+msgstr "Курьером из службы доставки"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_date"
+msgid "Shipment date"
+msgstr "Дата отгрузки"
+
+msgctxt "Languages::yandex_delivery_v3.assessed_value"
+msgid "Assessed value"
+msgstr "Оценочная стоимость"
+
+msgctxt "Languages::yandex_delivery_v3.amount_prepaid"
+msgid "Amount prepaid"
+msgstr "Размер предоплаты"
+
+msgctxt "Languages::yandex_delivery_v3.yandex_sender"
+msgid "Store"
+msgstr "Магазин"
+
+msgctxt "Languages::yandex_delivery_v3.yandex_delivery_form"
+msgid "Create Yandex.Delivery order"
+msgstr "Создать заказ в Яндекс.Доставке"
+
+msgctxt "Languages::yandex_delivery_v3.add_yandex_order"
+msgid "Place a Yandex.Delivery order"
+msgstr "Разместить заказ в Яндекс.Доставке"
+
+msgctxt "Languages::yandex_delivery_v3.all_day"
+msgid "Day and night"
+msgstr "Круглосуточно"
+
+msgctxt "Languages::yandex_delivery_v3.day_every.schedule_interval"
+msgid "Daily: [from]&ndash;[to]"
+msgstr "Ежедневно: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery_v3.day_every.schedule_single"
+msgid "Daily: [schedule]"
+msgstr "Ежедневно: [schedule]"
+
+msgctxt "Languages::yandex_delivery_v3.every_day"
+msgid "Daily"
+msgstr "Ежедневно"
+
+msgctxt "Languages::yandex_delivery_v3.weekend"
+msgid "Weekend"
+msgstr "По выходным"
+
+msgctxt "Languages::yandex_delivery_v3.pickuppoint"
+msgid "Pickup point"
+msgstr "Пункт самовывоза"
+
+msgctxt "Languages::yandex_delivery_v3.status_delivery"
+msgid "Delivery status"
+msgstr "Статус доставки"
+
+msgctxt "Languages::yandex_delivery_v3.courier"
+msgid "Courier"
+msgstr "Курьер"
+
+msgctxt "Languages::yandex_delivery_v3.submit_order_auto"
+msgid "Confirm orders automatically"
+msgstr "Автоматически подтверждать заказ"
+
+msgctxt "Languages::yandex_delivery_v3.submit_order"
+msgid "If you don't confirm orders, they'll be sent to Yandex.Delivery account with the DRAFT status. The money won't be taken until you confirm the order."
+msgstr "Если не подтверждать заказ автоматически, то он создастся в личном кабинете Яндекс.Доставки как со статусом \"Черновик\", и деньги за него не спишутся до подтверждения."
+
+msgctxt "Languages::yandex_delivery_v3.courier_delivery"
+msgid "By [delivery] courier"
+msgstr "Курьером [delivery]"
+
+msgctxt "Languages::yandex_delivery_v3.day_single.schedule_closed"
+msgid "[day]: Closed"
+msgstr "[day]: Закрыто"
+
+msgctxt "Languages::yandex_delivery_v3.day_single.schedule_single"
+msgid "[day]: [schedule]"
+msgstr "[day]: [schedule]"
+
+msgctxt "Languages::yandex_delivery_v3.day_single.schedule_interval"
+msgid "[day]: [from]&ndash;[to]"
+msgstr "[day]: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery_v3.day_interval.schedule_closed"
+msgid "[first_day]&ndash;[last_day]: Closed"
+msgstr "[first_day]&ndash;[last_day]: Closed"
+
+msgctxt "Languages::yandex_delivery_v3.day_interval.schedule_single"
+msgid "[first_day]&ndash;[last_day]: [schedule]"
+msgstr "[first_day]&ndash;[last_day]: [schedule]"
+
+msgctxt "Languages::yandex_delivery_v3.day_interval.schedule_interval"
+msgid "[first_day]&ndash;[last_day]: [from]&ndash;[to]"
+msgstr "[first_day]&ndash;[last_day]: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery_v3.day_every.schedule_interval"
+msgid "Daily: [from]&ndash;[to]"
+msgstr "Ежедневно: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery_v3.day_every.schedule_single"
+msgid "Daily: [schedule]"
+msgstr "Ежедневно: [schedule]"
+
+msgctxt "Languages::yandex_delivery_v3.shipping_services"
+msgid "Shipping services"
+msgstr "Службы доставки"
+
+msgctxt "Languages::yandex_delivery_v3.no_shipping_services_selected"
+msgid "At least one shipping service must be selected on the Configure tab of the shipping method configuration page"
+msgstr "На вкладке \"Настроить\" в настройках способа доставки должна быть включена хотя бы одна служба доставки"
+
+msgctxt "Languages::yandex_delivery_v3.shipping_services_info"
+msgid "The selected shipping services will be offered at checkout, but only if you enable them in your Yandex.Shipping account too. Due to Yandex technical restrictions, we don't know which shipping services are enabled in your account."
+msgstr "Выбранные службы доставки будут предложены при оформлении заказа, но только если вы включите их в личном кабинете Яндекс.Доставки. Из-за технических ограничений Яндекса мы не знаем, какие службы доставки у вас там включены."
+
+msgctxt "Languages::yandex_delivery_v3.create_draft"
+msgid "Create a draft in Yandex.Delivery"
+msgstr "Создать черновик в Яндекс.Доставке"
+
+msgctxt "Languages::yandex_delivery_v3.draft_created"
+msgid "Draft in Yandex.Delivery was created"
+msgstr "Черновик в Яндекс.Доставке создан"
+
+msgctxt "Languages::yandex_delivery_v3.store_selector_info"
+msgid "Select the Yandex.Delivery store that will participate in this shipping method. You can change the list of available stores in the <a href=\"[href]\">Yandex.Delivery add-on settings</a>."
+msgstr "Выберите магазин из Яндекс.Доставки, который будет использоваться в этом способе доставки. Список доступных магазинов можно изменить <a href=\"[href]\">в настройках модуля \"Яндекс.Доставка\"</a>."
+
+msgctxt "Languages::yandex_delivery_v3.warehouse_selector_info"
+msgid "Select the Yandex.Delivery warehouse that will participate in this shipping method. You can change the list of available warehouses in the <a href=\"[href]\">Yandex.Delivery add-on settings</a>."
+msgstr "Выберите склад из Яндекс.Доставки, который будет использоваться в этом способе доставки. Список доступных складов можно изменить <a href=\"[href]\">в настройках модуля \"Яндекс.Доставка\"</a>."
+
+msgctxt "Languages::yandex_delivery_v3.order_created"
+msgid "Yandex.Delivery order successfully created."
+msgstr "Заказ в Яндекс.Доставке успешно создан."
+
+msgctxt "Languages::yandex_delivery_v3.order_data_missing"
+msgid "Order information is missing or doesn't exist."
+msgstr "Информация о заказе отсутствует"
+
+msgctxt "Languages::yandex_delivery_v3.street"
+msgid "Street"
+msgstr "Улица"
+
+msgctxt "Languages::yandex_delivery_v3.house"
+msgid "House"
+msgstr "Дом"
+
+msgctxt "Languages::yandex_delivery_v3.apartment"
+msgid "Apartment"
+msgstr "Квартира"
+
+msgctxt "Languages::yandex_delivery_v3.car_number"
+msgid "Car license plate"
+msgstr "Номерной знак автомобиля"
+
+msgctxt "Languages::yandex_delivery_v3.car_brand"
+msgid "Car brand"
+msgstr "Марка автомобиля"
+
+msgctxt "Languages::yandex_delivery_v3.courier_type"
+msgid "Courier type"
+msgstr "Кто отгрузит"
+
+msgctxt "Languages::yandex_delivery_v3.courier_type.courier"
+msgid "On foot"
+msgstr "Пеший курьер"
+
+msgctxt "Languages::yandex_delivery_v3.courier_type.car"
+msgid "On car"
+msgstr "Курьер на машине"
+
+msgctxt "Languages::yandex_delivery_v3.your_order_setting_are_not_supported"
+msgid "The shipment settings of your order in Yandex.Delivery do not match the shipment settings you specified in your account. Please, check the account settings and try again later."
+msgstr "Настройки, указанные вами в процессе создания заказа в Яндекс.Доставке, противоречат настройкам вашего личного кабинета. Пожалуйста, проверьте настройки личного кабинета и повторите попытку позже."
+
+msgctxt "Languages::yandex_delivery_v3.courier_information"
+msgid "Courier information"
+msgstr "Информация о курьере"
+
+msgctxt "Languages::yandex_delivery_v3.shipment_date_limitation"
+msgid "Next following date for shipment by yourself - [today], 21:00. Next following date for shipment by courier of delivery service - [tomorrow], 21:00"
+msgstr "Следующая дата доставки самостоятельно — [today], до 21:00. Следующая дата для доставки курьером службы доставки — [tomorrow], до 21:00."
+
+msgctxt "Languages::yandex_delivery_v3.your_products_without_parameters"
+msgid "Couldn't create an order in Yandex.Delivery. Some products in this order don't have shipping properties (length, width, height, weight) specified. Please add those properties to products and try again."
+msgstr "Не удалось создать заказ в Яндекс.Доставке. У некоторых товаров в заказе нет параметров доставки (длины, ширины, высоты, веса). Задайте товарам эти параметры и попробуйте снова."
+

@@ -1,0 +1,1166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_russianpost.po\n"
+"X-Crowdin-File-ID: 4238\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_russianpost"
+msgid "Russian localization — Russian post"
+msgstr "Почта России"
+
+msgctxt "Addons::description::rus_russianpost"
+msgid "Calculation of shipping cost: Russian Post and EMS Russian Post. Printing of Russian post forms."
+msgstr "Расчёт стоимости доставки: Почта РФ и EMS Почта РФ. Печать бланков Почты РФ"
+
+msgctxt "Languages::express"
+msgid "Express-shipping"
+msgstr "Экспресс-доставка"
+
+msgctxt "Languages::carrier_russian_post"
+msgid "Russian post"
+msgstr "Почта России"
+
+msgctxt "Languages::carrier_russian_post_calc"
+msgid "Russian post calc"
+msgstr "Почта России"
+
+msgctxt "Languages::carrier_ems"
+msgid "EMS"
+msgstr "EMS"
+
+msgctxt "Languages::ems_delivery_time_plus"
+msgid "Add a number of days to shipping time"
+msgstr "Прибавить количество дней к сроку доставки"
+
+msgctxt "Languages::russian_post_consuming_error"
+msgid "Calculation of shipping cost for Russian post may take a long time."
+msgstr "Расчет стоимости доставки для Почты России может занимать длительное время."
+
+msgctxt "Languages::russian_post_empty_zipcode"
+msgid "Shipping cost for Russian post cannot be calculated because the zipcode field is empty."
+msgstr "Расчёт не может быть выполнен, так как пустое поле \"Индекс\"."
+
+msgctxt "Languages::russian_post_shipping_type"
+msgid "Shipping type"
+msgstr "Способ пересылки"
+
+msgctxt "Languages::russian_post_package_type"
+msgid "Package type"
+msgstr "Вид отправления"
+
+msgctxt "Languages::zak_band"
+msgid "Registered parcel"
+msgstr "Заказная бандероль"
+
+msgctxt "Languages::zak_pis"
+msgid "Registered letter"
+msgstr "Заказное Письмо"
+
+msgctxt "Languages::cen_band"
+msgid "Insured box"
+msgstr "Ценная Бандероль"
+
+msgctxt "Languages::cen_pos"
+msgid "Insured parcel"
+msgstr "Ценная Посылка"
+
+msgctxt "Languages::cen_pis"
+msgid "Insured letter"
+msgstr "Ценное Письмо"
+
+msgctxt "Languages::ground"
+msgid "Carriage by land"
+msgstr "Наземная Перевозка"
+
+msgctxt "Languages::air"
+msgid "Carriage by air"
+msgstr "Авиаперевозка"
+
+msgctxt "Languages::combin"
+msgid "Combined shipping"
+msgstr "Комбинированная Перевозка"
+
+msgctxt "Languages::ems_mode"
+msgid "Shipping fees are calculated based on"
+msgstr "Расчет цены доставки на основе"
+
+msgctxt "Languages::russian_post_country_error"
+msgid "Russian post shipping method is available only for Russian Federation. You can change country settings (Settings -> Company)."
+msgstr "Способ доставки Почта России доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::russian_post_city_error"
+msgid "Russian post shipping method is available only for Moscow. You can change the settings on the \"Settings -> Company\" page."
+msgstr "Способ доставки Почта России доступен только для Москвы. Вы можете изменить настройки на странице \"Настройки -> Компания\"."
+
+msgctxt "Languages::ems_activation_error"
+msgid "To activate the EMS shipping processor you must have the Russian Rouble (RUB) currency enabled and set primary."
+msgstr "Для активации процессора доставки EMS валюта Российский Рубль (RUB) должна быть активна и назначена основной."
+
+msgctxt "Languages::ems_country_error"
+msgid "The EMS shopping method is available only for deliveries from Russia. You can change company country under Settings -> Company."
+msgstr "Способ доставки EMS доступен только для Российской Федерации. Вы можете изменить настройки стран (Настройки -> Компания)."
+
+msgctxt "Languages::ship_russianpost_shipping_type_rp_main"
+msgid "Value parcel, regular mail sent by Russian Post"
+msgstr "Ценная Посылка, обычное отправление Почтой России"
+
+msgctxt "Languages::ship_russianpost_shipping_type_rp_1class"
+msgid "Russian Post, first class"
+msgstr "Почта России 1 Класс"
+
+msgctxt "Languages::russianpost_shipping_type"
+msgid "Mail type"
+msgstr "Тип отправления"
+
+msgctxt "Languages::ship_russianpost_register_text"
+msgid "You can get the authorization key and password on the website <a href=\"http://russianpostcalc.ru\" target=\"_blank\">russianpostcalc.ru</a>"
+msgstr "Ключ авторизации и пароль Вы можете получить на сайте <a href=\"http://russianpostcalc.ru\" target=\"_blank\">russianpostcalc.ru</a>"
+
+msgctxt "Languages::rus_post_blank.sms_settings"
+msgid "SMS setting"
+msgstr "Настройки sms"
+
+msgctxt "Languages::rus_post_blank.sms_for_recepient"
+msgid "SMS for recepient"
+msgstr "SMS адресату"
+
+msgctxt "Languages::rus_post_blank.sms_for_sender"
+msgid "SMS for sender"
+msgstr "SMS отправителю"
+
+msgctxt "Languages::rus_post_blank.113"
+msgid "Form 113"
+msgstr "Форма 113эн"
+
+msgctxt "Languages::rus_post_blank.116"
+msgid "Form 116"
+msgstr "Форма 116"
+
+msgctxt "Languages::rus_post_blank.7p"
+msgid "Form 7-parcel"
+msgstr "Форма 7-п"
+
+msgctxt "Languages::rus_post_blank.li.print"
+msgid "Print Russian Post forms"
+msgstr "Печать бланков Почты РФ"
+
+msgctxt "Languages::rus_post_blank.tab.cod"
+msgid "Collection on delivery"
+msgstr "Наложенный платёж"
+
+msgctxt "Languages::rus_post_blank.tab.116"
+msgid "Shipping address of parcel"
+msgstr "Сопроводительный адрес к посылке"
+
+msgctxt "Languages::rus_post_blank.bik"
+msgid "BIC"
+msgstr "БИК"
+
+msgctxt "Languages::rus_post_blank.fiz"
+msgid "Private individual"
+msgstr "Физическое лицо"
+
+msgctxt "Languages::rus_post_blank.print_bg"
+msgid "Print background image"
+msgstr "Печатать фоновое изображение"
+
+msgctxt "Languages::rus_post_blank.sender.tooltip"
+msgid "Select sender in mailing label 7-a and 7-p"
+msgstr "Отправитель"
+
+msgctxt "Languages::rus_post_blank.print_bg.tooltip"
+msgid "Background image can be disabled for printing information on ready forms"
+msgstr "Фоновое изображение можно отключить для печати информации на готовых бланках"
+
+msgctxt "Languages::rus_post_blank.subheader.cod_to"
+msgid "Transfer recipient (parcel sender)"
+msgstr "Получатель перевода (отправитель посылки)"
+
+msgctxt "Languages::rus_post_blank.subheader.cod_from"
+msgid "Transfer sender (parcel recipient)"
+msgstr "Отправитель перевода (получатель посылки)"
+
+msgctxt "Languages::rus_post_blank.subheader.sender"
+msgid "Parcel sender"
+msgstr "Отправитель посылки"
+
+msgctxt "Languages::rus_post_blank.subheader.customer"
+msgid "Parcel recipient"
+msgstr "Получатель посылки"
+
+msgctxt "Languages::rus_post_blank.whom"
+msgid "To whom"
+msgstr "Кому"
+
+msgctxt "Languages::rus_post_blank.where"
+msgid "Where"
+msgstr "Куда"
+
+msgctxt "Languages::rus_post_blank.from_whom"
+msgid "From whom"
+msgstr "От кого"
+
+msgctxt "Languages::rus_post_blank.line_1"
+msgid "Line 1"
+msgstr "Строка 1"
+
+msgctxt "Languages::rus_post_blank.line_2"
+msgid "Line 2"
+msgstr "Строка 2"
+
+msgctxt "Languages::rus_post_blank.company_info"
+msgid "To legal entity"
+msgstr "В адрес юридического лица"
+
+msgctxt "Languages::rus_post_blank.index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "Languages::rus_post_blank.inn"
+msgid "TIN"
+msgstr "ИНН"
+
+msgctxt "Languages::rus_post_blank.kor"
+msgid "Correspondent account"
+msgstr "Кор/счёт"
+
+msgctxt "Languages::rus_post_blank.bank"
+msgid "Bank name"
+msgstr "Наименование банка"
+
+msgctxt "Languages::rus_post_blank.ras"
+msgid "Transaction account"
+msgstr "Рас/счёт"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_creator"
+msgid "Authority that issued the document"
+msgstr "Учреждение выдавшее документ"
+
+msgctxt "Languages::rus_post_blank.fiz_doc"
+msgid "Document"
+msgstr "Докумен"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_date"
+msgid "Issue date (Day, month. For example: 18.11)"
+msgstr "Дата выдачи (День, месяц. Например: 18.11)"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_date2"
+msgid "Issue date (Year. For example: 14)"
+msgstr "Дата выдачи (Год. Например: 14)"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_serial"
+msgid "Series"
+msgstr "Серия"
+
+msgctxt "Languages::rus_post_blank.fiz_doc_number"
+msgid "Number"
+msgstr "Номер"
+
+msgctxt "Languages::rus_post_blank.total_cod"
+msgid "COD amount"
+msgstr "Сумма наложенного платежа"
+
+msgctxt "Languages::rus_post_blank.total_cen"
+msgid "Declared value amount"
+msgstr "Сумма объявленной ценности"
+
+msgctxt "Languages::rus_russianpost.post_blank_settings"
+msgid "Post blank company info"
+msgstr "Информация о компании в почтовом бланке"
+
+msgctxt "Languages::rus_russianpost.company"
+msgid "Company"
+msgstr "Компания"
+
+msgctxt "Languages::rus_russianpost.company2"
+msgid "Company (line 2)"
+msgstr "Компания (строка 2)"
+
+msgctxt "Languages::rus_russianpost.address"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "Languages::rus_russianpost.address2"
+msgid "Address (line 2)"
+msgstr "Адрес (строка 2)"
+
+msgctxt "Languages::rus_russianpost.inn"
+msgid "INN"
+msgstr "ИНН"
+
+msgctxt "Languages::rus_russianpost.bank"
+msgid "BANK"
+msgstr "Наименование банка"
+
+msgctxt "Languages::rus_russianpost.ras"
+msgid "Ras/invoice"
+msgstr "Рас/счёт"
+
+msgctxt "Languages::rus_russianpost.kor"
+msgid "Kor/invoice"
+msgstr "Кор/счёт"
+
+msgctxt "Languages::rus_russianpost.bik"
+msgid "BIK"
+msgstr "БИК"
+
+msgctxt "Languages::rus_russianpost.index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "Languages::rus_russianpost.post_blank_sender"
+msgid "Post blank sender"
+msgstr "Отправитель почтового бланка"
+
+msgctxt "Languages::rus_russianpost.fiz_fio"
+msgid "Full name"
+msgstr "ФИО"
+
+msgctxt "Languages::rus_russianpost.fiz_address"
+msgid "Address"
+msgstr "Адрес"
+
+msgctxt "Languages::rus_russianpost.fiz_address2"
+msgid "Address (line 2)"
+msgstr "Адрес (строка 2)"
+
+msgctxt "Languages::rus_russianpost.fiz_index"
+msgid "ZIP code"
+msgstr "Индекс"
+
+msgctxt "Languages::rus_russianpost.fiz_doc"
+msgid "Document"
+msgstr "Документ"
+
+msgctxt "Languages::rus_russianpost.fiz_doc_serial"
+msgid "Document serial"
+msgstr "Серия"
+
+msgctxt "Languages::rus_russianpost.fiz_doc_number"
+msgid "Document number"
+msgstr "Номер"
+
+msgctxt "Languages::rus_russianpost.fiz_doc_date"
+msgid "Issue date (Day, month. For example: 18.11)"
+msgstr "Дата выдачи (День, месяц. Например: 18.11)"
+
+msgctxt "Languages::rus_russianpost.fiz_doc_date2"
+msgid "Issue date (Year. For example: 14)"
+msgstr "Дата выдачи (Год. Например: 14)"
+
+msgctxt "Languages::rus_russianpost.fiz_doc_creator"
+msgid "Authority that issued the document"
+msgstr "Учреждение, выдавшее документ"
+
+msgctxt "Languages::rus_russianpost.size_spacing_forms"
+msgid "Size and spacing of Post blank forms"
+msgstr "Размеры и отступы почтовых бланков"
+
+msgctxt "Languages::rus_russianpost.107_list"
+msgid "f. 107 (form size 293mm x 205mm)"
+msgstr "ф. 107 (размер бланка 293мм х 205мм)"
+
+msgctxt "Languages::rus_russianpost.107_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "Languages::rus_russianpost.107_list_height"
+msgid "Sheet height (mm)"
+msgstr "Высота листа (мм)"
+
+msgctxt "Languages::rus_russianpost.107_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "Languages::rus_russianpost.107_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::rus_russianpost.116_list"
+msgid "f. 116 (form size 293mm x 205mm)"
+msgstr "ф. 116 (размер формы 148 мм x 205 мм)"
+
+msgctxt "Languages::rus_russianpost.116_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "Languages::rus_russianpost.116_list_height"
+msgid "Sheet height (mm)"
+msgstr "Высота листа (мм)"
+
+msgctxt "Languages::rus_russianpost.116_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "Languages::rus_russianpost.116_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::rus_russianpost.7p_list"
+msgid "f. 7-p"
+msgstr "ф.7-р"
+
+msgctxt "Languages::rus_russianpost.7p_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "Languages::rus_russianpost.7p_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::rus_russianpost.7a_list"
+msgid "f. 7-a"
+msgstr "ф. 7-а"
+
+msgctxt "Languages::rus_russianpost.7a_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "Languages::rus_russianpost.7a_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::rus_post_blank.text"
+msgid "Text"
+msgstr "Сообщение"
+
+msgctxt "Languages::rus_post_blank.recipient_phone"
+msgid "Recipient phone"
+msgstr "Телефон адресата"
+
+msgctxt "Languages::rus_post_blank.company_phone"
+msgid "Company phone"
+msgstr "Телефон отправителя"
+
+msgctxt "Languages::rus_russianpost.company_phone"
+msgid "Company phone"
+msgstr "Телефон компании"
+
+msgctxt "Languages::rus_russianpost.112ep_list"
+msgid "f. 112ep (form size 210mm x 293mm)"
+msgstr "ф. 112эп (размер бланка 210мм х 293мм)"
+
+msgctxt "Languages::rus_russianpost.112_list_width"
+msgid "Sheet width (mm)"
+msgstr "Ширина листа (мм)"
+
+msgctxt "Languages::rus_russianpost.112_list_height"
+msgid "Sheet height (mm)"
+msgstr "Высота листа (мм)"
+
+msgctxt "Languages::rus_russianpost.112_top"
+msgid "Top spacing (mm)"
+msgstr "Отступ бланка сверху (мм)"
+
+msgctxt "Languages::rus_russianpost.112_left"
+msgid "Left spacing (mm)"
+msgstr "Отступ бланка слева (мм)"
+
+msgctxt "Languages::ems_region"
+msgid "Region"
+msgstr "Регион"
+
+msgctxt "Languages::ems_city"
+msgid "City"
+msgstr "Город"
+
+msgctxt "Languages::addons.rus_russianpost.not_total"
+msgid "The declared value without prices"
+msgstr "Объявленная ценность без цены"
+
+msgctxt "Languages::shipping.russianpost.zak_kart"
+msgid "Custom postcard"
+msgstr "Заказная почтовая карточка"
+
+msgctxt "Languages::shipping.russianpost.ob_pos"
+msgid "Ordinary parcel"
+msgstr "Обыкновенная посылка"
+
+msgctxt "Languages::shipping.russianpost.rub_rank"
+msgid "[n] ruble|[n] rubles"
+msgstr "[n] рубль|[n] рубля|[n] рублей"
+
+msgctxt "Languages::shipping.russianpost.thousand_rank"
+msgid "[n] thousand|[n] thousands"
+msgstr "[n] тысяча|[n] тысячи|[n] тысяч"
+
+msgctxt "Languages::shipping.russianpost.million_rank"
+msgid "[n] million"
+msgstr "[n] миллион|[n] миллиона|[n] миллионов"
+
+msgctxt "Languages::shipping.russianpost.billion_rank"
+msgid "[n] billion"
+msgstr "[n] миллиард|[n] миллиарда|[n] миллиардов"
+
+msgctxt "Languages::shipping.russianpost.kopeck_rank"
+msgid "[n] kopeck"
+msgstr "[n] копейка|[n] копейки|[n] копеек"
+
+msgctxt "Languages::carrier_russian_pochta"
+msgid "Russian pochta"
+msgstr "Почта России (pochta.ru)"
+
+msgctxt "Languages::shipping.russianpost.russian_post_sending_type"
+msgid "Postal item type"
+msgstr "Вид отправления"
+
+msgctxt "Languages::shipping.russianpost.papers"
+msgid "Papers"
+msgstr "Бумаги и печатные издания"
+
+msgctxt "Languages::shipping.russianpost.small_items"
+msgid "Small items"
+msgstr "Небольшие предметы"
+
+msgctxt "Languages::shipping.russianpost.all_items"
+msgid "All items"
+msgstr "Любые вещи"
+
+msgctxt "Languages::shipping.russianpost.russian_post_shipping_option"
+msgid "Mode of transport"
+msgstr "Способ пересылки"
+
+msgctxt "Languages::shipping.russianpost.standard"
+msgid "Standard"
+msgstr "Обычный"
+
+msgctxt "Languages::shipping.russianpost.rapid"
+msgid "Rapid"
+msgstr "Ускоренный"
+
+msgctxt "Languages::shipping.russianpost.ems"
+msgid "EMS"
+msgstr "EMS"
+
+msgctxt "Languages::shipping.russianpost.russian_post_delivery_notice"
+msgid "Notice delivery"
+msgstr "Уведомление о вручении"
+
+msgctxt "Languages::shipping.russianpost.russian_post_shipping_insurance"
+msgid "Shipping insurance"
+msgstr "Страхование отправления"
+
+msgctxt "Languages::shipping.russianpost.russian_post_shipping_inventory"
+msgid "Inventory shipping"
+msgstr "Опись вложения"
+
+msgctxt "Languages::shipping.russianpost.russian_post_cash_on_delivery"
+msgid "Cash on delivery"
+msgstr "Наложенный платеж"
+
+msgctxt "Languages::shipping.russianpost.russian_post_shipping_careful"
+msgid "Mark as \"Handle with Care\""
+msgstr "Отметка \"Осторожно\""
+
+msgctxt "Languages::russian_post"
+msgid "Russian post"
+msgstr "Почта России"
+
+msgctxt "Languages::shipping.russianpost.search_tracking_number"
+msgid "Search tracking"
+msgstr "Отслеживание"
+
+msgctxt "Languages::shipping.russianpost.type_operation"
+msgid "Type operation"
+msgstr "Тип операции"
+
+msgctxt "Languages::shipping.russianpost.russian_post_login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "Languages::shipping.russianpost.russian_post_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::shippings.russianpost.data_tracking"
+msgid "Data for tracking"
+msgstr "Данные для отслеживания"
+
+msgctxt "Languages::addons.rus_russianpost.blank_7a"
+msgid "Form 7a"
+msgstr "Форма 7a"
+
+msgctxt "Languages::addons.rus_russianpost.blank_7p"
+msgid "Form 7p"
+msgstr "Форма 7p"
+
+msgctxt "Languages::addons.rus_russianpost.blank_112ep"
+msgid "Form 112ep"
+msgstr "Форма 112эп"
+
+msgctxt "Languages::addons.rus_russianpost.blank_116"
+msgid "Form 116"
+msgstr "Форма 116"
+
+msgctxt "Languages::addons.rus_russianpost.blank_107"
+msgid "Form 107"
+msgstr "Форма 107"
+
+msgctxt "Languages::addons.rus_russianpost.use_imposed"
+msgid "Collect cash on delivery"
+msgstr "Использовать наложенный платеж"
+
+msgctxt "Languages::addons.rus_russianpost.declared_total"
+msgid "Declare total"
+msgstr "Объявленная стоимость"
+
+msgctxt "Languages::addons.rus_russianpost.imposed_total"
+msgid "Impose total"
+msgstr "Наложенный платеж"
+
+msgctxt "Languages::addons.rus_russianpost.type_mailing"
+msgid "Type mailing"
+msgstr "Тип отправления"
+
+msgctxt "Languages::addons.rus_russianpost.type_package"
+msgid "Package"
+msgstr "Посылка"
+
+msgctxt "Languages::addons.rus_russianpost.type_parcel"
+msgid "Parcel"
+msgstr "Бандероль"
+
+msgctxt "Languages::addons.rus_russianpost.error_total"
+msgid "The sum imposing greater than the sum declared"
+msgstr "Стоимость наложенного платежа должна быть меньше объявленной стоимости"
+
+msgctxt "Languages::addons.rus_russianpost.undefined"
+msgid "Undefined"
+msgstr "Не определено"
+
+msgctxt "Languages::addons.rus_russianpost.small_package"
+msgid "Small package"
+msgstr "Мелкий пакет"
+
+msgctxt "Languages::addons.rus_russianpost.package_m"
+msgid "Package M"
+msgstr "Пакет M"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper_first_class"
+msgid "First-class wrapper"
+msgstr "Отправка первым классом"
+
+msgctxt "Languages::addons.rus_russianpost.multi_envelope"
+msgid "Multi-envelope"
+msgstr "Мульти-конверт"
+
+msgctxt "Languages::addons.rus_russianpost.heavy_parcel"
+msgid "Heavy parcel"
+msgstr "Тяжеловесное отправление"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_online"
+msgid "Parcel online"
+msgstr "Посылка онлайн"
+
+msgctxt "Languages::addons.rus_russianpost.courier_online"
+msgid "Courier online"
+msgstr "Курьер онлайн"
+
+msgctxt "Languages::addons.rus_russianpost.send_dm"
+msgid "DM sending"
+msgstr "Отправление ДМ"
+
+msgctxt "Languages::addons.rus_russianpost.package_dm"
+msgid "DM package"
+msgstr "Пакет ДМ"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_standard"
+msgid "Standard parcel"
+msgstr "Посылка стандарт"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_courier"
+msgid "Courier parcel"
+msgstr "Посылка курьер"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_express"
+msgid "Express parcel"
+msgstr "Посылка экспресс"
+
+msgctxt "Languages::addons.rus_russianpost.business_express"
+msgid "Business express"
+msgstr "Бизнес экспресс"
+
+msgctxt "Languages::addons.rus_russianpost.simple"
+msgid "Simple"
+msgstr "Простое"
+
+msgctxt "Languages::addons.rus_russianpost.registered"
+msgid "Registered"
+msgstr "Заказное"
+
+msgctxt "Languages::addons.rus_russianpost.declared"
+msgid "Declared value"
+msgstr "С объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.ordinary"
+msgid "Ordinary"
+msgstr "Обыкновенное"
+
+msgctxt "Languages::addons.rus_russianpost.declared_cash"
+msgid "Declared value and cash on delivery"
+msgstr "С объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.not_determined"
+msgid "Not determined"
+msgstr "Не определена"
+
+msgctxt "Languages::addons.rus_russianpost.declared_binding"
+msgid "Declared value and binding delivery"
+msgstr "С объявленной ценностью и обязательным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.ground"
+msgid "Ground"
+msgstr "Наземная"
+
+msgctxt "Languages::addons.rus_russianpost.avia_possible"
+msgid "Air delivery if possible"
+msgstr "Авиа доставка"
+
+msgctxt "Languages::addons.rus_russianpost.avia"
+msgid "Air delivery only"
+msgstr "Комбинированная"
+
+msgctxt "Languages::shipping.russianpost.russian_post_sending_categories"
+msgid "Categories of a postal items"
+msgstr "Категория отправления"
+
+msgctxt "Languages::addons.rus_russianpost.registered_delivery_notice"
+msgid "Notify on delivery"
+msgstr "Уведомление о вручении"
+
+msgctxt "Languages::shipping.russianpost.cumbersome_parcel"
+msgid "Cumbersome parcel"
+msgstr "Громоздкая посылка"
+
+msgctxt "Languages::shipping.russianpost.delivery_courier"
+msgid "Delivery by a courier"
+msgstr "Вручение курьером"
+
+msgctxt "Languages::shipping.russianpost.delivery_product"
+msgid "Product delivery"
+msgstr "Доставка товаров"
+
+msgctxt "Languages::shipping.russianpost.oversize"
+msgid "Odd size"
+msgstr "Нестандартный размер"
+
+msgctxt "Languages::shipping.russianpost.cash_sender"
+msgid "Cash on delivery paid by sender"
+msgstr "Оплата наложенного платежа отпарвителем"
+
+msgctxt "Languages::shipping.russianpost.sms_receipt"
+msgid "SMS on receipt"
+msgstr "SMS уведомление о поступлении"
+
+msgctxt "Languages::shipping.russianpost.sms_delivery"
+msgid "SMS on delivery"
+msgstr "SMS уведомление о вручении"
+
+msgctxt "Languages::shipping.russianpost.check_investment"
+msgid "Make the list the enclosures"
+msgstr "Составление описи вложения"
+
+msgctxt "Languages::shipping.russianpost.compliance_investment"
+msgid "Check if the enclosures match the list"
+msgstr "Проверка соответствия вложения описи"
+
+msgctxt "Languages::russianpost_upgrade_notification_title"
+msgid "Russianpost realtime shipping rate calculation changes"
+msgstr "Почта России: Изменения в расчете стоимости доставки"
+
+msgctxt "Languages::russianpost_upgrade_notification_text"
+msgid "<p>The latest version of [product] has different settings for realtime shipping rate calculation if you use Russianpost as a Shipping service.</p><p>If you want to show current shipping rates to your clients, do this:</p><ul><li>go to Administration > Shipping & taxes > Shipping methods</li><li>choose the shipping method that uses Russianpost as a Shipping service to calculate shipping rates</li><li>switch to the General tab and enter the proper Shipping service</li><li>switch to the Configure tab and enter the proper settings</li></ul>"
+msgstr "<p>В новой версии [product] изменились настройки расчета стоимости доставки Почтой России.</p><p>Чтобы показывать покупателям актуальную стоимость доставки, выполните следующие действия:</p><ul><li>перейдите на страницу Администрирование > Доставка и налоги > Способы доставки;</li><li>откройте способ, где в качестве перевозчика выбрана Почта России;</li><li>во вкладке \"Общее\" выберите подходящую службу доставки;</li><li>переключитесь на вкладку \"Настроить\" и задайте необходимые настройки способа доставки.</li></ul>"
+
+msgctxt "Languages::addons.rus_russianpost.box_s"
+msgid "Box S"
+msgstr "Коробка S"
+
+msgctxt "Languages::addons.rus_russianpost.pack_s"
+msgid "Plastic bag S"
+msgstr "Пластиковый пакет S"
+
+msgctxt "Languages::addons.rus_russianpost.mail_s"
+msgid "Padded envelope S"
+msgstr "Пузырьковый конверт S"
+
+msgctxt "Languages::addons.rus_russianpost.box_m"
+msgid "Box M"
+msgstr "Коробка M"
+
+msgctxt "Languages::addons.rus_russianpost.pack_m"
+msgid "Plastic bag M"
+msgstr "Пластиковый пакет M"
+
+msgctxt "Languages::addons.rus_russianpost.mail_m"
+msgid "Padded envelope M"
+msgstr "Пузырьковый конверт M"
+
+msgctxt "Languages::addons.rus_russianpost.box_l"
+msgid "Box L"
+msgstr "Коробка L"
+
+msgctxt "Languages::addons.rus_russianpost.pack_l"
+msgid "Plastic bag L"
+msgstr "Пластиковый пакет L"
+
+msgctxt "Languages::addons.rus_russianpost.box_xl"
+msgid "Box XL"
+msgstr "Коробка XL"
+
+msgctxt "Languages::addons.rus_russianpost.pack_xl"
+msgid "Plastic bag XL"
+msgstr "Пластиковый пакет XL"
+
+msgctxt "Languages::addons.rus_russianpost.not_service_shipping"
+msgid "This delivery option cannot be used. Please, try to change the following settings: Postal item type, Categories of postal items, and Mode of transport."
+msgstr "Невозможно использовать данный вариант доставки. Пожалуйста, попробуйте изменить следующие настройки: \"Вид отправления\", \"Категория отправления\" и \"Способ пересылки\"."
+
+msgctxt "Languages::addons.rus_russianpost.cannot_find_object"
+msgid "This delivery option cannot be used. Please, try to change the following settings: \"Packaging type\", and \"Postal item type\"."
+msgstr "Невозможно использовать данный вариант доставки. Пожалуйста, попробуйте изменить следующие настройки: \"Вид отправления\" и \"Тип упаковки\"."
+
+msgctxt "Languages::shipping.russianpost.russian_post_sending_packages"
+msgid "Packaging type"
+msgstr "Тип упаковки"
+
+msgctxt "Languages::shipping.russianpost.simple_delivery_notice"
+msgid "Simple delivery confirmation"
+msgstr "Простое уведомление о вручении"
+
+msgctxt "Languages::shipping.russianpost.registry_delivery_notice"
+msgid "Registered delivery confirmation"
+msgstr "Заказное уведомление о вручении"
+
+msgctxt "Languages::shipping.russianpost.personally"
+msgid "To named recipient only"
+msgstr "Вручение лично в руки"
+
+msgctxt "Languages::shipping.russianpost.package_pochta"
+msgid "Russian Post Package"
+msgstr "Пакет Почты России"
+
+msgctxt "Languages::shipping.russianpost.delivery_report"
+msgid "Report about failed deliveries"
+msgstr "Отправлять отчёт о неудачных попытках доставки"
+
+msgctxt "Languages::shipping.russianpost.add_barcode"
+msgid "Apply a barcode"
+msgstr "Использовать штрих-код"
+
+msgctxt "Languages::shipping.russianpost.packaging_items"
+msgid "Pack an enclosure"
+msgstr "Добавить вложение"
+
+msgctxt "Languages::shipping.russianpost.add_sticker"
+msgid "Apply a sticker"
+msgstr "Использовать стикер"
+
+msgctxt "Languages::shipping.russianpost.shipping_delivery"
+msgid "Transportation and delivery"
+msgstr "Перевозка и доставка"
+
+msgctxt "Languages::shipping.russianpost.check_suite"
+msgid "Check contents of delivery"
+msgstr "Проверка комлектности"
+
+msgctxt "Languages::shipping.russianpost.return_statement"
+msgid "Request for return or address change"
+msgstr "Заявление о возврате, изменении или исправлении адреса"
+
+msgctxt "Languages::shipping.russianpost.delivery_far_place"
+msgid "Delivery to a settlement that does not have telegraph and facsimile communications."
+msgstr "Доставка в поселение, где нет телеграфной и факсимильной связи."
+
+msgctxt "Languages::shipping.russianpost.sms_unit_send"
+msgid "SMS notifications to sender about individual packages"
+msgstr "Пакет SMS-уведомлений отправителю при единичном приеме"
+
+msgctxt "Languages::shipping.russianpost.sms_unit_recipient"
+msgid "SMS notifications to addressee about individual packages"
+msgstr "Пакет SMS-уведомлений получателю при единичном приеме"
+
+msgctxt "Languages::shipping.russianpost.sms_part_send"
+msgid "SMS notifications to sender about deliveries in lots"
+msgstr "Пакет SMS-уведомлений отправителю при партионном приеме"
+
+msgctxt "Languages::shipping.russianpost.sms_part_recipient"
+msgid "SMS notifications to addressee about deliveries in lots"
+msgstr "Пакет SMS-уведомлений получателю при партионном приеме"
+
+msgctxt "Languages::shipping.russianpost.average_quantity_in_packet"
+msgid "Average quantity in package"
+msgstr "Среднее количество в пакете"
+
+msgctxt "Languages::shipping.russianpost.customs_fee"
+msgid "Customs fee"
+msgstr "Таможенный сбор"
+
+msgctxt "Languages::shipping.russianpost.corporate_client"
+msgid "Russian Post's corporate client"
+msgstr "Корпоративный клиент \"Почта России\""
+
+msgctxt "Languages::shipping.russianpost.home_delivery"
+msgid "Postage home delivery"
+msgstr "Доставка почтового перевода на дом"
+
+msgctxt "Languages::shipping.russianpost.postage_delivery_notice"
+msgid "Postage delivery notification"
+msgstr "Уведомление о вручении почтового перевода"
+
+msgctxt "Languages::shipping.russianpost.trusty_packet"
+msgid "Trusty packet"
+msgstr "Заверительный пакет"
+
+msgctxt "Languages::shipping.russianpost.safety_insurance"
+msgid "Safety insurance"
+msgstr "Страхование отправления"
+
+msgctxt "Languages::shipping.russianpost.crossoperator"
+msgid "Cross-operator mailing"
+msgstr "Межоператорское отправление"
+
+msgctxt "Languages::shipping.russianpost.agreement_prolongation"
+msgid "Agreement prolongation"
+msgstr "Пролонгация договора"
+
+msgctxt "Languages::shipping.russianpost.delivery_document"
+msgid "Document delivery"
+msgstr "Доставка документов"
+
+msgctxt "Languages::rus_russianpost.russian_pochta_upgrade_notification_title"
+msgid "Shipping service Russian Post has been updated."
+msgstr "Обновлена служба доставки \"Почта России (pochta. ru)\"."
+
+msgctxt "Languages::rus_russianpost.russian_pochta_upgrade_notification_message"
+msgid "<p>The settings of the <b>Russian Post</b> shipping service have been updated. If you were using this service, please check its settings:</p><ul><li>Go to <b>Administration → Shipping & taxes → Shipping methods</b>.</li><li>Choose the shipping method that uses <i>Russian Post</i> as a <b>Shipping service</b>.</li><li>Check if the <b>Kind sending</b> is correct.</li><li>Make sure that the correct services are selected for the chosen \"Kind sending\" </li></ul>"
+msgstr "<p>Настройки службы доставки <b>Почта России (pochta. ru)</b> были обновлены. Если вы используете эту службу доставки, проверьте её настройки: </p><ul><li>Откройте страницу <b>Администрирование → Доставка и налоги → Способы доставки</b>.</li><li>Выберите способ доставки, в котором используется <b>Служба доставки</b> <i>Почта России (pochta. ru)</i>.</li><li>Проверьте, правильно ли выбран <b>Вид отправления</b>.</li><li>Проверьте, правильно ли выбраны сервисы для указанного вида отправления.</li></ul>"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper"
+msgid "Item in wrapper"
+msgstr "Бандероль"
+
+msgctxt "Languages::addons.rus_russianpost.simple_wrapper"
+msgid "Simple wrapper"
+msgstr "Бандероль простая"
+
+msgctxt "Languages::addons.rus_russianpost.registered_wrapper"
+msgid "Registered wrapper"
+msgstr "Бандероль заказная"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper_with_declared_value"
+msgid "Wrapper with declared value"
+msgstr "Бандероль с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper_with_declared_value_and_cash_on_delivery"
+msgid "Wrapper with declared value and cash on delivery"
+msgstr "Бандероль с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.registered_1st_class_wrapper"
+msgid "Registered 1st class wrapper"
+msgstr "Бандероль 1 класса заказная"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper_1st_class_parcel_with_declared_value"
+msgid "Wrapper 1st class parcel with declared value"
+msgstr "Бандероль 1 класса с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.wrapper_1st_class_with_declared_value_and_cash_on_delivery"
+msgid "Wrapper 1st class with declared value and cash on delivery"
+msgstr "Бандероль 1 класса с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.parcel"
+msgid "Parcel"
+msgstr "Пакет"
+
+msgctxt "Languages::addons.rus_russianpost.simple_parcel"
+msgid "Simple parcel"
+msgstr "Посылка стандарт"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_with_declared_value"
+msgid "Parcel with declared value"
+msgstr "Посылка стандарт с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.parcel_with_declared_value_and_cash_on_delivery"
+msgid "Parcel with declared value and cash on delivery"
+msgstr "Посылка стандарт с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.express_parcel"
+msgid "Express parcel"
+msgstr "Посылка экспресс"
+
+msgctxt "Languages::addons.rus_russianpost.express_parcel_with_declared_value"
+msgid "Express parcel with declared value"
+msgstr "Посылка экспресс с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.express_parcel_with_declared_value_and_cash_on_delivery"
+msgid "Express parcel with declared value and cash on delivery"
+msgstr "Посылка экспресс с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.courier_ems_parcel"
+msgid "Courier EMS parcel"
+msgstr "Посылка курьер EMS"
+
+msgctxt "Languages::addons.rus_russianpost.courier_ems_parcel_with_declared_value"
+msgid "Courier EMS parcel with declared value"
+msgstr "Посылка курьер EMS с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.courier_ems_parcel_with_declared_value_and_cash_on_delivery"
+msgid "Courier EMS parcel with declared value and cash on delivery"
+msgstr "Посылка курьер EMS с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.non_standard_parcel"
+msgid "Non-standard parcel"
+msgstr "Посылка нестандартная"
+
+msgctxt "Languages::addons.rus_russianpost.non_standard_parcel_with_declared_value"
+msgid "Non-standard parcel with declared value"
+msgstr "Посылка нестандартная с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.non_standard_parcel_with_declared_value_and_cash_on_delivery"
+msgid "Non-standard parcel with declared value and cash on delivery"
+msgstr "Посылка нестандартная с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.1st_class_parcel"
+msgid "1st class parcel"
+msgstr "Посылка 1 класса"
+
+msgctxt "Languages::addons.rus_russianpost.1st_class_parcel_with_declared_value"
+msgid "1st class parcel with declared value"
+msgstr "Посылка 1 класса с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.1st_class_parcel_with_declared_value_and_cash_on_delivery"
+msgid "1st class parcel with declared value and cash on delivery"
+msgstr "Посылка 1 класса с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.simple_online_parcel"
+msgid "Simple online parcel"
+msgstr "Посылка онлайн обыкновенная"
+
+msgctxt "Languages::addons.rus_russianpost.simple_online_parcel_with_declared_value"
+msgid "Simple online parcel with declared value"
+msgstr "Посылка онлайн с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.simple_online_parcel_with_declared_value_and_cash_on_delivery"
+msgid "Simple online parcel with declared value and cash on delivery"
+msgstr "Посылка онлайн с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.online_courier_simple"
+msgid "Online courier simple"
+msgstr "Курьер онлайн обыкновенный"
+
+msgctxt "Languages::addons.rus_russianpost.online_courier_simple_with_declared_value"
+msgid "Online courier simple with declared value"
+msgstr "Курьер онлайн с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.online_courier_simple_with_declared_value_and_cash_on_delivery"
+msgid "Online courier simple with declared value and cash on delivery"
+msgstr "Курьер онлайн с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.business_courier"
+msgid "Business courier"
+msgstr "Бизнес курьер"
+
+msgctxt "Languages::addons.rus_russianpost.business_courier_with_declared_value"
+msgid "Business courier with declared value"
+msgstr "Бизнес курьер с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.business_courier_express"
+msgid "Business courier express"
+msgstr "Бизнес курьер экспресс"
+
+msgctxt "Languages::addons.rus_russianpost.business_courier_express_with_declared_value"
+msgid "Business courier express with declared value"
+msgstr "Бизнес курьер экспресс с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.send_ems"
+msgid "EMS sending"
+msgstr "Отправление EMS"
+
+msgctxt "Languages::addons.rus_russianpost.ems"
+msgid "EMS"
+msgstr "EMS"
+
+msgctxt "Languages::addons.rus_russianpost.ems_with_declared_value"
+msgid "EMS with declared value"
+msgstr "EMS с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.ems_with_declared_value_and_cash_on_delivery"
+msgid "EMS with declared value and cash on delivery"
+msgstr "EMS с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.ems_optimal"
+msgid "EMS optimal"
+msgstr "EMS оптимальное"
+
+msgctxt "Languages::addons.rus_russianpost.ems_optimal_with_declared_value"
+msgid "EMS optimal with declared value"
+msgstr "EMS оптимальное с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.ems_optimal_with_declared_value_and_cash_on_delivery"
+msgid "EMS optimal with declared value and cash on delivery"
+msgstr "EMS оптимальное с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.ems_рт"
+msgid "EMS РТ"
+msgstr "EMS РТ"
+
+msgctxt "Languages::addons.rus_russianpost.ems_рт_with_declared_value"
+msgid "EMS РТ with declared value"
+msgstr "EMS РТ с объявленной ценностью"
+
+msgctxt "Languages::addons.rus_russianpost.ems_рт_with_declared_value_and_cash_on_delivery"
+msgid "EMS РТ with declared value and cash on delivery"
+msgstr "EMS РТ с объявленной ценностью и наложенным платежом"
+
+msgctxt "Languages::addons.rus_russianpost.send_international"
+msgid "International sending"
+msgstr "Международные отправления"
+
+msgctxt "Languages::addons.rus_russianpost.ems_simple"
+msgid "EMS simple"
+msgstr "EMS обыкновенное"
+
+msgctxt "Languages::addons.rus_russianpost.small_package_simple"
+msgid "Small package simple"
+msgstr "Мелкий пакет простой"
+
+msgctxt "Languages::addons.rus_russianpost.small_package_registered"
+msgid "Small package registered"
+msgstr "Мелкий пакет заказной"
+
+msgctxt "Languages::addons.rus_russianpost.simple_small_bag"
+msgid "Simple small bag"
+msgstr "Мешок М простой"
+
+msgctxt "Languages::addons.rus_russianpost.registered_small_bag"
+msgid "Registered small bag"
+msgstr "Мешок М заказной"
+
+msgctxt "Languages::shipping.russianpost.delivery_by_hand"
+msgid "Delivery by hand"
+msgstr "Вручить в собственные руки"
+
+msgctxt "Languages::addons.rus_russianpost.server_not_available"
+msgid "The server for shipping rate calculation isn't available."
+msgstr "Недоступен сервер для расчёта стоимости доставки."
+
+msgctxt "Languages::rus_russianpost.russian_ems_upgrade_notification_title"
+msgid "EMS Russian Post is no longer available"
+msgstr "Служба доставки EMS Почта России больше не доступна"
+
+msgctxt "Languages::rus_russianpost.russian_ems_upgrade_notification_message"
+msgid "The <b>EMS (Russian Post)</b> shipping service has been discontinued, and therefore it is no longer supported in [product]. All the shipping methods in your store that used this service have been changed to use the <b>Russian Post (pochta.ru)</b> shipping service instead. Please go to <b>Administration → Shipping & taxes → Shipping methods</b> and make sure that all your shipping methods are configured properly."
+msgstr "Работа службы доставки <b>EMS Почта России</b> была прекращена, поэтому она больше не поддерживается в [product]. Все способы доставки в вашем магазине, использовавшие данную службу, были переведены на службу доставки <b>Почта России (pochta.ru)</b>. Зайдите на страницу способов доставки (<b>Администрирование → Доставка и налоги → Способы доставки</b>) и убедитесь, что все способы настроены верно."
+
+msgctxt "Languages::rus_russian_post.delivery_types_that_require_countinpack"
+msgid "This field is required for Postal Item Type: EMS PT"
+msgstr "Обязательно для вида отправления EMS PT"
+

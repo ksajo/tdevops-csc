@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_hybrid_auth.po\n"
+"X-Crowdin-File-ID: 4222\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_hybrid_auth"
+msgid "Social Login: Russian Social Networks"
+msgstr "Вход через соцсети: российские социальные сети"
+
+msgctxt "Addons::description::rus_hybrid_auth"
+msgid "Adds the support of Russian social networks to the Social Login add-on"
+msgstr "Поддержка российских социальных сетей для модуля \"Вход через соцсети\""
+
+msgctxt "Languages::rus_hybrid_auth.instruction_vkontakte"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://vk.com/apps?act=manage' target='_blank'>Vk Developers</a>."
+msgstr "Используйте идентификатор приложения и секретный ключ, которые вы получили после создания приложения на сайте <a href='https://vk.com/apps?act=manage' target='_blank'>VK для разработчиков</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_yandex"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://tech.yandex.ru/oauth/' target='_blank'>Yandex OAuth server</a>."
+msgstr "Используйте идентификатор приложения и секретный ключ, которые вы получили после создания приложения на <a href='https://tech.yandex.ru/oauth/' target='_blank'>сервере \"Яндекс OAuth\"</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_mailru"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='http://api.mail.ru/sites/' target='_blank'>Mail.Ru Sites</a>."
+msgstr "Используйте идентификатор приложения и секретный ключ, которые вы получили после создания приложения на <a href='http://api.mail.ru/sites/' target='_blank'> сайтах Mail.Ru</a>."
+
+msgctxt "Languages::rus_hybrid_auth.instruction_odnoklassniki"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='http://www.odnoklassniki.ru/devaccess' target='_blank'>Sites</a>."
+msgstr "Используйте идентификатор приложения и секретный ключ, которые вы получили после создания приложения на <a href='http://www.odnoklassniki.ru/devaccess' target='_blank'>сайте \"Одноклассники\"</a>."
+

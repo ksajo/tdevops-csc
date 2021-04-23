@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::rus_boxberry"
+msgid "Boxberry"
+msgstr "Boxberry"
+
+msgctxt "Addons::description::rus_boxberry"
+msgid "Shipping method Boxberry"
+msgstr "Shipping method Boxberry"
+
+msgctxt "Languages::rus_boxberry.api_password"
+msgid "API token"
+msgstr "API token"
+
+msgctxt "Languages::rus_boxberry.take_api_password"
+msgid "Boxberry get api key"
+msgstr "Boxberry get api key"
+
+msgctxt "Languages::rus_boxberry.target_start"
+msgid "Boxberry start target code"
+msgstr "Boxberry start target code"
+
+msgctxt "Languages::carrier_rus_boxberry"
+msgid "Boxberry"
+msgstr "Boxberry"
+
+msgctxt "Languages::rus_boxberry.default_weight"
+msgid "Default weight (in grams)"
+msgstr "Default weight (in grams)"
+
+msgctxt "Languages::rus_boxberry.pickup_point"
+msgid "Pick-up point"
+msgstr "Pick-up point"
+
+msgctxt "Languages::rus_boxberry.select_pickup_point"
+msgid "Select pick-up point"
+msgstr "Select pick-up point"
+
+msgctxt "Languages::rus_boxberry.unknown_error"
+msgid "Unknown error"
+msgstr "Unknown error"
+
+msgctxt "Languages::rus_boxberry.connection_error"
+msgid "Boxberry server didn't respond"
+msgstr "Boxberry server didn't respond"
+
+msgctxt "Languages::rus_boxberry.enter_api_token"
+msgid "Please specify the API token in the shipping method settings."
+msgstr "Please specify the API token in the shipping method settings."
+
+msgctxt "Languages::rus_boxberry.not_all_fields_are_filled"
+msgid "Not all of the parameters required by the Boxberry API have been specified."
+msgstr "Not all of the parameters required by the Boxberry API have been specified."
+
+msgctxt "Languages::rus_boxberry.pickuppoint"
+msgid "Pickup point"
+msgstr "Pickup point"
+
+msgctxt "Languages::rus_boxberry.status"
+msgid "Boxberry status"
+msgstr "Boxberry status"
+
+msgctxt "Languages::rus_boxberry.print_label"
+msgid "Print label"
+msgstr "Print label"
+
+msgctxt "Languages::rus_boxberry.without_status"
+msgid "Without status"
+msgstr "Without status"
+
+msgctxt "Languages::rus_boxberry.boxberry_self"
+msgid "Delivery to a pickup point"
+msgstr "Delivery to a pickup point"
+
+msgctxt "Languages::rus_boxberry.boxberry_self_prepaid"
+msgid "Delivery to a pickup point (without cash on delivery)"
+msgstr "Delivery to a pickup point (without cash on delivery)"
+
+msgctxt "Languages::rus_boxberry.boxberry_courier"
+msgid "Delivery by courier"
+msgstr "Delivery by courier"
+
+msgctxt "Languages::rus_boxberry.boxberry_courier_prepaid"
+msgid "Delivery by courier (without cash on delivery)"
+msgstr "Delivery by courier (without cash on delivery)"
+
+msgctxt "Languages::rus_boxberry.addon_was_renamed.title"
+msgid "Boxberry: Add-on directory renamed to prevent confusion"
+msgstr "Boxberry: Add-on directory renamed to prevent confusion"
+
+msgctxt "Languages::rus_boxberry.addon_was_renamed.message"
+msgid "<p>Boxberry provides its own add-on for integration with [product]. The folder of that add-on is called <b>boxberry</b>. An add-on with the same folder name existed in [product] by default, and it led to conflicts. For that reason, we have renamed the folder of our add-on to <b>rus_boxberry</b>. All Boxberry shipping methods in your store now use our add-on.</p><p>If you have an add-on by Boxberry, you’ll find disabled it on the <b>Add-ons → Manage add-ons</b> page. It has <i>Boxberry</i> listed as the developer under the description.</p><p><a href=\"[boxberry_addon]\" target=\"_blank\" class=\"btn btn-large btn-primary\">View Boxberry add-ons</a></p>"
+msgstr "<p>Boxberry provides its own add-on for integration with [product]. The folder of that add-on is called <b>boxberry</b>. An add-on with the same folder name existed in [product] by default, and it led to conflicts. For that reason, we have renamed the folder of our add-on to <b>rus_boxberry</b>. All Boxberry shipping methods in your store now use our add-on.</p><p>If you have an add-on by Boxberry, you’ll find disabled it on the <b>Add-ons → Manage add-ons</b> page. It has <i>Boxberry</i> listed as the developer under the description.</p><p><a href=\"[boxberry_addon]\" target=\"_blank\" class=\"btn btn-large btn-primary\">View Boxberry add-ons</a></p>"
+

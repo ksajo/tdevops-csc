@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_cities.po\n"
+"X-Crowdin-File-ID: 4214\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_cities"
+msgid "Russian localization — Cities"
+msgstr "Города"
+
+msgctxt "Addons::description::rus_cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Возможность автоматического заполнения поля город при оформлении заказа."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Для создания нового города необходимо выбрать страну и регион, нажать кнопку \"Поиск\", создать город с помощью кнопки \"+\". Если у страны нет регионов, необходимо их создать."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Добавить новый город"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Новый город"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Выберите город"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Нет созданных областей"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Не выбрана область"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "другой город"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Создать новый регион"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Просмотр"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Редактирование"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Редактирование"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Города"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Код города СДЭК"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Обновить список городов"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Обновить"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Список городов был обновлен"
+
+msgctxt "Languages::rus_cities.upgrade_notification_title"
+msgid "Addon Cities changed"
+msgstr "Изменения модуля \"Города\""
+
+msgctxt "Languages::rus_cities.upgrade_notification_text"
+msgid "The Cities Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+msgstr "В модуле \"Города\" появилась новая кнопка для обновления списка городов. Откройте настройки модуля и нажмите кнопку \"Обновить\" для обновления данных городов."
+
+msgctxt "Languages::addons.rus_cities.city_prefix"
+msgid "city., city"
+msgstr "г."
+
+msgctxt "Languages::rus_cities_upgrade_notification_title"
+msgid "Changes to Add-ons: SDEK, eDost, Dellin, PEC"
+msgstr "Внесены изменения в модули: \"СДЭК\", \"eDost.ru\", \"Деловые Линии\", \"ПЭК\""
+
+msgctxt "Languages::rus_cities_upgrade_notification_text"
+msgid "Please, check shipping method settings if there were Dellin and PEC shipping methods before upgrade. We've made some technical changes to the following add-ons: SDEK, eDost, Dellin, and PEC. They now use the common list of cities provided by the Cities add-on. The identifiers of cities that are used for shipping rate calculation are now stored in the database.<br/> Due to this change you can no longer directly edit cities under 'Administration - Shipping & taxes - Cities'. However, you can still recreate it."
+msgstr "Пожалуйста, проверьте настройки способов доставки, если перед обновлением у вас были установлены способы доставки Деловых Линий и ПЭК. Мы внесли технические изменения в следующие модули: \"СДЭК\", \"eDost.ru\", \"Деловые Линии\" и \"ПЭК\". Данные модули теперь используют общий список городов из модуля \"Города\". Идентификаторы городов, используемые для расчёта стоимости доставки, теперь хранятся в базе данных.<br/> В результате этих изменений была убрана возможность напрямую редактировать список городов из \"Администрирование - Доставка и налоги - Города\". Однако, вы можете создать его заново."
+
+msgctxt "Languages::rus_cities.cities_upgrade_notification_title"
+msgid "Regions for CIS countries"
+msgstr "Регионы для стран СНГ"
+
+msgctxt "Languages::rus_cities.cities_upgrade_notification_text"
+msgid "Previously [product] didn't have regions for CIS countries. If you created regions manually, it could lead to problems with real-time shipping rate calculation by SDEK. In this upgrade we've added regions for CIS countries. To make SDEK work with these regions properly, please complete the following steps:<ul><li>Open the directory with your store on the server. Go to the addons/rus_cities/database folder.</li><li>Copy all the SQL files from that folder to your local machine.</li><li>Open the Administration panel of your store and go to Administration → Backup/Restore.</li><li>Click the gear button in the upper right part of the page and choose Upload.</li><li>Upload the SQL files you downloaded from step 2.</li><li>Restore the necessary SQL files by clicking the gear button to the right of them and choosing Restore. Here's how to determine which files you need to restore:<ul><li>You have to restore cities_new_list.sql. This file is used by the \"Cities\" add-on, which is required for many shipping methods.</li><li>If you had SDEK, eDost, PECOM, or Delovye Linii add-ons installed before the upgrade, restore the corresponding SQL files.</li></ul></li></ul>After that, SDEK and other real-time shipping methods will work with the CIS regions properly. The steps above are necessary to preserve any data (such as shipping methods, cities, etc.) that you may have created in the past. If you have no problem with losing that data, you can simply uninstall and reinstall the Cities, SDEK, eDost, PECOM, and Delovye Linii add-ons."
+msgstr "Раньше в [product] не было регионов для стран СНГ. Если вы создавали регионы вручную, то у способа доставки СДЭК могли возникнуть проблемы с расчётом доставки в реальном времени. В обновлении мы добавили регионы для стран СНГ. Чтобы СДЭК корректно работал с этими регионами, выполните следующие шаги:<ul><li>Откройте директорию с вашим магазином на сервере. Перейдите в папку addons/rus_cities/database.</li><li>Скопируйте все SQL-файлы из этой папки к себе на компьютер.</li><li>Откройте панель администратора и перейдите на страницу Администрирование → Резервное копирование и восстановление.</li><li>Нажмите на кнопку с изображением шестерёнки в правой верхней части страницы и выберите \"Загрузить файл\".</li><li>Загрузите SQL-файлы, которые вы скопировали себе в шаге 2.</li><li>Восстановите нужные SQL-файлы, нажав на кнопку с изображением шестерёнки справа от них и выбрав \"Восстановить\". Вот как определить, какие файлы нужно восстанавливать:<ul><li>Обязательно восстановите cities_new_list.sql. Этот файл используется модулем \"Города\", который нужен для многих способов доставки.</li><li>Если у вас перед обновлением были установлены модули СДЭК, eDost, ПЭК или \"Деловые линии\", то восстановите соответствующие им SQL-файлы.</li></ul></li></ul>После этого СДЭК и другие способы доставки с расчётом стоимости в реальном времени будут корректно работать с регионами СНГ. Шаги выше нужны, чтобы сохранить те данные, которые вы добавляли ранее (например, города, способы доставки, и пр.). Если для вас не проблема потерять эти данные, то можете просто удалить и переустановить модули \"Города\", СДЭК, eDost, ПЭК и \"Деловые линии\"."
+

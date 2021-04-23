@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>commerceml</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <php_extensions>
+            <xml>
+                <supported>Y</supported>
+            </xml>
+            <mbstring>
+                <supported>Y</supported>
+            </mbstring>
+        </php_extensions>
+        <conflicts>rus_exim_1c</conflicts>
+        <dependencies>product_variations</dependencies>
+    </compatibility>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\CommerceML\">src</psr4>
+        <psr4 prefix="Tygh\Addons\CommerceML\Tests\Unit\">tests</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\CommerceML\Bootstrap</bootstrap>
+    <!-- installer>\Tygh\Addons\CommerceML\Installer</installer -->
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:commerceml_imports;</item>
+        <item for="install">DROP TABLE IF EXISTS ?:commerceml_import_entities;</item>
+        <item for="install">DROP TABLE IF EXISTS ?:commerceml_import_entity_map;</item>
+
+        <item for="install">
+            CREATE TABLE ?:commerceml_imports (
+                import_id int(11) unsigned NOT NULL auto_increment,
+                import_key varchar(32) NOT NULL default '',
+                company_id int(11) unsigned NOT NULL,
+                user_id int(11) unsigned NOT NULL,
+                status char(1) NOT NULL DEFAULT 'N',
+                type varchar(32) NOT NULL DEFAULT '',
+                has_only_changes char(1) NOT NULL DEFAULT 'N',
+                created_at int(11) unsigned NOT NULL DEFAULT '0',
+                updated_at int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (import_id),
+                KEY idx_company_id (company_id)
+            ) DEFAULT CHARSET UTF8;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:commerceml_import_entities (
+                import_id int(11) unsigned NOT NULL DEFAULT '0',
+                entity_id varchar(128) NOT NULL DEFAULT '',
+                entity_type varchar(64) NOT NULL DEFAULT '',
+                status char(1) NOT NULL DEFAULT 'N',
+                process_id varchar(32) NULL,
+                entity mediumblob,
+                created_at int(11) unsigned NOT NULL DEFAULT '0',
+                updated_at int(11) unsigned NOT NULL DEFAULT '0',
+                microtime bigint(20) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (import_id, entity_type, entity_id),
+                KEY idx_import_porcess (import_id, entity_type, process_id, microtime)
+            ) DEFAULT CHARSET UTF8;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:commerceml_import_entity_map (
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                entity_id varchar(128) NOT NULL DEFAULT '',
+                entity_type varchar(64) NOT NULL DEFAULT '',
+                entity_name varchar(255) NOT NULL DEFAULT '',
+                local_id varchar(128) NOT NULL DEFAULT '',
+                timestamp int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (entity_id, entity_type, company_id),
+                KEY idx_local_id (local_id, entity_type),
+                KEY idx_company_id (company_id)
+            ) DEFAULT CHARSET UTF8;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:commerceml_import_removed_entities (
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                entity_id varchar(128) NOT NULL DEFAULT '',
+                entity_type varchar(64) NOT NULL DEFAULT '',
+                PRIMARY KEY (entity_id, entity_type, company_id)
+            ) DEFAULT CHARSET UTF8;
+        </item>
+        <item for="install">ALTER TABLE ?:products ADD source_import_key VARCHAR(32) NOT NULL default ''</item>
+        <item for="install">INSERT INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('commerceml', 'Y', 'addons', 'commerceml', 'N');</item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:commerceml_imports;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:commerceml_import_entities;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:commerceml_import_entity_map;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:commerceml_import_removed_entities;</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP source_import_key</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege LIKE 'commerceml'</item>
+    </queries>
+</addon>

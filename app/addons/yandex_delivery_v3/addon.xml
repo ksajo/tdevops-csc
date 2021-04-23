@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>yandex_delivery_v3</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>1000</priority>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <compatibility>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\YandexDelivery\">src</psr4>
+        <psr4 prefix="Tygh\Shippings\Services\">src/Shippings/Services</psr4>
+    </autoload>
+
+    <bootstrap>\Tygh\Addons\YandexDelivery\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\YandexDelivery\Installer</installer>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="oauth_key">
+                        <type>input</type>
+                    </item>
+                    <item id="cabinet_id">
+                        <type>input</type>
+                    </item>
+                    <item id="sender_ids">
+                        <type>textarea</type>
+                    </item>
+                    <item id="warehouse_ids">
+                        <type>textarea</type>
+                    </item>
+                    <item id="autoconfirm">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:yad_orders;</item>
+        <item for="install">
+            CREATE TABLE `?:yad_orders` (
+            `shipment_id` mediumint(8) unsigned NOT NULL,
+            `yandex_id` mediumint(8) unsigned NOT NULL default 0,
+            `status` smallint(5) unsigned NOT NULL default '0',
+            PRIMARY KEY  (`shipment_id`),
+            INDEX (yandex_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:yad_order_statuses;</item>
+        <item for="install">
+            CREATE TABLE `?:yad_order_statuses` (
+            `yandex_id` mediumint(8) unsigned NOT NULL DEFAULT 0,
+            `order_id` mediumint(8) unsigned NOT NULL default '0',
+            `timestamp` int(11) unsigned NOT NULL default '0',
+            `status` smallint(5) unsigned NOT NULL default '0',
+            PRIMARY KEY  (`yandex_id`, `timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:yad_statuses;</item>
+        <item for="install">
+            CREATE TABLE `?:yad_statuses` (
+            `yad_status_id` mediumint(8) unsigned NOT NULL,
+            `yad_status_code` varchar(64) NOT NULL DEFAULT '',
+            PRIMARY KEY  (`yad_status_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:yad_status_descriptions;</item>
+        <item for="install">
+            CREATE TABLE `?:yad_status_descriptions` (
+            `yad_status_id` mediumint(8) unsigned NOT NULL,
+            `yad_status_name` varchar(255) NOT NULL DEFAULT '',
+            `lang_code` char(2) NOT NULL default '',
+            PRIMARY KEY  (`yad_status_id`, `lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yad_status_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yad_statuses;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yad_order_statuses;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yad_orders;</item>
+
+        <item type="file">database/statuses.sql</item>
+        <item type="file" lang="ru">database/status_descriptions.sql</item>
+    </queries>
+</addon>

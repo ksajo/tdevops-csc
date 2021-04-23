@@ -1,0 +1,321 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::yandex_delivery"
+msgid "Yandex.Delivery [Deprecated]"
+msgstr "Yandex.Delivery [Deprecated]"
+
+msgctxt "Addons::description::yandex_delivery"
+msgid "Yandex delivery service"
+msgstr "Yandex delivery service"
+
+msgctxt "SettingsSections::yandex_delivery::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::yandex_delivery::autocomplete"
+msgid "Autocomplete cities and street"
+msgstr "Autocomplete cities and street"
+
+msgctxt "SettingsOptions::yandex_delivery::autopostcode"
+msgid "Autocomplete postcode"
+msgstr "Autocomplete postcode"
+
+msgctxt "SettingsOptions::yandex_delivery::api_keys"
+msgid "API keys"
+msgstr "API keys"
+
+msgctxt "SettingsOptions::yandex_delivery::client_ids"
+msgid "Client ids"
+msgstr "Client ids"
+
+msgctxt "Languages::yandex_delivery_service"
+msgid "Yandex delivery"
+msgstr "Yandex delivery"
+
+msgctxt "Languages::yandex_delivery_pickuppoint"
+msgid "Pickup point"
+msgstr "Pickup point"
+
+msgctxt "Languages::yandex_delivery_todoor"
+msgid "To door"
+msgstr "To door"
+
+msgctxt "Languages::yandex_delivery_metro"
+msgid "Metro"
+msgstr "Metro"
+
+msgctxt "Languages::yandex_delivery_pay_accepted"
+msgid "Available"
+msgstr "Available"
+
+msgctxt "Languages::yandex_delivery_cash"
+msgid "cash"
+msgstr "cash"
+
+msgctxt "Languages::yandex_delivery_credit_card"
+msgid "credit card"
+msgstr "credit card"
+
+msgctxt "Languages::yandex_delivery_deliver_orient_day"
+msgid "deliver orient day"
+msgstr "deliver orient day"
+
+msgctxt "Languages::yandex_delivery_instruction"
+msgid "Instruction"
+msgstr "Instruction"
+
+msgctxt "Languages::yandex_delivery_all_day"
+msgid "Day and night"
+msgstr "Day and night"
+
+msgctxt "Languages::yandex_delivery_every_day"
+msgid "Daily"
+msgstr "Daily"
+
+msgctxt "Languages::yandex_delivery_weekend"
+msgid "Weekend"
+msgstr "Weekend"
+
+msgctxt "Languages::carrier_yandex"
+msgid "Yandex.Delivery [Deprecated]"
+msgstr "Yandex.Delivery [Deprecated]"
+
+msgctxt "Languages::yandex_delivery_shipping"
+msgid "Delivery type"
+msgstr "Delivery type"
+
+msgctxt "Languages::yandex_delivery_ship_display_type"
+msgid "Display type"
+msgstr "Display type"
+
+msgctxt "Languages::yandex_delivery_cms"
+msgid "Internal"
+msgstr "Internal"
+
+msgctxt "Languages::yandex_delivery.sort_points_list"
+msgid "Sort points"
+msgstr "Sort points"
+
+msgctxt "Languages::yandex_delivery.sort_near"
+msgid "Near"
+msgstr "Near"
+
+msgctxt "Languages::yandex_delivery.sort_no"
+msgid "Not sorting"
+msgstr "Not sorting"
+
+msgctxt "Languages::yandex_delivery.sort_abc"
+msgid "ABC"
+msgstr "ABC"
+
+msgctxt "Languages::yandex_delivery.display_count_pickuppoints"
+msgid "Number of displayed pickup points"
+msgstr "Number of displayed pickup points"
+
+msgctxt "Languages::yandex_delivery.all_point"
+msgid "Show all pickup points"
+msgstr "Show all pickup points"
+
+msgctxt "Languages::yandex_delivery.yandex_sender"
+msgid "Sender"
+msgstr "Sender"
+
+msgctxt "Languages::yandex_delivery.yandex_warehouse"
+msgid "Warehouse"
+msgstr "Warehouse"
+
+msgctxt "Languages::yandex_delivery.yandex_requisite"
+msgid "Requisite"
+msgstr "Requisite"
+
+msgctxt "Languages::yandex_delivery.orders"
+msgid "Yandex delivery orders"
+msgstr "Yandex delivery orders"
+
+msgctxt "Languages::yandex_delivery.order"
+msgid "Yandex order"
+msgstr "Yandex order"
+
+msgctxt "Languages::yandex_delivery.orders_menu_description"
+msgid "Manage Yandex.Delivery orders"
+msgstr "Manage Yandex.Delivery orders"
+
+msgctxt "Languages::yandex_delivery.error_yandex_delivery"
+msgid "Yandex.Delivery"
+msgstr "Yandex.Delivery"
+
+msgctxt "Languages::yandex_delivery.text_error_config"
+msgid "The [param] parameter is not specified. Please check the add-on settings."
+msgstr "The [param] parameter is not specified. Please check the add-on settings."
+
+msgctxt "Languages::yandex_delivery.status_delivery"
+msgid "Status delivery"
+msgstr "Status delivery"
+
+msgctxt "Languages::yandex_delivery.yandex_update_selected"
+msgid "Update selected"
+msgstr "Update selected"
+
+msgctxt "Languages::yandex_delivery.yandex_cancel_selected"
+msgid "Cancel selected"
+msgstr "Cancel selected"
+
+msgctxt "Languages::yandex_delivery.city_from"
+msgid "Send from"
+msgstr "Send from"
+
+msgctxt "Languages::ttc_yandex_delivery.city_from"
+msgid "Select the city from where the items will be sent. For example, if your warehouse is in the Moscow region, select Moscow."
+msgstr "Select the city from where the items will be sent. For example, if your warehouse is in the Moscow region, select Moscow."
+
+msgctxt "Languages::yandex_delivery.update_selected"
+msgid "Update selected"
+msgstr "Update selected"
+
+msgctxt "Languages::yandex_delivery.logging"
+msgid "Logging"
+msgstr "Logging"
+
+msgctxt "Languages::ttc_yandex_delivery.logging"
+msgid "Yandex.Delivery sends big amounts of data. Enabling the logging may cause lags during checkout and order processing."
+msgstr "Yandex.Delivery sends big amounts of data. Enabling the logging may cause lags during checkout and order processing."
+
+msgctxt "Languages::yandex_delivery.shipment"
+msgid "Shipment"
+msgstr "Shipment"
+
+msgctxt "Languages::yandex_delivery.shipment"
+msgid "Shipment"
+msgstr "Shipment"
+
+msgctxt "Languages::yandex_delivery.shipment_date"
+msgid "Shipment date"
+msgstr "Shipment date"
+
+msgctxt "Languages::yandex_delivery.shipment_type"
+msgid "Shipment type"
+msgstr "Shipment type"
+
+msgctxt "Languages::yandex_delivery.courier_warehouse"
+msgid "By courier of the joint warehouse"
+msgstr "By courier of the joint warehouse"
+
+msgctxt "Languages::yandex_delivery.yourself_warehouse"
+msgid "To joint warehouse by yourself"
+msgstr "To joint warehouse by yourself"
+
+msgctxt "Languages::yandex_delivery.yourself_delivery"
+msgid "To [delivery] warehouse by yourself"
+msgstr "To [delivery] warehouse by yourself"
+
+msgctxt "Languages::yandex_delivery.courier_delivery"
+msgid "By [delivery] courier"
+msgstr "By [delivery] courier"
+
+msgctxt "Languages::yandex_delivery.assessed_value"
+msgid "Assessed value"
+msgstr "Assessed value"
+
+msgctxt "Languages::yandex_delivery.amount_prepaid"
+msgid "Prepaid"
+msgstr "Prepaid"
+
+msgctxt "Languages::ttc_yandex_delivery.amount_prepaid"
+msgid "The amount of money a customer has prepaid. If you specify \"0\", a customer will have to pay for the order on delivery. Please note that a fee can be charged for the money transfer."
+msgstr "The amount of money a customer has prepaid. If you specify \"0\", a customer will have to pay for the order on delivery. Please note that a fee can be charged for the money transfer."
+
+msgctxt "Languages::yandex_delivery.need_phone_customer"
+msgid "To create a Yandex.Delivery order, please enter the customer's mobile phone number in the order details in CS-Cart first."
+msgstr "To create a Yandex.Delivery order, please enter the customer's mobile phone number in the order details in CS-Cart first."
+
+msgctxt "Languages::yandex_delivery.yandex_order_form"
+msgid "Create a yandex order"
+msgstr "Create a yandex order"
+
+msgctxt "Languages::yandex_delivery.add_yandex_order"
+msgid "Place a yandex order"
+msgstr "Place a yandex order"
+
+msgctxt "Languages::yandex_delviery.shipment_information"
+msgid "Shipment information"
+msgstr "Shipment information"
+
+msgctxt "Languages::yandex_delviery.customer_information"
+msgid "Customer information"
+msgstr "Customer information"
+
+msgctxt "Languages::yandex_delviery.other_info"
+msgid "Other info"
+msgstr "Other info"
+
+msgctxt "Languages::yandex_delivery.shipping_services"
+msgid "Shipping services"
+msgstr "Shipping services"
+
+msgctxt "Languages::yandex_delivery_courierpoint"
+msgid "Courier point"
+msgstr "Courier point"
+
+msgctxt "Languages::yandex_courier_delivery"
+msgid "Courier delivery"
+msgstr "Courier delivery"
+
+msgctxt "Languages::yandex_delivery.type_delivery"
+msgid "Type of delivery"
+msgstr "Type of delivery"
+
+msgctxt "Languages::yandex_delivery.pickup"
+msgid "Pickup"
+msgstr "Pickup"
+
+msgctxt "Languages::yandex_delivery.courier"
+msgid "Courier"
+msgstr "Courier"
+
+msgctxt "Languages::yandex_delivery.no_shipping_services_selected"
+msgid "At least one shipping service must be selected on the Configure tab of the shipping method configuration page"
+msgstr "At least one shipping service must be selected on the Configure tab of the shipping method configuration page"
+
+msgctxt "Languages::yandex_delivery.day_single.schedule_closed"
+msgid "[day]: Closed"
+msgstr "[day]: Closed"
+
+msgctxt "Languages::yandex_delivery.day_single.schedule_single"
+msgid "[day]: [schedule]"
+msgstr "[day]: [schedule]"
+
+msgctxt "Languages::yandex_delivery.day_single.schedule_interval"
+msgid "[day]: [from]&ndash;[to]"
+msgstr "[day]: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery.day_interval.schedule_closed"
+msgid "[first_day]&ndash;[last_day]: Closed"
+msgstr "[first_day]&ndash;[last_day]: Closed"
+
+msgctxt "Languages::yandex_delivery.day_interval.schedule_single"
+msgid "[first_day]&ndash;[last_day]: [schedule]"
+msgstr "[first_day]&ndash;[last_day]: [schedule]"
+
+msgctxt "Languages::yandex_delivery.day_interval.schedule_interval"
+msgid "[first_day]&ndash;[last_day]: [from]&ndash;[to]"
+msgstr "[first_day]&ndash;[last_day]: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery.day_every.schedule_interval"
+msgid "Daily: [from]&ndash;[to]"
+msgstr "Daily: [from]&ndash;[to]"
+
+msgctxt "Languages::yandex_delivery.day_every.schedule_single"
+msgid "Daily: [schedule]"
+msgstr "Daily: [schedule]"
+
+msgctxt "Languages::yandex_delivery.info_about_of_tracking_number"
+msgid "Due to technical restrictions of Yandex.Delivery, the notification will be sent without a tracking number. You'll be able to send the tracking number after you create the shipment. Just add the tracking number on the order editing page and save your changes with notifying the customer about them."
+msgstr "Due to technical restrictions of Yandex.Delivery, the notification will be sent without a tracking number. You'll be able to send the tracking number after you create the shipment. Just add the tracking number on the order editing page and save your changes with notifying the customer about them."
+
+msgctxt "Languages::yandex_delivery.inner_order"
+msgid "Order number in Yandex"
+msgstr "Order number in Yandex"

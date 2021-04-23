@@ -1,0 +1,173 @@
+// Addons
+.addon-icon {
+    width: 75px;
+    vertical-align: middle !important;
+    text-align: center;
+    .bg-icon {
+        .border-radius(2px);
+        margin: 0 7px;
+        width: 38px;
+        height: 38px;
+        border: 1px solid #c5c5c5;
+        background: #fff;
+        text-align: center;
+        i {
+            margin-top: 10px;
+            font-size: 20px;
+            line-height: 20px;
+            width: 20px;
+            height: 20px;
+            margin-left: 4px;
+        }
+        .icon-blue {
+            color: #0278bd;
+        }
+    }
+}
+
+td.addon-action {
+    vertical-align: middle;
+}
+
+.addon-info {
+    .addon-version {
+        margin-right: 3px !important;
+    }
+
+    .addon-supplier,
+    .addon-installed-date {
+        border-left: 1px solid #BDBDBD;
+        padding-left: 6px !important;
+    }
+
+    .addon-version,
+    .addon-supplier,
+    .addon-installed-date {
+        text-transform: uppercase;
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+    a.addon-supplier {
+        text-decoration: underline;
+        color: #999;
+        font-size: 11px;
+    }
+}
+
+.buttons-container .addon-info small {
+    font-size: 11px;
+}
+
+.buttons-container .addon-info {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.addon-info-msg {
+    form {
+        margin: 10px 0 0;
+    }
+}
+
+.install-addon {
+    width: 600px;
+    .install-addon-wrapper {
+        text-align: center;
+        i.install-addon-banner {
+            font-size: 141px;
+            line-height: 141px;
+            height: 141px;
+            width: 151px;
+            color: #bbb;
+            margin: 20px 0;
+        }
+        img.install-addon-banner {
+            padding: 20px 0 34px 0;
+        }
+        .install-addon-text {
+            padding-bottom: 20px;
+        }
+        .fileuploader {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.addons-search-form {
+    position: relative;
+
+    .icon-remove {
+        position: absolute;
+        right: 12px;
+        top: 32px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
+
+.admin-content-wrap .sidebar .sidebar-row.marketplace {
+    background: #E2F3FE;
+
+    @media (max-width: @wide-width + @mainSidebarThinWidth + 50px) {
+        padding-top: 15px;
+    }
+}
+.marketplace-link {
+    margin-top: 20px;
+}
+.sidebar-row .marketplace-link {
+    margin-top: 0px;
+}
+.sidebar-row .marketplace-link a {
+    display: inline-block;
+}
+.ui-dialog .marketplace {
+    margin: 20px -13px 20px -13px !important;
+    position: relative;
+    .marketplace-link {
+        margin: 6px;
+    }
+}
+.sidebar-note-item {
+    margin-bottom: 10px;
+    span {
+        display: block;
+        color: #888;
+        margin-left: 10px;
+    }
+}
+
+.tablesorter-header-inner::after {
+    display: block;
+    width: 15px;
+    height: 4px;
+    position: absolute;
+    right: -20px;
+    opacity: 0.3;
+
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+
+    .tablesorter-headerAsc & {
+        top: 1px;
+        content: '\f0d8';
+    }
+
+    .tablesorter-headerDesc & {
+        content: '\f0d7';
+        top: 3px;
+    }
+}
+
+.tablesorter-header[data-ca-sortable-column="true"] {
+    cursor: pointer;
+
+    .tablesorter-header-inner {
+        position: relative;
+        display: inline-block;
+    }
+}
+

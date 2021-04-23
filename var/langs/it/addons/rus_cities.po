@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+
+msgctxt "Addons::name::rus_cities"
+msgid "Russian localization — Cities"
+msgstr "Russian localization — Cities"
+
+msgctxt "Addons::description::rus_cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "The add-on provides new functionality – cities to be added automatically to the order placing page."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Add new city"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "New city"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Select city"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "No states created"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "No state selected"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "another city"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Create new state"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Can view"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Can edit"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Can edit"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Cities"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Code city sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Update cities"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Update"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Table cities was updated"
+
+msgctxt "Languages::rus_cities.upgrade_notification_title"
+msgid "Addon Cities changed"
+msgstr "Addon Cities changed"
+
+msgctxt "Languages::rus_cities.upgrade_notification_text"
+msgid "The Cities Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+msgstr "The Cities Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+
+msgctxt "Languages::addons.rus_cities.city_prefix"
+msgid "city., city"
+msgstr "city., city"
+
+msgctxt "Languages::rus_cities_upgrade_notification_title"
+msgid "Changes to Add-ons: SDEK, eDost, Dellin, PEC"
+msgstr "Changes to Add-ons: SDEK, eDost, Dellin, PEC"
+
+msgctxt "Languages::rus_cities_upgrade_notification_text"
+msgid "Please, check shipping method settings if there were Dellin and PEC shipping methods before upgrade. We've made some technical changes to the following add-ons: SDEK, eDost, Dellin, and PEC. They now use the common list of cities provided by the Cities add-on. The identifiers of cities that are used for shipping rate calculation are now stored in the database.<br/> Due to this change you can no longer directly edit cities under 'Administration - Shipping & taxes - Cities'. However, you can still recreate it."
+msgstr "Please, check shipping method settings if there were Dellin and PEC shipping methods before upgrade. We've made some technical changes to the following add-ons: SDEK, eDost, Dellin, and PEC. They now use the common list of cities provided by the Cities add-on. The identifiers of cities that are used for shipping rate calculation are now stored in the database.<br/> Due to this change you can no longer directly edit cities under 'Administration - Shipping & taxes - Cities'. However, you can still recreate it."
+
+msgctxt "Languages::rus_cities.cities_upgrade_notification_title"
+msgid "Regions for CIS countries"
+msgstr "Regions for CIS countries"
+
+msgctxt "Languages::rus_cities.cities_upgrade_notification_text"
+msgid "Previously [product] didn't have regions for CIS countries. If you created regions manually, it could lead to problems with real-time shipping rate calculation by SDEK. In this upgrade we've added regions for CIS countries. To make SDEK work with these regions properly, please complete the following steps:<ul><li>Open the directory with your store on the server. Go to the addons/rus_cities/database folder.</li><li>Copy all the SQL files from that folder to your local machine.</li><li>Open the Administration panel of your store and go to Administration → Backup/Restore.</li><li>Click the gear button in the upper right part of the page and choose Upload.</li><li>Upload the SQL files you downloaded from step 2.</li><li>Restore the necessary SQL files by clicking the gear button to the right of them and choosing Restore. Here's how to determine which files you need to restore:<ul><li>You have to restore cities_new_list.sql. This file is used by the \"Cities\" add-on, which is required for many shipping methods.</li><li>If you had SDEK, eDost, PECOM, or Delovye Linii add-ons installed before the upgrade, restore the corresponding SQL files.</li></ul></li></ul>After that, SDEK and other real-time shipping methods will work with the CIS regions properly. The steps above are necessary to preserve any data (such as shipping methods, cities, etc.) that you may have created in the past. If you have no problem with losing that data, you can simply uninstall and reinstall the Cities, SDEK, eDost, PECOM, and Delovye Linii add-ons."
+msgstr "Previously [product] didn't have regions for CIS countries. If you created regions manually, it could lead to problems with real-time shipping rate calculation by SDEK. In this upgrade we've added regions for CIS countries. To make SDEK work with these regions properly, please complete the following steps:<ul><li>Open the directory with your store on the server. Go to the addons/rus_cities/database folder.</li><li>Copy all the SQL files from that folder to your local machine.</li><li>Open the Administration panel of your store and go to Administration → Backup/Restore.</li><li>Click the gear button in the upper right part of the page and choose Upload.</li><li>Upload the SQL files you downloaded from step 2.</li><li>Restore the necessary SQL files by clicking the gear button to the right of them and choosing Restore. Here's how to determine which files you need to restore:<ul><li>You have to restore cities_new_list.sql. This file is used by the \"Cities\" add-on, which is required for many shipping methods.</li><li>If you had SDEK, eDost, PECOM, or Delovye Linii add-ons installed before the upgrade, restore the corresponding SQL files.</li></ul></li></ul>After that, SDEK and other real-time shipping methods will work with the CIS regions properly. The steps above are necessary to preserve any data (such as shipping methods, cities, etc.) that you may have created in the past. If you have no problem with losing that data, you can simply uninstall and reinstall the Cities, SDEK, eDost, PECOM, and Delovye Linii add-ons."

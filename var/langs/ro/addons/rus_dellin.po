@@ -1,0 +1,157 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+
+msgctxt "Addons::name::rus_dellin"
+msgid "Delovye Linii - Shipping Service ( dellin.ru )"
+msgstr "Delovye Linii - Shipping Service ( dellin.ru )"
+
+msgctxt "Addons::description::rus_dellin"
+msgid "Ship your products with Delovye Linii ( dellin.ru )"
+msgstr "Ship your products with Delovye Linii ( dellin.ru )"
+
+msgctxt "Languages::shipping.rus_dellin.appkey"
+msgid "Application key"
+msgstr "Application key"
+
+msgctxt "Languages::shipping.rus_dellin.height"
+msgid "Height"
+msgstr "Height"
+
+msgctxt "Languages::shipping.rus_dellin.length"
+msgid "Length"
+msgstr "Length"
+
+msgctxt "Languages::shipping.rus_dellin.width"
+msgid "Width"
+msgstr "Width"
+
+msgctxt "Languages::carrier_dellin"
+msgid "Delovye Linii ( dellin.ru )"
+msgstr "Delovye Linii ( dellin.ru )"
+
+msgctxt "Languages::shipping.rus_dellin.derival_door"
+msgid "Pick up at address"
+msgstr "Pick up at address"
+
+msgctxt "Languages::shipping.rus_dellin.arrival_door"
+msgid "Deliver to address"
+msgstr "Deliver to address"
+
+msgctxt "Languages::shipping.rus_dellin.package"
+msgid "Packaging"
+msgstr "Packaging"
+
+msgctxt "Languages::shipping.rus_dellin.tough_packing"
+msgid "Wooden frame box"
+msgstr "Wooden frame box"
+
+msgctxt "Languages::shipping.rus_dellin.tough_box"
+msgid "Rigid box"
+msgstr "Rigid box"
+
+msgctxt "Languages::shipping.rus_dellin.cardboard"
+msgid "Cardboard box"
+msgstr "Cardboard box"
+
+msgctxt "Languages::shipping.rus_dellin.additional_package"
+msgid "Additional packaging"
+msgstr "Additional packaging"
+
+msgctxt "Languages::shipping.rus_dellin.pellicle"
+msgid "Bubble wrap"
+msgstr "Bubble wrap"
+
+msgctxt "Languages::shipping.rus_dellin.bag"
+msgid "Bag"
+msgstr "Bag"
+
+msgctxt "Languages::shipping.rus_dellin.pallet"
+msgid "Pallet collar"
+msgstr "Pallet collar"
+
+msgctxt "Languages::shipping.rus_dellin.derival_services"
+msgid "Services at pick-up"
+msgstr "Services at pick-up"
+
+msgctxt "Languages::shipping.rus_dellin.arrival_services"
+msgid "Services at delivery"
+msgstr "Services at delivery"
+
+msgctxt "Languages::shipping.rus_dellin.lateral_loading"
+msgid "Side loading"
+msgstr "Side loading"
+
+msgctxt "Languages::shipping.rus_dellin.top_loading"
+msgid "Top loading"
+msgstr "Top loading"
+
+msgctxt "Languages::shipping.rus_dellin.loadinglift"
+msgid "Loading lift"
+msgstr "Loading lift"
+
+msgctxt "Languages::shipping.rus_dellin.manipulator"
+msgid "Manipulator"
+msgstr "Manipulator"
+
+msgctxt "Languages::shipping.rus_dellin.open_car"
+msgid "Open car"
+msgstr "Open car"
+
+msgctxt "Languages::shipping.rus_dellin.movable"
+msgid "Removing canopy"
+msgstr "Removing canopy"
+
+msgctxt "Languages::shipping.rus_dellin.avia_delivery"
+msgid "Delivery by air"
+msgstr "Delivery by air"
+
+msgctxt "Languages::shipping.rus_dellin.small_delivery"
+msgid "Small-size delivery"
+msgstr "Small-size delivery"
+
+msgctxt "Languages::shipping.rus_dellin.small_delivery.tooltip"
+msgid "Small-size shipments can be picked up and delivered to a specific address"
+msgstr "Small-size shipments can be picked up and delivered to a specific address"
+
+msgctxt "Languages::shipping.rus_dellin.express_delivery"
+msgid "Express delivery"
+msgstr "Express delivery"
+
+msgctxt "Languages::shipping.rus_dellin.express_delivery.tooltip"
+msgid "Express delivery is available from terminal to terminal"
+msgstr "Express delivery is available from terminal to terminal"
+
+msgctxt "Languages::shipping.rus_dellin.header_shipping_terminal"
+msgid "Delivery terminal"
+msgstr "Delivery terminal"
+
+msgctxt "Languages::shipping.rus_dellin.login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "Languages::shipping.rus_dellin.login.tooltip"
+msgid "Account login at dellin.ru"
+msgstr "Account login at dellin.ru"
+
+msgctxt "Languages::shipping.rus_dellin.password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::shipping.rus_dellin.password.tooltip"
+msgid "Account password at dellin.ru"
+msgstr "Account password at dellin.ru"
+
+msgctxt "Languages::shipping.rus_dellin.individual_calculator"
+msgid "Use individual calculator"
+msgstr "Use individual calculator"
+
+msgctxt "Languages::shipping.rus_dellin.individual_calculator.tooltip"
+msgid "Use login and password from dellin.ru to calculate individual discounts"
+msgstr "Use login and password from dellin.ru to calculate individual discounts"
+
+msgctxt "Languages::shipping.rus_dellin.file_not_upload"
+msgid "Couldn't receive correct data from dellin.ru. Please make sure the application key in the shipping method settings is correct."
+msgstr "Couldn't receive correct data from dellin.ru. Please make sure the application key in the shipping method settings is correct."

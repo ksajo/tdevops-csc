@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_boxberry</id>
+    <version>1.1</version>
+    <priority>100</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+      <conflicts>boxberry</conflicts>
+    </compatibility>
+    <functions>
+        <item for="install">fn_rus_boxberry_install</item>
+        <item for="uninstall">fn_rus_boxberry_uninstall</item>
+    </functions>
+
+</addon>

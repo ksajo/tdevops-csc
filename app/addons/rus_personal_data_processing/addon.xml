@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_personal_data_processing</id>
+    <version>1.0.0</version>
+    <priority>9780</priority>
+    <position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <default_language>ru</default_language>
+    <settings edition_type="ROOT,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="information">
+                        <type>header</type>
+                    </item>
+                    <item id="personal_information">
+                        <type>info</type>
+                        <handler>fn_rus_personal_data_processing_information</handler>
+                    </item>
+                    <item id="settings">
+                        <type>header</type>
+                    </item>
+                    <item id="subscribe_confidentiality">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="request_active_consent">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

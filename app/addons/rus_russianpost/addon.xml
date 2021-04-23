@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_russianpost</id>
+    <version>2.1.0</version>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>4500</priority>
+
+    <position>0</position>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <php_extensions>
+            <soap>
+                <supported>Y</supported>
+            </soap>
+        </php_extensions>
+    </compatibility>
+
+    <default_language>en</default_language>
+
+    <queries>
+        <item for="install" type="file">database/russianpost_status.sql</item>
+    </queries>
+
+    <functions>
+        <item for="install">fn_rus_russianpost_install</item>
+        <item for="uninstall">fn_rus_russianpost_uninstall</item>
+    </functions>
+</addon>

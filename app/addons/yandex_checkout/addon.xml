@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>yandex_checkout</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>1000</priority>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <compatibility>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\YandexCheckout\">src</psr4>
+        <psr4 prefix="YooKassa\">lib/vendor/yoomoney/yookassa-sdk-php/lib</psr4>
+    </autoload>
+
+    <bootstrap>\Tygh\Addons\YandexCheckout\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\YandexCheckout\Installer</installer>
+
+    <queries>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies ADD yandex_checkout_shopid VARCHAR(20) NOT NULL DEFAULT ''
+        </item>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies ADD yandex_checkout_marketplace_fee decimal(12,2) NOT NULL default '0.00'
+        </item>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies ADD yandex_checkout_commission_type VARCHAR(20) NOT NULL DEFAULT 'fixed'
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies DROP COLUMN yandex_checkout_shopid
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies DROP COLUMN yandex_checkout_marketplace_fee
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies DROP COLUMN yandex_checkout_commission_type
+        </item>
+    </queries>
+</addon>

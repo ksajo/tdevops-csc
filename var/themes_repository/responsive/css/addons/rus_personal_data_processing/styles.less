@@ -1,0 +1,65 @@
+@max_width_when_autoclicked: 425px;
+
+.ty-policy-description {
+    font-size: 11px;
+    color: @footer_text;
+}
+
+.ty-lable-subscribe-policy {
+    color: @general_bg_color
+}
+
+.ty-footer-form-block-policy__input {
+    width: 80%;
+
+    &--autoclicked {
+        width: auto;
+
+        .ty-lable-subscribe-policy__wrapper {
+            display: block;
+            max-width: @max_width_when_autoclicked;
+        }
+
+        .ty-lable-subscribe-policy {
+            color: @font;
+        }
+    }
+}
+
+.ty-text-confidentiality-policy {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ty-header-confidentiality {
+    font-size: 21px;
+}
+
+.ty-title-confidentiality-policy {
+    font-size: 33px;
+}
+
+.ty-block-confidentiality-policy {
+    margin: 18px;
+}
+
+.ty-policy-description a {
+    font-size: 11px;
+}
+
+// Styles for call request  popup 
+// and for buy with one click popup
+// and for checkout (at billing options)
+[aria-describedby^=content_call_request],
+[aria-describedby^=content_call_request_block], 
+[aria-describedby^=content_call_request_ajax],
+.ty-checkout__billing-options {
+    .ty-lable-subscribe-policy {
+        color: @font;
+    }
+}

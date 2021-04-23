@@ -1,0 +1,218 @@
+/* ==========================================================================
+Vendor communication
+========================================================================== */
+
+// Chat
+.ty-vendor-communication-post {
+    position: relative;
+    margin: 10px 0 15px 0;
+    padding: 15px;
+    border: 1px solid @base;
+    .border-radius(4px);
+
+    &__wrapper {
+        min-width: 700px;
+        margin-bottom: 200px;
+    }
+    &__content {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &__img {
+        float: left;
+        width: 62px;
+        margin-top: 10px;
+
+        .ty-icon-user {
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid @base;
+            width: 60px;
+            height: 60px;
+            font-size: 32px;
+            line-height: 1.9;
+            color: rgba(0, 0, 0, 0.3);
+        }
+    }
+    &__logo {
+        border-radius: 50%;
+        border: 1px solid @base;
+    }
+    &__info {
+        overflow: hidden;
+        padding-left: 25px;
+    }
+    &__author {
+        font-weight: bold;
+    }
+    &__date {
+        text-align: center;
+        color: #adadad;
+        font-size: 12px;
+    }
+    &__message {
+        line-height: 1.75;
+        word-wrap: break-word;
+    }
+}
+
+// Your message
+.ty-vendor-communication-post__you {
+
+    .ty-vendor-communication-post {
+        background-color: lighten(@base, 3%);
+        border: 1px solid darken(@base, 15%);
+
+        &__author {
+            text-align: right;
+        }
+    }
+    .ty-caret {
+        left: auto;
+        right: 20px;
+
+        &-outer {
+            border-right-color: darken(@base, 15%);
+            transform: scale(-1, 1);
+        }
+        &-inner {
+            border-right-color: lighten(@base, 3%);
+            transform: scale(-1, 1);
+            top: 3px;
+            left: 2px;
+        }
+
+    }
+}
+
+// Caret
+.ty-caret {
+    top: auto;
+    bottom: -16px;
+    transform: scale(-1);
+}
+
+// New message
+.ty-vendor-communication-new-message {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: #e6ebf0;
+    margin: 0px -20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    &__title {
+        display: none;
+    }
+    &__message {
+        padding-left: 105px;
+        padding-right: 20px;     
+        margin-bottom: 15px;
+        
+        textarea {
+            width: 100%;
+        }
+    }
+    &__buttons {
+        padding-left: 105px;
+        padding-right: 20px;
+    }
+    &__send {
+        float: right;
+        min-width: 80px;
+    }
+}
+
+// Tickets
+.ty-vendor-communication-search {
+    position: relative;
+    width: 100%;
+
+    &__item {
+        vertical-align: top;
+    }
+    td&__label, th&__label {
+        border-right: none;
+        width: 10px;
+    }
+    &__thread-id a {
+        display: inline-block;
+    }
+    &__company {
+        min-width: 200px;
+    }
+    &__message {
+        word-wrap: break-word;
+    }
+}
+
+// New message label
+.ty-new {
+
+    &__label {
+        display: inline-block;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background: @primary_button;
+    }
+    &__text {
+        font-weight: bold;
+    }
+}
+
+// Animation
+.ty-animation-rotate {
+
+    i {
+        display: inline-block;
+        transition-property: transform;
+    }
+    &:focus i {
+        transform: rotate(180deg);
+        transition-duration: 0.5s;
+    }
+}
+
+// Contact vendor button
+.ty-vendor-communication__post-write {
+    white-space: nowrap;
+
+    i {
+        padding-right: 5px;
+    }
+}
+
+.ty-product-bigpicture .ty-product-block__advanced-option .ty-vendor-communication__post-write {
+    margin-left: 0;
+    width: 100%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+// New message dialog
+.ty-vendor-communication-product-info {
+    &-container {
+        max-width: 550px;
+        .clearfix();
+    }
+    &-image {
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 20px 10px 0;
+    }
+    &-header {
+        padding: 10px;
+        display: inline-block;
+        max-width: 386px;
+    }
+}
+
+// Login dialog
+.ty-vendor-communication-login h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,1 @@
+<th width="10%">{__("addons.rus_edost.edost_code")}</th>

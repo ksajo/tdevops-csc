@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>retailcrm</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.4.1</min>
+        </core_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+        <core_edition>ULTIMATE</core_edition>
+        <dependencies>yml_export</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="retailcrm_notice">
+                        <type>template</type>
+                        <default_value>notice.tpl</default_value>
+                    </item>
+                    <item id="retailcrm_host">
+                        <type>input</type>
+                    </item>
+                    <item id="retailcrm_api_key">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+            <section id="mapping">
+                <items>
+                    <item id="retailcrm_mapping">
+                        <type>template</type>
+                        <default_value>mapping_settings.tpl</default_value>
+                    </item>
+                    <item id="retailcrm_order_method">
+                        <type>hidden</type>
+                    </item>
+                    <item id="retailcrm_order_type">
+                        <type>hidden</type>
+                    </item>
+                    <item id="retailcrm_map_order_statuses">
+                        <type>hidden</type>
+                    </item>
+                    <item id="retailcrm_map_payment_types">
+                        <type>hidden</type>
+                    </item>
+                    <item id="retailcrm_map_shipping_types">
+                        <type>hidden</type>
+                    </item>
+                    <item id="retailcrm_map_sites">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_retailcrm_install</item>
+        <item for="uninstall">fn_retailcrm_uninstall</item>
+    </functions>
+</addon>

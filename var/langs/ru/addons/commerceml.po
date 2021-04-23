@@ -1,0 +1,922 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 4204\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML (1C, MoySklad, Business.ru) [Beta]"
+msgstr "CommerceML (1С, МойСклад, Бизнес.Ру) [Beta]"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML: 1C, MoySklad, Business.ru."
+msgstr "Позволяет импортировать товары и экспортировать заказы в системы, которые поддерживают обмен по CommerceML: 1С, МойСклад, Бизнес.Ру."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "Пока данные недоступны. Обычно они появляются здесь после того, как вы подключите свою систему к маркетплейсу."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "Пока данные недоступны. Обычно они появляются здесь после того, как вы подключите свою систему к магазину."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "Стратегия импорта"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "Импортировать все товары"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "Создать только новые товары"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "Обновить только существующие товары"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "Не импортировать ничего"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "Импортировать товарные предложения"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "Скрывать товары, которых нет в наличии"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "Импортировать категории"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "Импортировать характеристики"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "Импортировать изображения как дополнительные"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "Статус для новых товаров"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "Вкл."
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "Скрыт"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "Выкл."
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "Язык контента в CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "Категория по умолчанию"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "Сюда импортируются товары, у которых нет любой другой категории."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "Добавлять налог к товарам"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "Основная информация"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "Поле на маркетплейсе"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "Поле в магазине"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "Поле в CRM"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "Поле/поля в CRM"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "Имя своего поля"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "Показывать как характеристику товара"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "Автоматическое сопоставление"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "Сопоставлять категории по имени"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "Сопоставлять товары по их коду"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "Название товара"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "Рабочее наименование"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "Наименование для печати"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "Код товара"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "Артикул"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "Код номенклатуры"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "Штрих код"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "Подробное описание"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "Текстовое описание"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "Файл описания для сайта"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "Наименование для печати"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "Краткое описание"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "Текстовое описание"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "Файл описания для сайта"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "Наименование для печати"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "Название страницы (SEO)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "Наименование"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "Полное наименование"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "Своё поле"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "Промо-текст (поле в CRM)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "Информация о доставке"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "Если у вас в системе есть поля с подходящими значениями, вы можете их перенести в параметры доставки товара в магазине. Можно указать несколько полей (каждое в новой строке). Тогда значение возьмётся из последнего найденного поля."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "Вес"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "Бесплатная доставка"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "Значение этого поля в CRM должно быть \"true\" или \"false\""
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "Стоимость доставки"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "Количество штук в коробке"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "Длина коробки"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "Ширина коробки"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "Высота коробки"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "Экспорт заказов"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "Импорт заказов"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "Стратегия экспорта"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "Экспортировать все заказы"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "Экспортировать только новые заказы и изменения в существующих"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "Характеристики товара"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "Пишите каждое поле CRM в новой строке."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "Не импортировать эти поля из CRM как характеристики"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "Импортировать только эти поля из CRM как характеристики"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "Никогда"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "Успех"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "В процессе"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "Неудача"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "Шаг 1: Подключите свою систему"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C, MoySklad, Business.ru, or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Убедитесь, что ваша система отправляет данные на маркетплейс. Вы можете подключить 1C, МойСклад, Бизнес.Ру или другую систему с поддержкой CommerceML.</p><p>Мы отметим эту галку, когда маркетплейс получит и обработает первый файл из вашей системы. Ниже инструкции по подключению:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C, MoySklad, Business.ru, or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Убедитесь, что ваша система отправляет данные в магазин. Вы можете подключить 1C, МойСклад, Бизнес.Ру или другую систему с поддержкой CommerceML.</p><p>Мы отметим эту галку, когда магазин получит и обработает первый файл из вашей системы. Ниже инструкции по подключению:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a> | <a href=\"[docs_url]user_guide/addons/commerceml/moy_sklad/\">MoySklad</a> | <a href=\"[docs_url]user_guide/addons/commerceml/class365/\">Business.ru (Class365)</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C: Управление торговлей</a> | <a href=\"[docs_url]user_guide/addons/commerceml/moy_sklad/\">МойСклад</a> | <a href=\"[docs_url]user_guide/addons/commerceml/class365/\">Бизнес.Ру (Класс365)</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "Шаг 2: Задайте правила обмена данными"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>Перед тем, как что-нибудь импортировать, маркетплейс проверяет содержимое файла из вашей системы. Вы решаете какие данные использовать и как. Когда вы зададите правила для сопоставления данных из файла с данными на маркетплейсе, вы сможете их импортировать.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>Перед тем, как что-нибудь импортировать, магазин проверяет содержимое файла из вашей системы. Вы решаете, какие данные использовать и как. Когда вы зададите правила для сопоставления данных из файла с данными в магазин, вы сможете их импортировать.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "Пожалуйста, задайте соответствие для следующих сущностей:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "Шаг 3: Синхронизируйте данные"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Когда правила заданы, можно импортировать данные. Импорт запускается на стороне вашей системы. Мы проставим галочку, когда маркетплейс успешно получит данные. В случае проблем информация о них появится здесь.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Когда правила заданы, можно импортировать данные. Импорт запускается на стороне вашей системы. Мы проставим галочку, когда магазин успешно получит данные. В случае проблем информация о них появится здесь.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "Последняя успешная синхронизация"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "Просмотр журнала"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "Пока не задано ни одно соответствие!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "Задано!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "маркетплейс"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "магазин"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "Экспортировать стоимость доставки"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "Стоимость доставки будет в заказе как отдельный товар"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "Выгружать опции товара"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "Опции товаров будут выгружены в заказ"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "Выгружать статусы заказов из магазина в формате CommerceML"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "Выгружать с номера"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "Оставьте поле пустым, чтобы экспортировать все заказы"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "Выгружать статусы заказов"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "Статусы заказов"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "Импортировать изменения в заказах"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "Внешнее имя"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "Внешний ID"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "Локальный ID"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "Валюты"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "Каталог"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "Заказы"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "Цены"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "Налоги"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "Характеристики товаров"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "Вариант"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Базовая цена"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "Пропускаю товар [id]; причина: импортируются только новые товары"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "Пропускаю товар [id]; причина: импортируются только изменения в существующих товарах"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "Не удалось найти категорию [id]"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "Не удалось найти категорию [id]; использую категорию по умолчанию [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "У товара [product_id] нет категории; использую категорию по умолчанию [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Товар [id] создан; локальный ID: [local_id], цена: [price], количество: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Товар [id] обновлён; локальный ID: [local_id], цена: [price], количество: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "Товар [id] удалён; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "Не удалось импортировать товар [id]; причина: товар помечен как удалённый"
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "Не удалось импортировать товар [id]; причина: товар был удалён ранее"
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "Не удалось импортировать товар [id]; причина: недостаточно данных для создания товара"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "Не удалось найти товар [id] по коду [product_code]; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "Не удалось найти локальный ID [local_id] для товара [id] в базе данных"
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "Категория [id] сопоставлена по имени: [name]; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "Не удалось найти родительскую категорию [parent_id] для категории [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "Не удалось импортировать родительскую категорию [parent_id] для категории [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "Категория [id] создана; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "Характеристика [id] создана; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "Пропускаю характеристику [id]; причина: импорт этой характеристики отключен при сопоставлении характеристик"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "Пропускаю вариант характеристики [id]; причина: импорт этого варианта отключен при сопоставлении вариантов характеристик"
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "Пропускаю категорию [id]; причина: импорт этой категории отключен при сопоставлении категорий"
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "Не удалось найти характеристику [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "Не удалось импортировать характеристику [id]; причина: импорт характеристик отключен в настройках"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "Вариант [id] характеристики [feature_id] создан; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "Не удалось удалить вариацию [id]; локальный ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "Не удалось найти родительский товар для вариации [id]"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "Не удалось импортировать товар [id]; причина: его родительский товар [parent_id] был удалён"
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "Количество характеристик на совпадает с количеством характеристик в группе вариаций [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "Не удалось найти характеристику [feature_id] в группе вариаций [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "В группе вариаций [group_code] уже есть вариация с таким сочетанием характеристик"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "Не удалось создать вариацию [id] в группе вариаций [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "Не удалось создать группу вариаций для товара [id]"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "Начинаю импорт товара [id]"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "Завершаю импорт товара [id]"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "Импорт изменений в заказах отключен. Импорт заказа был отменён."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "Запрос на экспорт заказов получен"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "Запрос на экспорт заказов обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "Запрос на скачивание файла обмена заказами [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "Запрос на скачивание файла обмена заказами [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "Запрос на конвертацию файла обмена заказами [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Запрос на конвертацию файла обмена каталога [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "Запрос на импорт данных из файла обмена заказами [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "Запрос на импорт данных из файла обмена заказами [filename] обработан"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "Начинаю импорт заказа [id]"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "Завершаю импорт заказа [id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "Запрос на сеанс обмена получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "Запрос на сеанс обмена обработан. ID сеанса: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "Запрос на параметры обмена получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "Запрос на параметры обмена обработан. Ограничение на размер файла: [limit]. Поддержка ZIP: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "Запрос на скачивание файла обмена [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "Запрос на скачивание файла обмена [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "Запрос на распаковку файла обмена [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "Запрос на распаковку файла обмена [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "Запрос на конвертацию файла обмена каталога [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Запрос на конвертацию файла обмена каталога [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "Запрос на анализ файла обмена каталога [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "Запрос на анализ файла обмена каталога [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "Запрос на импорт данных из файла обмена каталога [filename] получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "Запрос на импорт данных из файла обмена каталога [filename] обработан"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "Завершаю обработку запроса [mode]"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "Директория [dir] очищена от старых файлов обмена"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "Пропускаю файл [filename]; причина: импорт работает в режиме 'Не импортировать'"
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "Пропускаю файл [filename]; причина: настройки запрещают импорт товарных предложений"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "Ошибка: [message]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "Запрос на экспорт заказов получен"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "Запрос на экспорт заказов обработан"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML: 1C, MoySklad, Business.ru"
+msgstr "CommerceML: 1С, МойСклад, Бизнес.Ру"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "Налоги"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "Типы цен"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "Валюты"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "Характеристики товаров"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "Варианты характеристик товаров"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync 1C with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Для настройки синхронизации маркетплейса с 1С создайте новую синхронизацию (узел обмена) с сайтом. При создании узла обмена используйте следующие настройки:<ul><li>Адрес сайта: <a href=\"[http_location]\"> [http_location]</a></li><li>Имя пользователя: адрес электронной почты администратора</li><li>Пароль: пароль администратора</li></ul>Рекомендуем создать отдельного администратора с привилегией \"CommerceML\"."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync 1C with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Для настройки синхронизации с 1С создайте новую синхронизацию (узел обмена) с сайтом. При создании узла обмена используйте следующие настройки:<ul><li>Адрес сайта: <a href=\"[http_location]\"> [http_location]</a></li><li>Имя пользователя: адрес электронной почты администратора</li><li>Пароль: пароль администратора</li></ul>Рекомендуем создать отдельного администратора интернет-магазина с привилегией \"CommerceML\"."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "Создать категорию при следующей синхронизации"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "Использовать категорию по умолчанию"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "Создать характеристику товара при следующей синхронизации"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "Создать вариант характеристики товара при следующей синхронизации"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "[n] объект будет создан автоматически|[n] объекта будут созданы автоматически|[n] объектов будут созданы автоматически"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] объект не был сопоставлен и будет пропущен|[n] объекта не были сопоставлены и будут пропущены|[n] объектов не были сопоставлены и будут пропущены"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "Создание характеристик товаров"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "Создавать новые характеристики и варианты из CRM автоматически"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Не создавать характеристики и варианты из CRM, пока я их не проверю"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "Создание категорий"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "Создавать новые категории из CRM автоматически"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Не создавать категории из CRM, пока я их не проверю"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "Если у товара в CRM меняется категория"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "Добавить новую категорию в дополнение к уже существующим"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "Изменить главную категорию товара"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "Игнорировать изменение; назначать категорию только новым товарам"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "Если у товара в CRM меняется изображение"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "Добавить новое изображение в дополнение к уже существующим"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "Заменить все изображения товара"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "Игнорировать изменение; назначать изображение только новым товарам"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "Импортировать только для новых товаров"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "Не импортировать"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "Заказ [local_id] обновлён; ID товаров: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "Статус заказа [local_id] обновлён; старый статус: [old_status]; новый статус: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "Не найден локальный заказ"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "Не найдены локальные аналоги товаров"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "Мы обнаружили дублирующиеся сущности (товары, характеристики и т.п.), загруженные из CRM. Они появились по ошибке при переходе со старого модуля CommerceML на новый. Для вашего удобства, мы поменяли статус дубликатов на \"Выкл.\" Например, <a href=\"[href]\">вот список дубликатов товаров, которые вы можете удалить.</a>"
+

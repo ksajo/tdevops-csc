@@ -1,0 +1,97 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+
+msgctxt "Addons::name::rus_kupivkredit"
+msgid "Russian localization — Tinkoff Loan (KupiVkredit)"
+msgstr "Russian localization — Tinkoff Loan (KupiVkredit)"
+
+msgctxt "Addons::description::rus_kupivkredit"
+msgid "Allows purchases on credit via the Tinkoff Loan (KupiVkredit) service"
+msgstr "Allows purchases on credit via the Tinkoff Loan (KupiVkredit) service"
+
+msgctxt "Languages::kvk_order_id"
+msgid "Tinkoff Loan (KupiVkredit) order id"
+msgstr "Tinkoff Loan (KupiVkredit) order id"
+
+msgctxt "Languages::kupivkredit_shop_id"
+msgid "Store ID"
+msgstr "Store ID"
+
+msgctxt "Languages::rus_kupivkredit.show_case_id"
+msgid "Showcase ID"
+msgstr "Showcase ID"
+
+msgctxt "Languages::kupivkredit_api_key"
+msgid "API Key"
+msgstr "API Key"
+
+msgctxt "Languages::kupivkredit_secret"
+msgid "Secret word"
+msgstr "Secret word"
+
+msgctxt "Languages::kupivkredit_button"
+msgid "Tinkoff Loan (KupiVkredit)"
+msgstr "Tinkoff Loan (KupiVkredit)"
+
+msgctxt "Languages::kupivkredit"
+msgid "Tinkoff Loan (KupiVkredit)"
+msgstr "Tinkoff Loan (KupiVkredit)"
+
+msgctxt "Languages::kupivkredit_widget_closed"
+msgid "The widget has been closed by the customer"
+msgstr "The widget has been closed by the customer"
+
+msgctxt "Languages::kupivkredit_cancel_order"
+msgid "Cancel order"
+msgstr "Cancel order"
+
+msgctxt "Languages::kupivkredit_complete_order"
+msgid "Sign order"
+msgstr "Sign order"
+
+msgctxt "Languages::kupivkredit_confirm_order"
+msgid "Confirn order"
+msgstr "Confirn order"
+
+msgctxt "Languages::kupivkredit_cancel_order_status"
+msgid "Declined by the store"
+msgstr "Declined by the store"
+
+msgctxt "Languages::kupivkredit_widget_incomplete"
+msgid "The request is incomplete"
+msgstr "The request is incomplete"
+
+msgctxt "Languages::kupivkredit_widget_bank_reject"
+msgid "Request declined by bank"
+msgstr "Request declined by bank"
+
+msgctxt "Languages::kupivkredit_widget_open"
+msgid "Your request is pre-approved"
+msgstr "Your request is pre-approved"
+
+msgctxt "Languages::kupivkredit_widget_processed"
+msgid "Congratulations! Your request is approved."
+msgstr "Congratulations! Your request is approved."
+
+msgctxt "Languages::kupivkredit_order_confirmed"
+msgid "Order confirmation sent to bank"
+msgstr "Order confirmation sent to bank"
+
+msgctxt "Languages::rus_kupivkredit.settings_instructions"
+msgid "You can find detailed information about registration in Tinkoff Loan (KupiVkredit) system on the <a href=\"[url]\">\"[url]\"</a>"
+msgstr "You can find detailed information about registration in Tinkoff Loan (KupiVkredit) system on the <a href=\"[url]\">\"[url]\"</a>"
+
+msgctxt "Languages::kvk_payment_disabled"
+msgid "Some payments use the Tinkoff Loan (KupiVkredit) processor. They have been disabled and cannot be activated unless the Tinkoff Loan (KupiVkredit) processor is active."
+msgstr "Some payments use the Tinkoff Loan (KupiVkredit) processor. They have been disabled and cannot be activated unless the Tinkoff Loan (KupiVkredit) processor is active."
+
+msgctxt "Languages::kvk_has_disabled_payments"
+msgid "Some payments use Tinkoff Loan (KupiVkredit) processor. You can now activate them on the <a href=\"[url]\">Payment methods</a> page."
+msgstr "Some payments use Tinkoff Loan (KupiVkredit) processor. You can now activate them on the <a href=\"[url]\">Payment methods</a> page."
+
+msgctxt "Languages::rus_kupivkredit.redirect_to_create_order"
+msgid "Now you will be redirected to the site of the payment system."
+msgstr "Now you will be redirected to the site of the payment system."

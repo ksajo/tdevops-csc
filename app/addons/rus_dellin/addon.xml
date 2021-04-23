@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rus_dellin</id>
+    <version>1.0.0</version>
+    <default_language>en</default_language>
+    <update_server>https://updates.cs-cart.ru/api/update_addons</update_server>
+    <priority>5000</priority>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.3.6</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:rus_dellin_cities_link` (
+            `city_id` int(8) unsigned NOT NULL DEFAULT '0',
+            `number_city` varchar(255) NOT NULL DEFAULT '',
+            `code_kladr` varchar(255) NOT NULL DEFAULT '',
+            `is_terminal` varchar(5) NOT NULL DEFAULT '0',
+            PRIMARY KEY (`city_id`),
+            KEY code_kladr (code_kladr)
+            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rus_dellin_cities_link</item>
+    </queries>
+    <functions>
+        <item for="install">fn_rus_dellin_install</item>
+        <item for="uninstall">fn_rus_dellin_uninstall</item>
+    </functions>
+</addon>

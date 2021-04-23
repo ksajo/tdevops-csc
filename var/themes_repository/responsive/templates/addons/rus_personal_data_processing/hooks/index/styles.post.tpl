@@ -1,0 +1,1 @@
+{style src="addons/rus_personal_data_processing/styles.less"}

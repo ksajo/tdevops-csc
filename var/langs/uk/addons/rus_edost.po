@@ -1,0 +1,118 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+
+msgctxt "Addons::name::rus_edost"
+msgid "Russian localization — Payment on delivery ( eDost.ru )"
+msgstr "Russian localization — Payment on delivery ( eDost.ru )"
+
+msgctxt "Addons::description::rus_edost"
+msgid "Shipping services: Russian Post, EMS, DHL, UPS, SPSR Express, Pony Express, Garantpost, Megapolis, CDEK, Delovye linii, Avtotrejding, PEK, Zheldorekspeditsiya, boxberry, Energy"
+msgstr "Shipping services: Russian Post, EMS, DHL, UPS, SPSR Express, Pony Express, Garantpost, Megapolis, CDEK, Delovye linii, Avtotrejding, PEK, Zheldorekspeditsiya, boxberry, Energy"
+
+msgctxt "Languages::server_password"
+msgid "Access password to calculations server"
+msgstr "Access password to calculations server"
+
+msgctxt "Languages::edost.header.office_map"
+msgid "Office on the map"
+msgstr "Office on the map"
+
+msgctxt "Languages::edost.header.shipping_office"
+msgid "Office delivery service:"
+msgstr "Office delivery service:"
+
+msgctxt "Languages::carrier_edost"
+msgid "eDost"
+msgstr "eDost"
+
+msgctxt "Languages::edost_activation_error"
+msgid "To activate the eDost shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+msgstr "To activate the eDost shipping processor, the Russian rouble currency (RUB) must be active and defined as base."
+
+msgctxt "Languages::edost_warning"
+msgid "Warning"
+msgstr "Warning"
+
+msgctxt "Languages::edost_warning1"
+msgid "A post office with the zip code defined DOES NOT exist. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "A post office with the zip code defined DOES NOT exist. Postal delivery is IMPOSSIBLE without correct zip code."
+
+msgctxt "Languages::edost_warning2"
+msgid "NO post office with the zip code defined has been found in your state. Postal delivery is IMPOSSIBLE without correct zip code."
+msgstr "NO post office with the zip code defined has been found in your state. Postal delivery is IMPOSSIBLE without correct zip code."
+
+msgctxt "Languages::edost_country_error"
+msgid "The eDost shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+msgstr "The eDost shipping method is available for the Russian Federation only. You can change settings of countries (Settings -> Company)."
+
+msgctxt "Languages::edost_code_error"
+msgid "Product cannot be shipped to the defined address by the eDost shipping method."
+msgstr "Product cannot be shipped to the defined address by the eDost shipping method."
+
+msgctxt "Languages::edostcod_naloz_plus"
+msgid "Shipping cost will increase by"
+msgstr "Shipping cost will increase by"
+
+msgctxt "Languages::edostcod_naloz_transfer"
+msgid "+ pay surcharge on delivery for money transfer:"
+msgstr "+ pay surcharge on delivery for money transfer:"
+
+msgctxt "Languages::edostcod_naloz_total"
+msgid "Total surcharge paid for payment on delivery:"
+msgstr "Total surcharge paid for payment on delivery:"
+
+msgctxt "Languages::store_id"
+msgid "Store ID"
+msgstr "Store ID"
+
+msgctxt "Languages::addons.rus_edost.label_cities_update"
+msgid "Update cities"
+msgstr "Update cities"
+
+msgctxt "Languages::addons.rus_edost.cities_update"
+msgid "Update"
+msgstr "Update"
+
+msgctxt "Languages::shipping.rus_edost.cities_update.tooltip"
+msgid "Update the data of existing cities and add new ones from cities.csv. We advise doing that every time when you upgrade CS-Cart."
+msgstr "Update the data of existing cities and add new ones from cities.csv. We advise doing that every time when you upgrade CS-Cart."
+
+msgctxt "Languages::shippings.edost.city_select_error"
+msgid "EDOST: We can not determine the desired city. Contact your administrator"
+msgstr "EDOST: We can not determine the desired city. Contact your administrator"
+
+msgctxt "Languages::shippings.edost.admin_city_select_error"
+msgid "EDOST: Couldn't determine the desired city. Usually it is caused by multiple cities bearing the same name. Please change the name of one of those cities via the Cities add-on"
+msgstr "EDOST: Couldn't determine the desired city. Usually it is caused by multiple cities bearing the same name. Please change the name of one of those cities via the Cities add-on"
+
+msgctxt "Languages::shippings.edost.admin_city_not_served"
+msgid "EDOST: This city is not supported or is entered incorrectly."
+msgstr "EDOST: This city is not supported or is entered incorrectly."
+
+msgctxt "Languages::addons.edost.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Table cities was updated"
+
+msgctxt "Languages::rus_edost.upgrade_notification_title"
+msgid "Addon Edost changed"
+msgstr "Addon Edost changed"
+
+msgctxt "Languages::rus_edost.upgrade_notification_text"
+msgid "The eDost Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+msgstr "The eDost Add-on received a new button for the city data update. Open the add-on settings and click  the Update button to update the data of cities."
+
+msgctxt "Languages::rus_edost.edost_upgrade_notification_title"
+msgid "EDost: InPost and Idea-Logic: Today shipping services are no longer supported"
+msgstr "EDost: InPost and Idea-Logic: Today shipping services are no longer supported"
+
+msgctxt "Languages::rus_edost.edost_upgrade_notification_text"
+msgid "<p><b>InPost</b> and <b>Idea-Logic</b> shipping services are not supported since this [product] version. If you were using them, do the following:</p><ul><li>go to Administration > Shipping & taxes > Shipping methods</li><li>choose the shipping method that uses EDost as a Carrier to calculate shipping rates</li><li>switch to the General tab and enter the proper Shipping service</li></ul>"
+msgstr "<p><b>InPost</b> and <b>Idea-Logic</b> shipping services are not supported since this [product] version. If you were using them, do the following:</p><ul><li>go to Administration > Shipping & taxes > Shipping methods</li><li>choose the shipping method that uses EDost as a Carrier to calculate shipping rates</li><li>switch to the General tab and enter the proper Shipping service</li></ul>"
+
+msgctxt "Languages::addons.rus_edost.edost_code"
+msgid "Edost code"
+msgstr "Edost code"
+

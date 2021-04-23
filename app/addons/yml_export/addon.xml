@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>yml_export</id>
+    <version>1.0.0</version>
+    <priority>2300</priority>
+    <position>120</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:products`
+                ADD `yml2_brand` VARCHAR(96) NOT NULL,
+                ADD `yml2_origin_country` VARCHAR(64) NOT NULL,
+                ADD `yml2_store` CHAR(1) NOT NULL DEFAULT '',
+                ADD `yml2_pickup` CHAR(1) NOT NULL DEFAULT '',
+                ADD `yml2_delivery` CHAR(1) NOT NULL DEFAULT '',
+                ADD `yml2_adult` CHAR(1) NOT NULL DEFAULT 'N',
+                ADD `yml2_delivery_options` TEXT,
+                ADD `yml2_bid` smallint(5) unsigned NOT NULL default '0',
+                ADD `yml2_cbid` smallint(5) unsigned NOT NULL default '0',
+                ADD `yml2_fee` smallint(5) unsigned NOT NULL default '0',
+                ADD `yml2_model` VARCHAR(96) NOT NULL DEFAULT '',
+                ADD `yml2_sales_notes` VARCHAR(50) NOT NULL DEFAULT '',
+                ADD `yml2_type_prefix` VARCHAR(55) NOT NULL DEFAULT '',
+                ADD `yml2_offer_type` VARCHAR(32) NOT NULL DEFAULT '',
+                ADD `yml2_market_category` VARCHAR(255) NOT NULL DEFAULT '',
+                ADD `yml2_manufacturer_warranty` CHAR(1) NOT NULL DEFAULT '',
+                ADD `yml2_expiry` VARCHAR(20) NOT NULL DEFAULT '',
+                ADD `yml2_purchase_price` int(11) NOT NULL DEFAULT '0',
+                ADD `yml2_description` TEXT,
+                ADD `yml2_cpa` CHAR(1) NOT NULL DEFAULT 'Y';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP `yml2_brand`,
+                DROP `yml2_origin_country`,
+                DROP `yml2_store`,
+                DROP `yml2_pickup`,
+                DROP `yml2_delivery`,
+                DROP `yml2_adult`,
+                DROP `yml2_delivery_options`,
+                DROP `yml2_bid`,
+                DROP `yml2_cbid`,
+                DROP `yml2_fee`,
+                DROP `yml2_model`,
+                DROP `yml2_sales_notes`,
+                DROP `yml2_type_prefix`,
+                DROP `yml2_offer_type`,
+                DROP `yml2_market_category`,
+                DROP `yml2_manufacturer_warranty`,
+                DROP `yml2_expiry`,
+                DROP `yml2_purchase_price`,
+                DROP `yml2_description`,
+                DROP `yml2_cpa`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:categories`
+                ADD `yml2_market_category` VARCHAR(255) NOT NULL DEFAULT '',
+                ADD `yml2_offer_type` VARCHAR(32) NOT NULL DEFAULT '',
+                ADD `yml2_type_prefix_select` VARCHAR(32) NOT NULL DEFAULT '',
+                ADD `yml2_model_select` VARCHAR(32) NOT NULL DEFAULT '',
+                ADD `yml2_type_prefix` VARCHAR(64) NOT NULL DEFAULT '',
+                ADD `yml2_model` VARCHAR(64) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:categories`
+                DROP `yml2_market_category`,
+                DROP `yml2_offer_type`,
+                DROP `yml2_type_prefix_select`,
+                DROP `yml2_model_select`,
+                DROP `yml2_type_prefix`,
+                DROP `yml2_model`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:orders`
+                ADD `yml2_order_id` int(11) unsigned NOT NULL DEFAULT 0;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:orders`
+                DROP `yml2_order_id`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:product_options`
+            ADD `yml2_type_options` CHAR(1) NOT NULL DEFAULT '',
+            ADD `yml2_option_param` VARCHAR(16) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_options`
+            DROP `yml2_type_options`,
+            DROP `yml2_option_param`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:product_option_variants`
+            ADD `yml2_variant` VARCHAR(255) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_option_variants`
+            DROP `yml2_variant`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:product_features`
+            ADD `yml2_exclude_prices` VARCHAR(255) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_features`
+            DROP `yml2_exclude_prices`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:product_features_descriptions`
+            ADD `yml2_variants_unit` VARCHAR(32) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_features_descriptions`
+            DROP `yml2_variants_unit`;
+        </item>
+
+        <item for="install">
+            ALTER TABLE `?:product_feature_variant_descriptions`
+            ADD `yml2_unit` VARCHAR(32) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_feature_variant_descriptions`
+            DROP `yml2_unit`;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:yml_param;</item>
+        <item for="install">
+            CREATE TABLE `?:yml_param` (
+            `param_id` mediumint(9) unsigned NOT NULL AUTO_INCREMENT,
+            `param_type` VARCHAR(16),
+            `param_key` VARCHAR(16),
+            `param_data` TEXT,
+            `status` char(1) NOT NULL default 'A',
+            `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            PRIMARY KEY  (`param_id`),
+            UNIQUE KEY `key` (`param_type`,`param_key`,`company_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="uninstall">
+            DROP TABLE `?:yml_param`;
+        </item>
+
+        <item for="install">DROP TABLE IF EXISTS ?:yml_exclude_objects;</item>
+        <item for="install">
+            CREATE TABLE `?:yml_exclude_objects` (
+            `price_id` mediumint unsigned NOT NULL,
+            `object_id` mediumint unsigned NOT NULL,
+            `object_type` VARCHAR(16) NOT NULL DEFAULT '',
+            PRIMARY KEY  (`price_id`, `object_id`, `object_type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="uninstall">
+            DROP TABLE `?:yml_exclude_objects`;
+        </item>
+
+        <item for="install">
+            INSERT INTO `?:exim_layouts` (name, cols, pattern_id, active) VALUES ('general', 'Option ID,Option name,Product ID,Product name,YML option,YML option param', 'product_yml_options', 'Y')
+        </item>
+
+        <item for="uninstall">
+            DELETE FROM `?:exim_layouts` WHERE pattern_id = 'product_yml_options'
+        </item>
+
+        <item editions="ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('view_yml', 'Y', 'addons', 'yml_export', 'Y');</item>
+        <item editions="ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_yml', 'Y', 'addons', 'yml_export', 'N');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_yml' OR privilege = 'manage_yml'</item>
+
+    </queries>
+
+    <functions>
+        <item for="install">fn_yml_addon_install</item>
+        <item for="uninstall">fn_yml_addon_uninstall</item>
+    </functions>
+
+</addon>

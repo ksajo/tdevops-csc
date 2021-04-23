@@ -1,0 +1,121 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+
+msgctxt "Addons::name::rus_personal_data_processing"
+msgid "Consent for personal data processing (Russian Federal Law 152)"
+msgstr "Consent for personal data processing (Russian Federal Law 152)"
+
+msgctxt "Addons::description::rus_personal_data_processing"
+msgid "Lets you ask for customers' consent for personal data processing in accordance with the Russian Federal Law 152."
+msgstr "Lets you ask for customers' consent for personal data processing in accordance with the Russian Federal Law 152."
+
+msgctxt "SettingsOptions::rus_personal_data_processing::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_personal_data_processing::subscribe_confidentiality"
+msgid "Show link at subscription"
+msgstr "Show link at subscription"
+
+msgctxt "SettingsTooltips::rus_personal_data_processing::subscribe_confidentiality"
+msgid "Show a link to confidentiality policy terms to users who are about to subscribe for newsletters."
+msgstr "Show a link to confidentiality policy terms to users who are about to subscribe for newsletters."
+
+msgctxt "SettingsOptions::rus_personal_data_processing::request_active_consent"
+msgid "Request active consent for personal data processing"
+msgstr "Request active consent for personal data processing"
+
+msgctxt "SettingsTooltips::rus_personal_data_processing::request_active_consent"
+msgid "This setting includes a feature that allows you to ask the user for permission by clicking on the checkbox."
+msgstr "This setting includes a feature that allows you to ask the user for permission by clicking on the checkbox."
+
+msgctxt "SettingsOptions::rus_personal_data_processing::information"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "SettingsOptions::rus_personal_data_processing::personal_information"
+msgid "Personal information"
+msgstr "Personal information"
+
+msgctxt "SettingsOptions::rus_personal_data_processing::settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "Languages::addons.rus_personal_data_processing.accepting_checkbox"
+msgid "I have read the <a href=\"[link]\" target=\"_blank\">Confidentiality Policy</a> and I agree with its terms."
+msgstr "I have read the <a href=\"[link]\" target=\"_blank\">Confidentiality Policy</a> and I agree with its terms."
+
+msgctxt "Languages::addons.rus_personal_data_processing.confidentiality"
+msgid "I have read the Confidentiality Policy and I agree with its terms."
+msgstr "I have read the Confidentiality Policy and I agree with its terms."
+
+msgctxt "Languages::addons.rus_personal_data_processing.policy_description"
+msgid "By clicking \"[name_button]\" I confirm that I am legally capable, and that I agree to receive information about the processing and receipt of my order. I also agree to the processing of the personal data as described <a href=\"[link]\" target=\"_blank\"> in this document</a>."
+msgstr "By clicking \"[name_button]\" I confirm that I am legally capable, and that I agree to receive information about the processing and receipt of my order. I also agree to the processing of the personal data as described <a href=\"[link]\" target=\"_blank\"> in this document</a>."
+
+msgctxt "Languages::addons.rus_personal_data_processing.subscribe_text_policy"
+msgid "By providing my email address I confirm that I have read the <a href=\"[link]\" target=\"_blank\">Confidentiality Policy</a> and I agree with its terms."
+msgstr "By providing my email address I confirm that I have read the <a href=\"[link]\" target=\"_blank\">Confidentiality Policy</a> and I agree with its terms."
+
+msgctxt "Languages::addons.rus_personal_data_processing.personal_data_registry_description"
+msgid "Russian Federal Law 152 implies that you register as a data controller at the website of Roskomnadzor (the Federal Service for Supervision of Communications, Information Technology, and Mass Media): <br /><a href=\"[url_service]\" target=\"_blank\"> [url_service]</a>. <br /> To change the text displayed next to the checkbox of agreement with the Confidentiality Policy, edit the following language variable: \"addons.rus_personal_data_processing.confidentiality\". <br />It can be done <a href=\"[link]\" target=\"_blank\">here</a>."
+msgstr "Russian Federal Law 152 implies that you register as a data controller at the website of Roskomnadzor (the Federal Service for Supervision of Communications, Information Technology, and Mass Media): <br /><a href=\"[url_service]\" target=\"_blank\">[url_service]</a>. <br /> To change the text displayed next to the checkbox of agreement with the Confidentiality Policy, edit the following language variable: \"addons.rus_personal_data_processing.confidentiality\". <br />It can be done <a href=\"[link]\" target=\"_blank\">here</a>."
+
+msgctxt "Languages::addons.rus_personal_data_processing.updated_personal_data_registry_description"
+msgid "Russian Federal Law 152 implies that you register as a data controller at the website of Roskomnadzor (the Federal Service for Supervision of Communications, Information Technology, and Mass Media): <br /><a href=\"[url_service]\" target=\"_blank\">[url_service]</a>. <br /> To change the text displayed next to the checkbox of agreement with the Confidentiality Policy, edit the following language variables: \"addons.rus_personal_data_processing.confidentiality\" or \"addons.rus_personal_data_processing.accepting_checkbox\". <br />It can be done <a href=\"[link]\" target=\"_blank\">here</a>."
+msgstr "Russian Federal Law 152 implies that you register as a data controller at the website of Roskomnadzor (the Federal Service for Supervision of Communications, Information Technology, and Mass Media): <br /><a href=\"[url_service]\" target=\"_blank\">[url_service]</a>. <br /> To change the text displayed next to the checkbox of agreement with the Confidentiality Policy, edit the following language variables: \"addons.rus_personal_data_processing.confidentiality\" or \"addons.rus_personal_data_processing.accepting_checkbox\". <br />It can be done <a href=\"[link]\" target=\"_blank\">here</a>."
+
+msgctxt "Languages::addons.rus_personal_data_processing.title_personal_data"
+msgid "Personal Data Processing Policy"
+msgstr "Personal Data Processing Policy"
+
+msgctxt "Languages::addons.rus_personal_data_processing.confidentiality_policy"
+msgid "Confidentiality Policy"
+msgstr "Confidentiality Policy"
+
+msgctxt "Languages::addons.rus_personal_data_processing.confidentiality_policy_description"
+msgid "This Confidentiality Policy (hereinafter referred to as the Policy) covers all the personal data that [company_name] (hereinafter referred to as the Company) may collect from the User as he or she browses the web-site <a href=\"[company_url]\" target=\"_blank\">[company_storefront]</a> or its subdomains (hereinafter referred to as the Website). The Policy describes how the Company collects, uses, and discloses personal data gained through the Website.<br />By using the Website, the User agrees with the Company’s collecting and using his or her personal data."
+msgstr "This Confidentiality Policy (hereinafter referred to as the Policy) covers all the personal data that [company_name] (hereinafter referred to as the Company) may collect from the User as he or she browses the web-site <a href=\"[company_url]\" target=\"_blank\">[company_storefront]</a> or its subdomains (hereinafter referred to as the Website). The Policy describes how the Company collects, uses, and discloses personal data gained through the Website.<br />By using the Website, the User agrees with the Company’s collecting and using his or her personal data."
+
+msgctxt "Languages::addons.rus_personal_data_processing.get_confidentiality_policy"
+msgid "Collecting Personal Data"
+msgstr "Collecting Personal Data"
+
+msgctxt "Languages::addons.rus_personal_data_processing.get_policy_text"
+msgid "The User may browse the Website without providing personal data; however, in some cases, when the User decides to buy Products of the Company (any software developed by the Company and distributed through the Website), the Company requests the User’s personal data.<br />The company has the right to request the following personal data from the User: first name, last name, company name (if applicable), postal address, phone number, email address, and other financial information mentioned on the Website.<br />Any information received automatically as a result of the User browsing the Website, including the order in which the pages were viewed, is listed without identifying specific Users. The Company uses cookies to make the Website more convenient for Users."
+msgstr "The User may browse the Website without providing personal data; however, in some cases, when the User decides to buy Products of the Company (any software developed by the Company and distributed through the Website), the Company requests the User’s personal data.<br />The company has the right to request the following personal data from the User: first name, last name, company name (if applicable), postal address, phone number, email address, and other financial information mentioned on the Website.<br />Any information received automatically as a result of the User browsing the Website, including the order in which the pages were viewed, is listed without identifying specific Users. The Company uses cookies to make the Website more convenient for Users."
+
+msgctxt "Languages::addons.rus_personal_data_processing.use_confidentiality_policy"
+msgid "Using and Disclosing Personal Data"
+msgstr "Using and Disclosing Personal Data"
+
+msgctxt "Languages::addons.rus_personal_data_processing.use_policy_text"
+msgid "The Company uses the personal data of the User to provide services and Products, to settle disputes and solve problems, to improve the convenience of the Website, and to inform the User about new services and Products. By registering on the Website, the User agrees to receive information from the Company about the provided services, new versions and Products of the Company, as well as any other information the Company deems noteworthy.<br />The Company doesn’t sell or disclose the personal data of the User. The Company is allowed to disclose and provide personal data to third parties only if it is required by Russian or international legislation, or by the authorities, in line with the course of law."
+msgstr "The Company uses the personal data of the User to provide services and Products, to settle disputes and solve problems, to improve the convenience of the Website, and to inform the User about new services and Products. By registering on the Website, the User agrees to receive information from the Company about the provided services, new versions and Products of the Company, as well as any other information the Company deems noteworthy.<br />The Company doesn’t sell or disclose the personal data of the User. The Company is allowed to disclose and provide personal data to third parties only if it is required by Russian or international legislation, or by the authorities, in line with the course of law."
+
+msgctxt "Languages::addons.rus_personal_data_processing.link_web_site"
+msgid "Links to Other Websites"
+msgstr "Links to Other Websites"
+
+msgctxt "Languages::addons.rus_personal_data_processing.web_site_text"
+msgid "The Website contains links to other web-sites. The Company doesn’t control those web-sites and their confidentiality policies. The Company urges the User to familiarize themselves with the confidentiality policies of those web-sites before providing any personal data on those web-sites."
+msgstr "The Website contains links to other web-sites. The Company doesn’t control those web-sites and their confidentiality policies. The Company urges the User to familiarize themselves with the confidentiality policies of those web-sites before providing any personal data on those web-sites."
+
+msgctxt "Languages::addons.rus_personal_data_processing.safe"
+msgid "Security"
+msgstr "Security"
+
+msgctxt "Languages::addons.rus_personal_data_processing.safe_text"
+msgid "The Company takes the appropriate measures to ensure security of the personal data of the User from loss, improper usage, unauthorized access, disclosure, and alteration. However, the method of passing the personal data and its storage in the Internet may not be fully secure; that’s why the Company can’t guarantee absolute security of personal data."
+msgstr "The Company takes the appropriate measures to ensure security of the personal data of the User from loss, improper usage, unauthorized access, disclosure, and alteration. However, the method of passing the personal data and its storage in the Internet may not be fully secure; that’s why the Company can’t guarantee absolute security of personal data."
+
+msgctxt "Languages::addons.rus_personal_data_processing.conditions_policy"
+msgid "Changes in the Policy"
+msgstr "Changes in the Policy"
+
+msgctxt "Languages::addons.rus_personal_data_processing.conditions_policy_text"
+msgid "The Company reserves the right to change this Policy. If any changes are made, the Company publishes the changes of the Policy on the Website. By continuing to use the services and Products of the Company, the User agrees with the changes and new conditions of the Policy."
+msgstr "The Company reserves the right to change this Policy. If any changes are made, the Company publishes the changes of the Policy on the Website. By continuing to use the services and Products of the Company, the User agrees with the changes and new conditions of the Policy."

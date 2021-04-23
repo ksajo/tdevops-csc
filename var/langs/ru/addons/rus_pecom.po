@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_pecom.po\n"
+"X-Crowdin-File-ID: 4230\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_pecom"
+msgid "PEC (PECOM)"
+msgstr "ПЭК"
+
+msgctxt "Addons::description::rus_pecom"
+msgid "Shipping calculator"
+msgstr "Расчет стоимости доставки"
+
+msgctxt "Languages::carrier_pecom"
+msgid "PEC (PECOM) carrier"
+msgstr "ПЭК"
+
+msgctxt "Languages::rus_pecom.order_info"
+msgid "Information from PEC"
+msgstr "Информация ПЭК"
+
+msgctxt "Languages::rus_pecom.not_city_code"
+msgid "City code not found"
+msgstr "Код города не найден"
+
+msgctxt "Languages::rus_pecom.tarif"
+msgid "Rate"
+msgstr "Тариф"
+
+msgctxt "Languages::rus_pecom.auto"
+msgid "Shipment by car"
+msgstr "Автоперевозка"
+
+msgctxt "Languages::rus_pecom.avia"
+msgid "Shipment by air"
+msgstr "Авиаперевозка"
+
+msgctxt "Languages::rus_pecom.take"
+msgid "Include pickup cost"
+msgstr "Включать стоимость самовывоза"
+
+msgctxt "Languages::rus_pecom.deliver"
+msgid "Include delivery cost"
+msgstr "Включать стоимость доставки"
+
+msgctxt "Languages::rus_pecom.insurance"
+msgid "Insurance"
+msgstr "Страхование"
+
+msgctxt "Languages::rus_pecom.pal"
+msgid "Palletizing required"
+msgstr "Требуется запаллечивание груза"
+
+msgctxt "Languages::rus_pecom.take.tent"
+msgid "Truck tarp removal upon pickup (excluding cities of Russia's Golden Ring)"
+msgstr "Растентровка при заборе (за исключением городов Золотого кольца России)"
+
+msgctxt "Languages::rus_pecom.take.gidro"
+msgid "Usage of tail lift or other special machinery upon pickup"
+msgstr "Использование гидролифта или другой специальной техники для забора"
+
+msgctxt "Languages::rus_pecom.take.speed"
+msgid "Urgent pickup (Moscow only)"
+msgstr "Срочный забор (только для Москвы)"
+
+msgctxt "Languages::rus_pecom.take.moscow"
+msgid "Pickup within Moscow"
+msgstr "Забор в Москве"
+
+msgctxt "Languages::rus_pecom.deliver.tent"
+msgid "Truck tarp removal upon delivery (excluding cities of Russia's Golden Ring)"
+msgstr "Растентровка при доставке (за исключением городов Золотого кольца России)"
+
+msgctxt "Languages::rus_pecom.deliver.gidro"
+msgid "Usage of tail lift or other special vehicles upon delivery"
+msgstr "Использование гидролифта или другой специальной техники при доставке"
+
+msgctxt "Languages::rus_pecom.deliver.speed"
+msgid "Urgent delivery (Moscow only)"
+msgstr "Срочная доставка (только для Москвы)"
+
+msgctxt "Languages::rus_pecom.deliver.moscow"
+msgid "Delivery within Moscow"
+msgstr "Доставка по Москве"
+
+msgctxt "Languages::rus_pecom.moscow.deliver"
+msgid "Delivery within Moscow"
+msgstr "Доставка по Москве"
+
+msgctxt "Languages::rus_pecom.moscow.0"
+msgid "No entry"
+msgstr "Без въезда"
+
+msgctxt "Languages::rus_pecom.moscow.1"
+msgid "Moscow Ring Railway"
+msgstr "Московская кольцевая железная дорога"
+
+msgctxt "Languages::rus_pecom.moscow.2"
+msgid "Third Ring Road"
+msgstr "Третье транспортное кольцо"
+
+msgctxt "Languages::rus_pecom.moscow.3"
+msgid "Garden Ring Road"
+msgstr "Садовое кольцо"
+
+msgctxt "Languages::rus_pecom.ttl_gidro"
+msgid "Freight weight must not exceed 3000 kg, maximum dimension is 3 meters"
+msgstr "Груз не должен превышать 3000 кг, максимальный размер 3 метра"
+
+msgctxt "Languages::rus_pecom.ttl_tent"
+msgid "Tarp that covers the truck can be removed to get easier access to freight area. The truck may be equipped with straps, tail lift, rigid boards (sides), etc. Tarp removal eases freight loading and usually side or upper parts of tarp are removed. If the whole tarp is removed, the freight can be loaded both from above and from sides."
+msgstr "Тент с грузовика может быть убран, для быстрой доставки груза. Грузовик может быть оснащен ремнями, гидробортом, жесткими досками (сторонами) и т.д. Удаление тента облегчает погрузку и перевозку, как правило, убираются части брезента сверху и по сторонам. Если брезент убран целиком, груз может быть загружен сверху и сбоку."
+
+msgctxt "Languages::rus_pecom.package_hard"
+msgid "Rigid packaging required"
+msgstr "Требуется жесткая упаковка"
+
+msgctxt "Languages::rus_pecom.not_rate_delivery"
+msgid "Failed to calculate shipping"
+msgstr "Не удалось выполнить расчет доставки"
+

@@ -1,0 +1,157 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+
+msgctxt "Addons::name::retailcrm"
+msgid "RetailCRM [Beta]"
+msgstr "RetailCRM [Beta]"
+
+msgctxt "Addons::description::retailcrm"
+msgid "Adds two-way data exchange with retailCRM"
+msgstr "Adds two-way data exchange with retailCRM"
+
+msgctxt "SettingsSections::retailcrm::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::retailcrm::mapping"
+msgid "Mapping"
+msgstr "Mapping"
+
+msgctxt "SettingsOptions::retailcrm::retailcrm_host"
+msgid "RetailCRM server address"
+msgstr "RetailCRM server address"
+
+msgctxt "SettingsTooltips::retailcrm::retailcrm_host"
+msgid "The format is as follows: <i>https://your-account-name.retailcrm.ru</i>"
+msgstr "The format is as follows: <i>https://your-account-name.retailcrm.ru</i>"
+
+msgctxt "SettingsOptions::retailcrm::retailcrm_api_key"
+msgid "RetailCRM API key"
+msgstr "RetailCRM API key"
+
+msgctxt "SettingsTooltips::retailcrm::retailcrm_api_key"
+msgid "Can be found in retailCRM admin panel; see the <b>Integration → API access keys</b> section"
+msgstr "Can be found in retailCRM admin panel; see the <b>Integration → API access keys</b> section"
+
+msgctxt "Languages::retailcrm.error.host_is_required"
+msgid "The RetailCRM server address is required"
+msgstr "The RetailCRM server address is required"
+
+msgctxt "Languages::retailcrm.error.api_key_is_required"
+msgid "The RetailCRM API key is required"
+msgstr "The RetailCRM API key is required"
+
+msgctxt "Languages::retailcrm.error.could_not_connect"
+msgid "Could not connect to retailCRM server. Reason: \"[reason]\""
+msgstr "Could not connect to retailCRM server. Reason: \"[reason]\""
+
+msgctxt "Languages::retailcrm.error.could_not_connect_by_http_code"
+msgid "Could not connect to retailCRM server. Reason: \"Response http code [code]\""
+msgstr "Could not connect to retailCRM server. Reason: \"Response http code [code]\""
+
+msgctxt "Languages::retailcrm.settings.mapping_order_statuses"
+msgid "Order status mapping"
+msgstr "Order status mapping"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_statuses"
+msgid "Order statuses in retailCRM"
+msgstr "Order statuses in retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_order_statuses"
+msgid "Order statuses in the store"
+msgstr "Order statuses in the store"
+
+msgctxt "Languages::retailcrm.settings.mapping_sites"
+msgid "Site mapping"
+msgstr "Site mapping"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_sites"
+msgid "Sites in retailCRM"
+msgstr "Sites in retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_sites"
+msgid "Storefronts"
+msgstr "Storefronts"
+
+msgctxt "Languages::retailcrm.settings.mapping_payment_types"
+msgid "Payment method mapping"
+msgstr "Payment method mapping"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_payment_types"
+msgid "Payment methods in retailCRM"
+msgstr "Payment methods in retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_payment_types"
+msgid "Payment methods in the store"
+msgstr "Payment methods in the store"
+
+msgctxt "Languages::retailcrm.settings.mapping_shipping_types"
+msgid "Shipping method mapping"
+msgstr "Shipping method mapping"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_shipping_types"
+msgid "Shipping methods in retailCRM"
+msgstr "Shipping methods in retailCRM"
+
+msgctxt "Languages::retailcrm.settings.shop_shipping_types"
+msgid "Shipping methods in the store"
+msgstr "Shipping methods in the store"
+
+msgctxt "Languages::retailcrm.settings.non_connection"
+msgid "Connection to retailCRM is not established. Please check retailCRM server address and API key, then click \"Connect\"."
+msgstr "Connection to retailCRM is not established. Please check retailCRM server address and API key, then click \"Connect\"."
+
+msgctxt "Languages::retailcrm.settings.connect"
+msgid "Connect"
+msgstr "Connect"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_method"
+msgid "Method of placing an order"
+msgstr "Method of placing an order"
+
+msgctxt "Languages::retailcrm.settings.retailcrm_order_type"
+msgid "Order type"
+msgstr "Order type"
+
+msgctxt "Languages::retailcrm.settings.other"
+msgid "Other settings"
+msgstr "Other settings"
+
+msgctxt "Languages::yml_export.param_used_for_retailcrm"
+msgid "Use for retailCRM"
+msgstr "Use for retailCRM"
+
+msgctxt "Languages::retailcrm.settings.instructions.title"
+msgid "Instruction"
+msgstr "Instruction"
+
+msgctxt "Languages::retailcrm.settings.instructions.step_credentials"
+msgid "Specify the retailCRM server address and API key."
+msgstr "Specify the retailCRM server address and API key."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_tab_mapping"
+msgid "Go to the \"Mapping\" tab."
+msgstr "Go to the \"Mapping\" tab."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_connection"
+msgid "Click the \"Connect\" button to connect your store to retailCRM."
+msgstr "Click the \"Connect\" button to connect your store to retailCRM."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_mapping_settings"
+msgid "Map the objects of your store to the elements of retailCRM."
+msgstr "Map the objects of your store to the elements of retailCRM."
+
+msgctxt "Languages::retailcrm.settings.instructions.step_price_list"
+msgid "To export the product catalog, create and configure the price list under <a target=\"_blank\" href=\"[href_price_list]\">Add-ons → YML export → Price list</a>. In the price list settings, tick this checkbox: \"Use for retailCRM\""
+msgstr "To export the product catalog, create and configure the price list under <a target=\"_blank\" href=\"[href_price_list]\">Add-ons → YML export → Price list</a>. In the price list settings, tick this checkbox: \"Use for retailCRM\""
+
+msgctxt "Languages::retailcrm.settings.instructions.step_cron_command"
+msgid "To synchronize orders, add the following CRON job:<br>[cron_command]"
+msgstr "To synchronize orders, add the following CRON job:<br>[cron_command]"
+
+msgctxt "Languages::retailcrm.error.map_sites_invalid"
+msgid "A site in retailCRM can only be assigned to one CS-Cart storefront at a time. That's why some of the associations between retailCRM sites and CS-Cart storefronts weren't saved. Please check the settings of the RetailCRM add-on and make sure that the associations are correct."
+msgstr "A site in retailCRM can only be assigned to one CS-Cart storefront at a time. That's why some of the associations between retailCRM sites and CS-Cart storefronts weren't saved. Please check the settings of the RetailCRM add-on and make sure that the associations are correct."

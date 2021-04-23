@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.12.2/addons/rus_online_cash_register.po\n"
+"X-Crowdin-File-ID: 4226\n"
+"PO-Revision-Date: 2021-01-26 12:32\n"
+
+msgctxt "Addons::name::rus_online_cash_register"
+msgid "ATOL Online: rent-a-cash-register"
+msgstr "АТОЛ Онлайн"
+
+msgctxt "Addons::description::rus_online_cash_register"
+msgid "Integrates your store with ATOL Online, a Russian rent-an-online-cash-register service"
+msgstr "Интеграция с сервисом аренды онлайн-касс АТОЛ Онлайн"
+
+msgctxt "SettingsOptions::rus_online_cash_register::currency"
+msgid "Currency"
+msgstr "Валюта"
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_paid"
+msgid "Statuses for paid orders"
+msgstr "Статусы оплаченных заказов"
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_paid"
+msgid "When an order gets one of these statuses, a sales receipt is issued."
+msgstr "Когда заказ получает один из этих статусов, пробивается чек продажи."
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_refund"
+msgid "Statuses for refunded orders"
+msgstr "Статусы возвращённых заказов"
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_prepaid"
+msgid "Statuses for prepaid orders"
+msgstr "Статус предоплаченных заказов"
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_prepaid"
+msgid "When an order gets one of these statuses, a prepayment receipt is issued."
+msgstr "Когда заказ получает один из этих статусов, пробивается чек предоплаты."
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_refund"
+msgid "When an order gets one of these statuses, a return receipt is issued."
+msgstr "Когда заказ получает один из этих статусов, пробивается чек возврата."
+
+msgctxt "SettingsOptions::rus_online_cash_register::sno"
+msgid "Taxation system"
+msgstr "Система налогообложения"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_group_code"
+msgid "Cash register group code"
+msgstr "Идентификатор группы ККТ"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_payment_address"
+msgid "Payment location address"
+msgstr "Адрес места расчётов"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_inn"
+msgid "Tax identification number (INN)"
+msgstr "ИНН"
+
+msgctxt "SettingsSections::rus_online_cash_register::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsSections::rus_online_cash_register::atol"
+msgid "ATOL"
+msgstr "АТОЛ"
+
+msgctxt "Languages::rus_online_cash_register.inn_is_invalid"
+msgid "Invalid tax reference number (INN)"
+msgstr "Неверный ИНН"
+
+msgctxt "Languages::rus_online_cash_register.payment_use_online_cash_register"
+msgid "Send receipt data to ATOL Online"
+msgstr "Отправлять данные для чеков в АТОЛ Онлайн"
+
+msgctxt "Languages::rus_online_cash_register.tax_use_online_cash_register"
+msgid "Tax type in ATOL Online"
+msgstr "Тип НДС в АТОЛ Онлайн"
+
+msgctxt "Languages::rus_online_cash_register.uuid"
+msgid "Unique document identifier (UUID)"
+msgstr "Уникальный идентификатор документа (UUID)"
+
+msgctxt "Languages::rus_online_cash_register.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_receipt_number"
+msgid "Receipt number in a shift"
+msgstr "Номер чека в смене"
+
+msgctxt "Languages::rus_online_cash_register.shift_number"
+msgid "Shift number"
+msgstr "Номер смены"
+
+msgctxt "Languages::rus_online_cash_register.fn_number"
+msgid "Number of fiscal storage unit"
+msgstr "Номер ФН"
+
+msgctxt "Languages::rus_online_cash_register.ecr_registration_number"
+msgid "Registration number of the cash register"
+msgstr "Регистрационный номер ККТ"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_document_number"
+msgid "Fiscal number of the document"
+msgstr "Фискальный номер документа"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_document_attribute"
+msgid "Fiscal attribute of the document"
+msgstr "Фискальный признак документа"
+
+msgctxt "Languages::rus_online_cash_register.information"
+msgid "Fiscal documents"
+msgstr "Фискальные документы"
+
+msgctxt "Languages::rus_online_cash_register.status.wait"
+msgid "To be processed"
+msgstr "Ожидает обработки"
+
+msgctxt "Languages::rus_online_cash_register.status.done"
+msgid "Done"
+msgstr "Готово"
+
+msgctxt "Languages::rus_online_cash_register.status.fail"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::rus_online_cash_register.refresh_receipt"
+msgid "Refresh"
+msgstr "Обновить"
+
+msgctxt "Languages::rus_online_cash_register.sno.osn"
+msgid "General taxation system"
+msgstr "Общая СН"
+
+msgctxt "Languages::rus_online_cash_register.sno.usn_income"
+msgid "Simplified (revenue)"
+msgstr "Упрощённая СН (доходы)"
+
+msgctxt "Languages::rus_online_cash_register.sno.usn_income_outcome"
+msgid "Simplified (revenue minus expenses)"
+msgstr "Упрощённая СН (доходы минус расходы)"
+
+msgctxt "Languages::rus_online_cash_register.sno.envd"
+msgid "Unified tax on imputed income"
+msgstr "Единый налог на вменённый доход"
+
+msgctxt "Languages::rus_online_cash_register.sno.esn"
+msgid "Unified agricultural tax"
+msgstr "Единый сельскохозяйственный налог"
+
+msgctxt "Languages::rus_online_cash_register.sno.patent"
+msgid "Patent taxation system"
+msgstr "Патентная СН"
+
+msgctxt "Languages::rus_online_cash_register.tax.none"
+msgid "No VAT"
+msgstr "Без НДС"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat0"
+msgid "VAT 0%"
+msgstr "Нулевая ставка (0%)"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat10"
+msgid "VAT 10%"
+msgstr "Ставка 10%"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat18"
+msgid "VAT 18%"
+msgstr "Ставка 18%"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat110"
+msgid "VAT 10/110"
+msgstr "Расчётная ставка 10/110"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat118"
+msgid "VAT 18/118"
+msgstr "Расчётная ставка 18/118"
+
+msgctxt "Languages::rus_online_cash_register.payment.cash"
+msgid "Cash"
+msgstr "Наличные"
+
+msgctxt "Languages::rus_online_cash_register.payment.digicash"
+msgid "Electronic cash"
+msgstr "Электронная наличность"
+
+msgctxt "Languages::rus_online_cash_register.settings.test_connect"
+msgid "Test connection to ATOL"
+msgstr "Проверить соединение с АТОЛ"
+
+msgctxt "Languages::rus_online_cash_register.connection_successful"
+msgid "Connection successful"
+msgstr "Соединение прошло успешно."
+
+msgctxt "Languages::rus_online_cash_register.connection_refused"
+msgid "Connection refused. Reason: [error]"
+msgstr "Соединение не удалось. Причина: [error]"
+
+msgctxt "Languages::rus_online_cash_register.test_product_name"
+msgid "Test product name"
+msgstr "Название тестового товара"
+
+msgctxt "Languages::rus_online_cash_register.settings.receipt_status.title"
+msgid "Receipt status"
+msgstr "Статус чека"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.title"
+msgid "Receipts list"
+msgstr "Список чеков"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.create_test_receipt"
+msgid "Issue a test receipt"
+msgstr "Пробить тестовый чек"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source"
+msgid "Source"
+msgstr "Источник"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.uuid"
+msgid "Unique document identifier (UUID)"
+msgstr "Уникальный идентификатор документа (UUID)"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.date"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type.sell"
+msgid "Sales receipt"
+msgstr "Чек продажи"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type.sell_refund"
+msgid "Refund receipt"
+msgstr "Чек возврата"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.wait"
+msgid "To be processed"
+msgstr "Ожидает обработки"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.done"
+msgid "Done"
+msgstr "Готов"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.fail"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.total"
+msgid "Total"
+msgstr "Итого"
+
+msgctxt "Languages::rus_online_cash_register.test_receipt_created"
+msgid "Receipt successfully created"
+msgstr "Чек пробит успешно"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source.order"
+msgid "Order #[order_id]"
+msgstr "Заказ #[order_id]"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source.test"
+msgid "Test receipt"
+msgstr "Тестовый чек"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.name"
+msgid "Item"
+msgstr "Наименование товара"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.price"
+msgid "Price"
+msgstr "Цена"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.quantity"
+msgid "Quantity"
+msgstr "Количество"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.discount"
+msgid "Discount"
+msgstr "Скидка"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.tax"
+msgid "Tax"
+msgstr "Налог"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.total"
+msgid "Total"
+msgstr "Итого"
+
+msgctxt "Languages::rus_online_cash_register.logs.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::rus_online_cash_register.logs.date"
+msgid "Date"
+msgstr "Дата"
+
+msgctxt "Languages::rus_online_cash_register.logs.response"
+msgid "Response"
+msgstr "Ответ"
+
+msgctxt "Languages::rus_online_cash_register.logs.request"
+msgid "Request"
+msgstr "Запрос"
+
+msgctxt "Languages::rus_online_cash_register.logs.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "Languages::rus_online_cash_register.logs.title"
+msgid "Logs"
+msgstr "Журнал"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.send"
+msgid "Sent"
+msgstr "Отправлен"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.success"
+msgid "Processed"
+msgstr "Выполнен"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.fail"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::online_cash_register"
+msgid "ATOL Online"
+msgstr "АТОЛ Онлайн"
+
+msgctxt "Languages::online_cash_register.receipts"
+msgid "Receipts"
+msgstr "Чеки"
+
+msgctxt "Languages::online_cash_register.logs"
+msgid "Logs"
+msgstr "Журнал"
+
+msgctxt "SettingsOptions::rus_online_cash_register::mode"
+msgid "Mode"
+msgstr "Режим"
+
+msgctxt "SettingsVariants::rus_online_cash_register::mode::test"
+msgid "Test"
+msgstr "Тестовый"
+
+msgctxt "SettingsVariants::rus_online_cash_register::mode::live"
+msgid "Live"
+msgstr "Рабочий"
+
+msgctxt "SettingsOptions::rus_online_cash_register::api_version"
+msgid "API version"
+msgstr "Версия API"
+
+msgctxt "SettingsVariants::rus_online_cash_register::api_version::3"
+msgid "3.0 (Deprecated)"
+msgstr "3.0 (запрещена с 01.01.2019)"
+
+msgctxt "SettingsVariants::rus_online_cash_register::api_version::4"
+msgid "4.0"
+msgstr "4.0"
+
+msgctxt "Languages::rus_online_cash_register.new_api_version_notification_title"
+msgid "ATOL Online: rent-a-cash-register add-on updated"
+msgstr "Обновлён модуль \"АТОЛ Онлайн\""
+
+msgctxt "Languages::rus_online_cash_register.new_api_version_notification"
+msgid "According to ATOL Online, <a href=\"https://www.atol.ru/company/news/Formaty-fiskalnykh-dokumentov-kak-FFD-ogranicheny-po-vremeni-legitimnosti/\" target=\"_blank\">it is required to switch to Fiscal Document Format 1.05 before January 1, 2019</a>. Our add-on supports the new format, but first you need to find out if you can switch to it:</br></br><ul><li>Contact the technical support of ATOL Online and verify if you can switch to API version 4.0 and Fiscal Document Format 1.05. You may need to update the agreement and access keys.</li></br><li>Once you receive a reply from ATOL Online, change the settings of the corresponding add-on in [product]. Change API version to 4.0 and update the access credentials to the ones you received from ATOL Online technical support, if necessary.</li></br></ul></br>Please make sure to switch to Fiscal Document Format 1.05 and API version 4.0 before January 1, 2019."
+msgstr "На сайте АТОЛ Онлайн сказано, что <a href=\"https://www.atol.ru/company/news/Formaty-fiskalnykh-dokumentov-kak-FFD-ogranicheny-po-vremeni-legitimnosti/\" target=\"_blank\">до 1 января 2019 г. нужно перейти на ФФД 1.05</a>. Теперь наш модуль поддерживает новый формат фискальных документов. Для перехода нужно:</br></br><ul><li>Связаться с техподдержкой АТОЛ Онлайн и сообщить, что вы хотите перейти на ФФД 1.05 и API 4й версии. Может потребоваться обновление договора и ключей доступа.</li></br><li>Когда вы получите ответ от АТОЛ Онлайн, измените настройки соответствующего модуля в [product]. Измените версию API на 4.0 и обновите реквизиты доступа на те, которые вы получили от техподдержки АТОЛ Онлайн.</li></br></ul></br>Обязательно переключитесь на ФФД 1.05 и API 4й версии до 1 января 2019 г."
+
+msgctxt "Languages::rus_online_cash_register.api_version"
+msgid "API version"
+msgstr "Версия API"
+
+msgctxt "Languages::rus_online_cash_register.api_version_3"
+msgid "3.0 (Deprecated)"
+msgstr "3.0 (запрещена с 01.01.2019)"
+
+msgctxt "Languages::rus_online_cash_register.api_version_4"
+msgid "4.0"
+msgstr "4.0"
+
+msgctxt "Languages::rus_online_cash_register.mode"
+msgid "Mode"
+msgstr "Режим"
+
+msgctxt "Languages::rus_online_cash_register.mode_test"
+msgid "Test"
+msgstr "Тестовый"
+
+msgctxt "Languages::rus_online_cash_register.mode_live"
+msgid "Live"
+msgstr "Рабочий"
+
+msgctxt "Languages::rus_online_cash_register.atol_group_code"
+msgid "Cash register group code"
+msgstr "Идентификатор группы ККТ"
+
+msgctxt "Languages::rus_online_cash_register.atol_payment_address"
+msgid "Payment location address"
+msgstr "Адрес места расчётов"
+
+msgctxt "Languages::rus_online_cash_register.atol_login"
+msgid "Login"
+msgstr "Логин"
+
+msgctxt "Languages::rus_online_cash_register.atol_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::rus_online_cash_register.atol_inn"
+msgid "Tax identification number (INN)"
+msgstr "ИНН"
+
+msgctxt "Languages::rus_online_cash_register_settings"
+msgid "ATOL Settings"
+msgstr "Настройки АТОЛ"
+
+msgctxt "Languages::rus_online_cash_register.sno"
+msgid "Taxation system"
+msgstr "Система налогообложения"
+

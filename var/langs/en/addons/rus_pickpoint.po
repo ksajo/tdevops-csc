@@ -1,0 +1,129 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::rus_pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Addons::description::rus_pickpoint"
+msgid "Shiping service Pickpoint"
+msgstr "Shiping service Pickpoint"
+
+msgctxt "SettingsOptions::rus_pickpoint::general"
+msgid "General settings"
+msgstr "General settings"
+
+msgctxt "SettingsOptions::rus_pickpoint::update"
+msgid "Update terminals"
+msgstr "Update terminals"
+
+msgctxt "Languages::addons.rus_pickpoint.error_pickpoint_id"
+msgid "Select terminal"
+msgstr "Select terminal"
+
+msgctxt "Languages::addons.rus_pickpoint.pickpoint_id"
+msgid "Id terminal"
+msgstr "Id terminal"
+
+msgctxt "Languages::addons.rus_pickpoint.select_terminal"
+msgid "Select terminal"
+msgstr "Select terminal"
+
+msgctxt "Languages::carrier_pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Languages::addons.rus_pickpoint.pickpoint"
+msgid "Pickpoint"
+msgstr "Pickpoint"
+
+msgctxt "Languages::addons.rus_pickpoint.label_postamat_update"
+msgid "For update point of delivery orders pickpoint click \"Update point of delivery orders\", it will take some time"
+msgstr "For update point of delivery orders pickpoint click \"Update point of delivery orders\", it will take some time"
+
+msgctxt "Languages::addons.rus_pickpoint.postamat_update"
+msgid "Update point of delivery orders"
+msgstr "Update point of delivery orders"
+
+msgctxt "Languages::addons.rus_pickpoint.delivery_mode"
+msgid "Delivery mode"
+msgstr "Delivery mode"
+
+msgctxt "Languages::ttc_addons.rus_pickpoint.delivery_mode"
+msgid "Choose the mode depending on your PickPoint tariff. Please contact your PickPoint manager for more details."
+msgstr "Choose the mode depending on your PickPoint tariff. Please contact your PickPoint manager for more details."
+
+msgctxt "Languages::addons.rus_pickpoint.standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "Languages::addons.rus_pickpoint.priority"
+msgid "Priority"
+msgstr "Priority"
+
+msgctxt "Languages::rus_pickpoint.day_single.schedule_closed"
+msgid "[first_day]: Closed"
+msgstr "[first_day]: Closed"
+
+msgctxt "Languages::rus_pickpoint.day_single.schedule_interval"
+msgid "[first_day]: [schedule]"
+msgstr "[first_day]: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.day_interval.schedule_closed"
+msgid "[first_day]&ndash;[last_day]: Closed"
+msgstr "[first_day]&ndash;[last_day]: Closed"
+
+msgctxt "Languages::rus_pickpoint.day_interval.schedule_interval"
+msgid "[first_day]&ndash;[last_day]: [schedule]"
+msgstr "[first_day]&ndash;[last_day]: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.day_every.schedule_closed"
+msgid "Daily: Closed"
+msgstr "Daily: Closed"
+
+msgctxt "Languages::rus_pickpoint.day_every.schedule_interval"
+msgid "Daily: [schedule]"
+msgstr "Daily: [schedule]"
+
+msgctxt "Languages::rus_pickpoint.selected_pickpoint_not_working"
+msgid "The pickup point you selected is currently unavailable. We have selected the default pickup point instead. Please choose another pickup point."
+msgstr "The pickup point you selected is currently unavailable. We have selected the default pickup point instead. Please choose another pickup point."
+
+msgctxt "Languages::addons.rus_pickpoint.package_settings"
+msgid "Package settings"
+msgstr "Package settings"
+
+msgctxt "Languages::addons.rus_pickpoint.server_secure"
+msgid "Used secure protocol"
+msgstr "Used secure protocol"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type"
+msgid "Server type"
+msgstr "Server type"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type.work"
+msgid "Work"
+msgstr "Work"
+
+msgctxt "Languages::addons.rus_pickpoint.server_type.test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "Languages::addons.rus_pickpoint.ikn"
+msgid "IKN"
+msgstr "IKN"
+
+msgctxt "Languages::addons.rus_pickpoint.login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "Languages::addons.rus_pickpoint.password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::addons.rus_pickpoint.account_settings"
+msgid "Account settings"
+msgstr "Account settings"

@@ -1,0 +1,437 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::rus_online_cash_register"
+msgid "ATOL Online: rent-a-cash-register"
+msgstr "ATOL Online: rent-a-cash-register"
+
+msgctxt "Addons::description::rus_online_cash_register"
+msgid "Integrates your store with ATOL Online, a Russian rent-an-online-cash-register service"
+msgstr "Integrates your store with ATOL Online, a Russian rent-an-online-cash-register service"
+
+msgctxt "SettingsOptions::rus_online_cash_register::currency"
+msgid "Currency"
+msgstr "Currency"
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_paid"
+msgid "Statuses for paid orders"
+msgstr "Statuses for paid orders"
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_paid"
+msgid "When an order gets one of these statuses, a sales receipt is issued."
+msgstr "When an order gets one of these statuses, a sales receipt is issued."
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_refund"
+msgid "Statuses for refunded orders"
+msgstr "Statuses for refunded orders"
+
+msgctxt "SettingsOptions::rus_online_cash_register::statuses_prepaid"
+msgid "Statuses for prepaid orders"
+msgstr "Statuses for prepaid orders"
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_prepaid"
+msgid "When an order gets one of these statuses, a prepayment receipt is issued."
+msgstr "When an order gets one of these statuses, a prepayment receipt is issued."
+
+msgctxt "SettingsTooltips::rus_online_cash_register::statuses_refund"
+msgid "When an order gets one of these statuses, a return receipt is issued."
+msgstr "When an order gets one of these statuses, a return receipt is issued."
+
+msgctxt "SettingsOptions::rus_online_cash_register::sno"
+msgid "Taxation system"
+msgstr "Taxation system"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_group_code"
+msgid "Cash register group code"
+msgstr "Cash register group code"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_payment_address"
+msgid "Payment location address"
+msgstr "Payment location address"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::rus_online_cash_register::atol_inn"
+msgid "Tax identification number (INN)"
+msgstr "Tax identification number (INN)"
+
+msgctxt "SettingsSections::rus_online_cash_register::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::rus_online_cash_register::atol"
+msgid "ATOL"
+msgstr "ATOL"
+
+msgctxt "Languages::rus_online_cash_register.inn_is_invalid"
+msgid "Invalid tax reference number (INN)"
+msgstr "Invalid tax reference number (INN)"
+
+msgctxt "Languages::rus_online_cash_register.payment_use_online_cash_register"
+msgid "Send receipt data to ATOL Online"
+msgstr "Send receipt data to ATOL Online"
+
+msgctxt "Languages::rus_online_cash_register.tax_use_online_cash_register"
+msgid "Tax type in ATOL Online"
+msgstr "Tax type in ATOL Online"
+
+msgctxt "Languages::rus_online_cash_register.uuid"
+msgid "Unique document identifier (UUID)"
+msgstr "Unique document identifier (UUID)"
+
+msgctxt "Languages::rus_online_cash_register.status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_receipt_number"
+msgid "Receipt number in a shift"
+msgstr "Receipt number in a shift"
+
+msgctxt "Languages::rus_online_cash_register.shift_number"
+msgid "Shift number"
+msgstr "Shift number"
+
+msgctxt "Languages::rus_online_cash_register.fn_number"
+msgid "Number of fiscal storage unit"
+msgstr "Number of fiscal storage unit"
+
+msgctxt "Languages::rus_online_cash_register.ecr_registration_number"
+msgid "Registration number of the cash register"
+msgstr "Registration number of the cash register"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_document_number"
+msgid "Fiscal number of the document"
+msgstr "Fiscal number of the document"
+
+msgctxt "Languages::rus_online_cash_register.fiscal_document_attribute"
+msgid "Fiscal attribute of the document"
+msgstr "Fiscal attribute of the document"
+
+msgctxt "Languages::rus_online_cash_register.information"
+msgid "Fiscal documents"
+msgstr "Fiscal documents"
+
+msgctxt "Languages::rus_online_cash_register.status.wait"
+msgid "To be processed"
+msgstr "To be processed"
+
+msgctxt "Languages::rus_online_cash_register.status.done"
+msgid "Done"
+msgstr "Done"
+
+msgctxt "Languages::rus_online_cash_register.status.fail"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::rus_online_cash_register.refresh_receipt"
+msgid "Refresh"
+msgstr "Refresh"
+
+msgctxt "Languages::rus_online_cash_register.sno.osn"
+msgid "General taxation system"
+msgstr "General taxation system"
+
+msgctxt "Languages::rus_online_cash_register.sno.usn_income"
+msgid "Simplified (revenue)"
+msgstr "Simplified (revenue)"
+
+msgctxt "Languages::rus_online_cash_register.sno.usn_income_outcome"
+msgid "Simplified (revenue minus expenses)"
+msgstr "Simplified (revenue minus expenses)"
+
+msgctxt "Languages::rus_online_cash_register.sno.envd"
+msgid "Unified tax on imputed income"
+msgstr "Unified tax on imputed income"
+
+msgctxt "Languages::rus_online_cash_register.sno.esn"
+msgid "Unified agricultural tax"
+msgstr "Unified agricultural tax"
+
+msgctxt "Languages::rus_online_cash_register.sno.patent"
+msgid "Patent taxation system"
+msgstr "Patent taxation system"
+
+msgctxt "Languages::rus_online_cash_register.tax.none"
+msgid "No VAT"
+msgstr "No VAT"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat0"
+msgid "VAT 0%"
+msgstr "VAT 0%"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat10"
+msgid "VAT 10%"
+msgstr "VAT 10%"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat18"
+msgid "VAT 18%"
+msgstr "VAT 18%"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat110"
+msgid "VAT 10/110"
+msgstr "VAT 10/110"
+
+msgctxt "Languages::rus_online_cash_register.tax.vat118"
+msgid "VAT 18/118"
+msgstr "VAT 18/118"
+
+msgctxt "Languages::rus_online_cash_register.payment.cash"
+msgid "Cash"
+msgstr "Cash"
+
+msgctxt "Languages::rus_online_cash_register.payment.digicash"
+msgid "Electronic cash"
+msgstr "Electronic cash"
+
+msgctxt "Languages::rus_online_cash_register.settings.test_connect"
+msgid "Test connection to ATOL"
+msgstr "Test connection to ATOL"
+
+msgctxt "Languages::rus_online_cash_register.connection_successful"
+msgid "Connection successful"
+msgstr "Connection successful"
+
+msgctxt "Languages::rus_online_cash_register.connection_refused"
+msgid "Connection refused. Reason: [error]"
+msgstr "Connection refused. Reason: [error]"
+
+msgctxt "Languages::rus_online_cash_register.test_product_name"
+msgid "Test product name"
+msgstr "Test product name"
+
+msgctxt "Languages::rus_online_cash_register.settings.receipt_status.title"
+msgid "Receipt status"
+msgstr "Receipt status"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.title"
+msgid "Receipts list"
+msgstr "Receipts list"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.create_test_receipt"
+msgid "Issue a test receipt"
+msgstr "Issue a test receipt"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source"
+msgid "Source"
+msgstr "Source"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.uuid"
+msgid "Unique document identifier (UUID)"
+msgstr "Unique document identifier (UUID)"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.date"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type.sell"
+msgid "Sales receipt"
+msgstr "Sales receipt"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.type.sell_refund"
+msgid "Refund receipt"
+msgstr "Refund receipt"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.wait"
+msgid "To be processed"
+msgstr "To be processed"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.done"
+msgid "Done"
+msgstr "Done"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.status.fail"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.total"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "Languages::rus_online_cash_register.test_receipt_created"
+msgid "Receipt successfully created"
+msgstr "Receipt successful created"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source.order"
+msgid "Order #[order_id]"
+msgstr "Order #[order_id]"
+
+msgctxt "Languages::rus_online_cash_register.receipts_list.source.test"
+msgid "Test receipt"
+msgstr "Test receipt"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.name"
+msgid "Item"
+msgstr "Item"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.price"
+msgid "Price"
+msgstr "Price"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.quantity"
+msgid "Quantity"
+msgstr "Quantity"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.discount"
+msgid "Discount"
+msgstr "Discount"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.tax"
+msgid "Tax"
+msgstr "Tax"
+
+msgctxt "Languages::rus_online_cash_register.receipt.item.total"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "Languages::rus_online_cash_register.logs.status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "Languages::rus_online_cash_register.logs.date"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "Languages::rus_online_cash_register.logs.response"
+msgid "Response"
+msgstr "Response"
+
+msgctxt "Languages::rus_online_cash_register.logs.request"
+msgid "Request"
+msgstr "Request"
+
+msgctxt "Languages::rus_online_cash_register.logs.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "Languages::rus_online_cash_register.logs.title"
+msgid "Logs"
+msgstr "Logs"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.send"
+msgid "Sent"
+msgstr "Sent"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.success"
+msgid "Processed"
+msgstr "Processed"
+
+msgctxt "Languages::rus_online_cash_register.logs.status.fail"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "Languages::online_cash_register"
+msgid "ATOL Online"
+msgstr "ATOL Online"
+
+msgctxt "Languages::online_cash_register.receipts"
+msgid "Receipts"
+msgstr "Receipts"
+
+msgctxt "Languages::online_cash_register.logs"
+msgid "Logs"
+msgstr "Logs"
+
+msgctxt "SettingsOptions::rus_online_cash_register::mode"
+msgid "Mode"
+msgstr "Mode"
+
+msgctxt "SettingsVariants::rus_online_cash_register::mode::test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "SettingsVariants::rus_online_cash_register::mode::live"
+msgid "Live"
+msgstr "Live"
+
+msgctxt "SettingsOptions::rus_online_cash_register::api_version"
+msgid "API version"
+msgstr "API version"
+
+msgctxt "SettingsVariants::rus_online_cash_register::api_version::3"
+msgid "3.0 (Deprecated)"
+msgstr "3.0 (Deprecated)"
+
+msgctxt "SettingsVariants::rus_online_cash_register::api_version::4"
+msgid "4.0"
+msgstr "4.0"
+
+msgctxt "Languages::rus_online_cash_register.new_api_version_notification_title"
+msgid "ATOL Online: rent-a-cash-register add-on updated"
+msgstr "ATOL Online: rent-a-cash-register add-on updated"
+
+msgctxt "Languages::rus_online_cash_register.new_api_version_notification"
+msgid "According to ATOL Online, <a href=\"https://www.atol.ru/company/news/Formaty-fiskalnykh-dokumentov-kak-FFD-ogranicheny-po-vremeni-legitimnosti/\" target=\"_blank\">it is required to switch to Fiscal Document Format 1.05 before January 1, 2019</a>. Our add-on supports the new format, but first you need to find out if you can switch to it:</br></br><ul><li>Contact the technical support of ATOL Online and verify if you can switch to API version 4.0 and Fiscal Document Format 1.05. You may need to update the agreement and access keys.</li></br><li>Once you receive a reply from ATOL Online, change the settings of the corresponding add-on in [product]. Change API version to 4.0 and update the access credentials to the ones you received from ATOL Online technical support, if necessary.</li></br></ul></br>Please make sure to switch to Fiscal Document Format 1.05 and API version 4.0 before January 1, 2019."
+msgstr "According to ATOL Online, <a href=\"https://www.atol.ru/company/news/Formaty-fiskalnykh-dokumentov-kak-FFD-ogranicheny-po-vremeni-legitimnosti/\" target=\"_blank\">it is required to switch to Fiscal Document Format 1.05 before January 1, 2019</a>. Our add-on supports the new format, but first you need to find out if you can switch to it:</br></br><ul><li>Contact the technical support of ATOL Online and verify if you can switch to API version 4.0 and Fiscal Document Format 1.05. You may need to update the agreement and access keys.</li></br><li>Once you receive a reply from ATOL Online, change the settings of the corresponding add-on in [product]. Change API version to 4.0 and update the access credentials to the ones you received from ATOL Online technical support, if necessary.</li></br></ul></br>Please make sure to switch to Fiscal Document Format 1.05 and API version 4.0 before January 1, 2019."
+
+msgctxt "Languages::rus_online_cash_register.api_version"
+msgid "API version"
+msgstr "API version"
+
+msgctxt "Languages::rus_online_cash_register.api_version_3"
+msgid "3.0 (Deprecated)"
+msgstr "3.0 (Deprecated)"
+
+msgctxt "Languages::rus_online_cash_register.api_version_4"
+msgid "4.0"
+msgstr "4.0"
+
+msgctxt "Languages::rus_online_cash_register.mode"
+msgid "Mode"
+msgstr "Mode"
+
+msgctxt "Languages::rus_online_cash_register.mode_test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "Languages::rus_online_cash_register.mode_live"
+msgid "Live"
+msgstr "Live"
+
+msgctxt "Languages::rus_online_cash_register.atol_group_code"
+msgid "Cash register group code"
+msgstr "Cash register group code"
+
+msgctxt "Languages::rus_online_cash_register.atol_payment_address"
+msgid "Payment location address"
+msgstr "Payment location address"
+
+msgctxt "Languages::rus_online_cash_register.atol_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "Languages::rus_online_cash_register.atol_password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::rus_online_cash_register.atol_inn"
+msgid "Tax identification number (INN)"
+msgstr "Tax identification number (INN)"
+
+msgctxt "Languages::rus_online_cash_register_settings"
+msgid "ATOL Settings"
+msgstr "ATOL Settings"
+
+msgctxt "Languages::rus_online_cash_register.sno"
+msgid "Taxation system"
+msgstr "Taxation system"
